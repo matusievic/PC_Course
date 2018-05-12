@@ -2660,10 +2660,10 @@ VECTOR("D:/Coursework SIFO/quartus/CPU.vwf")
 VECTOR("D:/Coursework SIFO/quartus/Computer.vwf")
 {
 	ZOOM{
-		ZBEGIN = 0;
+		ZBEGIN = 750000;
 		ZEND = 1000000;
 		NUMERATOR = 595;
-		DENOMINATOR = 1000000;
+		DENOMINATOR = 250000;
 		TOP_INDEX = 47;
 	}
 	CLOCK{
