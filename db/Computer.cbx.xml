@@ -12,6 +12,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst|IP:inst13|ip_add:inst1|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_mth.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst|Stack:inst4|stack_latch_counter:inst1|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_ndi.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst|Stack:inst4|stack_ram:STACK_MEMORY|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_dol1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst|cu_comp_2:inst2|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_qbj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst|DCD:inst|comp_mov_r_cr:inst15|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|Memory:inst2|BUSMUX:inst5|lpm_mux:$00000" CBX_FILE_NAME="mux_msc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|Memory:inst2|ram_lpm_ram:RAM|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_tho1.tdf"/>
@@ -35,5 +36,6 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst|DCD:inst|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst|DCD:inst|comp_nor_r_r:inst8|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst|Registers:inst5|lpm_reg_out_mux:inst1|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_nae.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst|cu_comp_3:inst15|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_qbj.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

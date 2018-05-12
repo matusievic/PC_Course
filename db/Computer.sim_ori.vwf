@@ -652,16 +652,6 @@ SIGNAL("bus[0]")
 	PARENT = "";
 }
 
-GROUP("reg")
-{
-	MEMBERS = "reg[31]", "reg[30]", "reg[29]", "reg[28]", "reg[27]", "reg[26]", "reg[25]", "reg[24]", "reg[23]", "reg[22]", "reg[21]", "reg[20]", "reg[19]", "reg[18]", "reg[17]", "reg[16]", "reg[15]", "reg[14]", "reg[13]", "reg[12]", "reg[11]", "reg[10]", "reg[9]", "reg[8]", "reg[7]", "reg[6]", "reg[5]", "reg[4]", "reg[3]", "reg[2]", "reg[1]", "reg[0]";
-}
-
-GROUP("bus")
-{
-	MEMBERS = "bus[15]", "bus[14]", "bus[13]", "bus[12]", "bus[11]", "bus[10]", "bus[9]", "bus[8]", "bus[7]", "bus[6]", "bus[5]", "bus[4]", "bus[3]", "bus[2]", "bus[1]", "bus[0]";
-}
-
 SIGNAL("zzz")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
@@ -670,6 +660,16 @@ SIGNAL("zzz")
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
 	PARENT = "";
+}
+
+GROUP("reg")
+{
+	MEMBERS = "reg[31]", "reg[30]", "reg[29]", "reg[28]", "reg[27]", "reg[26]", "reg[25]", "reg[24]", "reg[23]", "reg[22]", "reg[21]", "reg[20]", "reg[19]", "reg[18]", "reg[17]", "reg[16]", "reg[15]", "reg[14]", "reg[13]", "reg[12]", "reg[11]", "reg[10]", "reg[9]", "reg[8]", "reg[7]", "reg[6]", "reg[5]", "reg[4]", "reg[3]", "reg[2]", "reg[1]", "reg[0]";
+}
+
+GROUP("bus")
+{
+	MEMBERS = "bus[15]", "bus[14]", "bus[13]", "bus[12]", "bus[11]", "bus[10]", "bus[9]", "bus[8]", "bus[7]", "bus[6]", "bus[5]", "bus[4]", "bus[3]", "bus[2]", "bus[1]", "bus[0]";
 }
 
 TRANSITION_LIST("clock")
@@ -937,7 +937,15 @@ TRANSITION_LIST("reg[16]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 625.0;
+		NODE
+		{
+			REPEAT = 3;
+			LEVEL 1 FOR 50.0;
+			LEVEL 0 FOR 50.0;
+		}
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 25.0;
 	}
 }
 
@@ -1072,7 +1080,8 @@ TRANSITION_LIST("reg[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 975.0;
+		LEVEL 1 FOR 25.0;
 	}
 }
 
@@ -1081,7 +1090,15 @@ TRANSITION_LIST("reg[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 575.0;
+		NODE
+		{
+			REPEAT = 3;
+			LEVEL 1 FOR 50.0;
+			LEVEL 0 FOR 50.0;
+		}
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 75.0;
 	}
 }
 
@@ -1216,7 +1233,9 @@ TRANSITION_LIST("bus[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 925.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 25.0;
 	}
 }
 
@@ -1225,7 +1244,15 @@ TRANSITION_LIST("bus[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 525.0;
+		NODE
+		{
+			REPEAT = 3;
+			LEVEL 1 FOR 50.0;
+			LEVEL 0 FOR 50.0;
+		}
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 125.0;
 	}
 }
 
@@ -1234,7 +1261,7 @@ TRANSITION_LIST("zzz")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 1 FOR 1000.0;
 	}
 }
 

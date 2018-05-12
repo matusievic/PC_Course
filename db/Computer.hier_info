@@ -2602,6 +2602,76 @@ q[14] <= dffs[14].DB_MAX_OUTPUT_PORT_TYPE
 q[15] <= dffs[15].DB_MAX_OUTPUT_PORT_TYPE
 
 
+|Computer|CPU:inst|cu_comp_3:inst15
+dataa[0] => lpm_compare:lpm_compare_component.dataa[0]
+dataa[1] => lpm_compare:lpm_compare_component.dataa[1]
+dataa[2] => lpm_compare:lpm_compare_component.dataa[2]
+AeB <= lpm_compare:lpm_compare_component.AeB
+
+
+|Computer|CPU:inst|cu_comp_3:inst15|lpm_compare:lpm_compare_component
+dataa[0] => cmpr_qbj:auto_generated.dataa[0]
+dataa[1] => cmpr_qbj:auto_generated.dataa[1]
+dataa[2] => cmpr_qbj:auto_generated.dataa[2]
+datab[0] => cmpr_qbj:auto_generated.datab[0]
+datab[1] => cmpr_qbj:auto_generated.datab[1]
+datab[2] => cmpr_qbj:auto_generated.datab[2]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+alb <= <GND>
+aeb <= cmpr_qbj:auto_generated.aeb
+agb <= <GND>
+aleb <= <GND>
+aneb <= <GND>
+ageb <= <GND>
+
+
+|Computer|CPU:inst|cu_comp_3:inst15|lpm_compare:lpm_compare_component|cmpr_qbj:auto_generated
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0]~0.IN0
+dataa[1] => data_wire[0]~1.IN0
+dataa[2] => data_wire[1].IN0
+datab[0] => data_wire[0]~0.IN1
+datab[1] => data_wire[0]~1.IN1
+datab[2] => data_wire[1].IN1
+
+
+|Computer|CPU:inst|cu_comp_2:inst2
+dataa[0] => lpm_compare:lpm_compare_component.dataa[0]
+dataa[1] => lpm_compare:lpm_compare_component.dataa[1]
+dataa[2] => lpm_compare:lpm_compare_component.dataa[2]
+AeB <= lpm_compare:lpm_compare_component.AeB
+
+
+|Computer|CPU:inst|cu_comp_2:inst2|lpm_compare:lpm_compare_component
+dataa[0] => cmpr_qbj:auto_generated.dataa[0]
+dataa[1] => cmpr_qbj:auto_generated.dataa[1]
+dataa[2] => cmpr_qbj:auto_generated.dataa[2]
+datab[0] => cmpr_qbj:auto_generated.datab[0]
+datab[1] => cmpr_qbj:auto_generated.datab[1]
+datab[2] => cmpr_qbj:auto_generated.datab[2]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+alb <= <GND>
+aeb <= cmpr_qbj:auto_generated.aeb
+agb <= <GND>
+aleb <= <GND>
+aneb <= <GND>
+ageb <= <GND>
+
+
+|Computer|CPU:inst|cu_comp_2:inst2|lpm_compare:lpm_compare_component|cmpr_qbj:auto_generated
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0]~0.IN0
+dataa[1] => data_wire[0]~1.IN0
+dataa[2] => data_wire[1].IN0
+datab[0] => data_wire[0]~0.IN1
+datab[1] => data_wire[0]~1.IN1
+datab[2] => data_wire[1].IN1
+
+
 |Computer|CPU:inst|DCD:inst
 mov_r_m <= comp_mov_r_m:inst.aeb
 command[0] => mem_B[0].DATAIN

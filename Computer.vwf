@@ -937,13 +937,7 @@ TRANSITION_LIST("reg[16]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 625.0;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 1 FOR 50.0;
-			LEVEL 0 FOR 50.0;
-		}
+		LEVEL 0 FOR 925.0;
 		LEVEL 1 FOR 50.0;
 		LEVEL 0 FOR 25.0;
 	}
@@ -1091,13 +1085,7 @@ TRANSITION_LIST("reg[0]")
 	{
 		REPEAT = 1;
 		LEVEL 0 FOR 575.0;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 1 FOR 50.0;
-			LEVEL 0 FOR 50.0;
-		}
-		LEVEL 1 FOR 50.0;
+		LEVEL 1 FOR 350.0;
 		LEVEL 0 FOR 75.0;
 	}
 }

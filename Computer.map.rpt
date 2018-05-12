@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Computer
-Fri May 11 22:39:22 2018
+Sat May 12 13:42:48 2018
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -38,67 +38,69 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
  30. Parameter Settings for User Entity Instance: CPU:inst|cpu_cu_counter:inst8|lpm_counter:lpm_counter_component
  31. Parameter Settings for User Entity Instance: CPU:inst|IR:inst1|ir_dff:inst|lpm_ff:lpm_ff_component
  32. Parameter Settings for User Entity Instance: CPU:inst|IR:inst1|ir_dff:inst1|lpm_ff:lpm_ff_component
- 33. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_mov_r_m:inst|lpm_compare:lpm_compare_component
- 34. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_mov_m_r:inst1|lpm_compare:lpm_compare_component
- 35. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_push_reg:inst2|lpm_compare:lpm_compare_component
- 36. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_pop_reg:inst3|lpm_compare:lpm_compare_component
- 37. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_jmp_m:inst4|lpm_compare:lpm_compare_component
- 38. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_jns_m:inst5|lpm_compare:lpm_compare_component
- 39. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_hlt:inst6|lpm_compare:lpm_compare_component
- 40. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component
- 41. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_nor_r_r:inst8|lpm_compare:lpm_compare_component
- 42. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_xor_r_r:inst9|lpm_compare:lpm_compare_component
- 43. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_srl_r_r:inst10|lpm_compare:lpm_compare_component
- 44. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_cmp_r_cr:inst11|lpm_compare:lpm_compare_component
- 45. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_nor_r_cr:inst12|lpm_compare:lpm_compare_component
- 46. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_xor_r_cr:inst13|lpm_compare:lpm_compare_component
- 47. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_srl_cr_r:inst14|lpm_compare:lpm_compare_component
- 48. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_mov_r_cr:inst15|lpm_compare:lpm_compare_component
- 49. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_bustri_flag:inst13|lpm_bustri:lpm_bustri_component
- 50. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_reg_flag:inst5|lpm_ff:lpm_ff_component
- 51. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|BUSMUX:inst9
- 52. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_cmp_or:inst1|LPM_OR:lpm_or_component
- 53. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_cmp_xor:inst|LPM_XOR:lpm_xor_component
- 54. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_reg:OPERAND_A|lpm_ff:lpm_ff_component
- 55. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_reg:OPERAND_B|lpm_ff:lpm_ff_component
- 56. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_bustri:inst6|lpm_bustri:lpm_bustri_component
- 57. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_reg:inst11|lpm_ff:lpm_ff_component
- 58. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_bustri:inst4|lpm_bustri:lpm_bustri_component
- 59. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_bustri:inst7|lpm_bustri:lpm_bustri_component
- 60. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_bustri:inst8|lpm_bustri:lpm_bustri_component
- 61. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_nor_inv:inst3|lpm_inv:lpm_inv_component
- 62. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_nor_or:inst2|LPM_OR:lpm_or_component
- 63. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_bustri:inst10|lpm_bustri:lpm_bustri_component
- 64. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|SRL:ALU_SRL|srl_bustri:inst1|lpm_bustri:lpm_bustri_component
- 65. Parameter Settings for User Entity Instance: CPU:inst|Stack:inst4|lpm_stack_flag_bustri:inst6|lpm_bustri:lpm_bustri_component
- 66. Parameter Settings for User Entity Instance: CPU:inst|Stack:inst4|stack_overflow_compare:OVERFLOW_DETECTOR|lpm_compare:lpm_compare_component
- 67. Parameter Settings for User Entity Instance: CPU:inst|Stack:inst4|stack_counter:STACK_POINTER|lpm_counter:lpm_counter_component
- 68. Parameter Settings for User Entity Instance: CPU:inst|Stack:inst4|stack_latch_counter:inst1|lpm_counter:lpm_counter_component
- 69. Parameter Settings for User Entity Instance: CPU:inst|Stack:inst4|lpm_stack_out_bustri:inst5|lpm_bustri:lpm_bustri_component
- 70. Parameter Settings for User Entity Instance: CPU:inst|Stack:inst4|BUSMUX:inst14
- 71. Parameter Settings for User Entity Instance: CPU:inst|Stack:inst4|stack_default_constant:inst15|lpm_constant:lpm_constant_component
- 72. Parameter Settings for User Entity Instance: CPU:inst|Stack:inst4|stack_ram:STACK_MEMORY|altsyncram:altsyncram_component
- 73. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|lpm_reg_out_mux:inst1|lpm_mux:lpm_mux_component
- 74. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R0|lpm_ff:lpm_ff_component
- 75. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|lpm_reg_decode:inst|lpm_decode:lpm_decode_component
- 76. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R10|lpm_ff:lpm_ff_component
- 77. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R11|lpm_ff:lpm_ff_component
- 78. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R12|lpm_ff:lpm_ff_component
- 79. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R13|lpm_ff:lpm_ff_component
- 80. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R1|lpm_ff:lpm_ff_component
- 81. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R2|lpm_ff:lpm_ff_component
- 82. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R3|lpm_ff:lpm_ff_component
- 83. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R4|lpm_ff:lpm_ff_component
- 84. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R5|lpm_ff:lpm_ff_component
- 85. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R6|lpm_ff:lpm_ff_component
- 86. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R7|lpm_ff:lpm_ff_component
- 87. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R8|lpm_ff:lpm_ff_component
- 88. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R9|lpm_ff:lpm_ff_component
- 89. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|lpm_reg_out_bustri:inst3|lpm_bustri:lpm_bustri_component
- 90. Parameter Settings for User Entity Instance: pc_bustri:inst5|lpm_bustri:lpm_bustri_component
- 91. Parameter Settings for User Entity Instance: pc_bustri:inst4|lpm_bustri:lpm_bustri_component
- 92. altsyncram Parameter Settings by Entity Instance
- 93. Analysis & Synthesis Messages
+ 33. Parameter Settings for User Entity Instance: CPU:inst|cu_comp_3:inst15|lpm_compare:lpm_compare_component
+ 34. Parameter Settings for User Entity Instance: CPU:inst|cu_comp_2:inst2|lpm_compare:lpm_compare_component
+ 35. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_mov_r_m:inst|lpm_compare:lpm_compare_component
+ 36. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_mov_m_r:inst1|lpm_compare:lpm_compare_component
+ 37. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_push_reg:inst2|lpm_compare:lpm_compare_component
+ 38. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_pop_reg:inst3|lpm_compare:lpm_compare_component
+ 39. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_jmp_m:inst4|lpm_compare:lpm_compare_component
+ 40. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_jns_m:inst5|lpm_compare:lpm_compare_component
+ 41. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_hlt:inst6|lpm_compare:lpm_compare_component
+ 42. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component
+ 43. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_nor_r_r:inst8|lpm_compare:lpm_compare_component
+ 44. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_xor_r_r:inst9|lpm_compare:lpm_compare_component
+ 45. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_srl_r_r:inst10|lpm_compare:lpm_compare_component
+ 46. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_cmp_r_cr:inst11|lpm_compare:lpm_compare_component
+ 47. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_nor_r_cr:inst12|lpm_compare:lpm_compare_component
+ 48. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_xor_r_cr:inst13|lpm_compare:lpm_compare_component
+ 49. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_srl_cr_r:inst14|lpm_compare:lpm_compare_component
+ 50. Parameter Settings for User Entity Instance: CPU:inst|DCD:inst|comp_mov_r_cr:inst15|lpm_compare:lpm_compare_component
+ 51. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_bustri_flag:inst13|lpm_bustri:lpm_bustri_component
+ 52. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_reg_flag:inst5|lpm_ff:lpm_ff_component
+ 53. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|BUSMUX:inst9
+ 54. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_cmp_or:inst1|LPM_OR:lpm_or_component
+ 55. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_cmp_xor:inst|LPM_XOR:lpm_xor_component
+ 56. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_reg:OPERAND_A|lpm_ff:lpm_ff_component
+ 57. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_reg:OPERAND_B|lpm_ff:lpm_ff_component
+ 58. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_bustri:inst6|lpm_bustri:lpm_bustri_component
+ 59. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_reg:inst11|lpm_ff:lpm_ff_component
+ 60. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_bustri:inst4|lpm_bustri:lpm_bustri_component
+ 61. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_bustri:inst7|lpm_bustri:lpm_bustri_component
+ 62. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_bustri:inst8|lpm_bustri:lpm_bustri_component
+ 63. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_nor_inv:inst3|lpm_inv:lpm_inv_component
+ 64. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_nor_or:inst2|LPM_OR:lpm_or_component
+ 65. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|alu_bustri:inst10|lpm_bustri:lpm_bustri_component
+ 66. Parameter Settings for User Entity Instance: CPU:inst|ALU:inst3|SRL:ALU_SRL|srl_bustri:inst1|lpm_bustri:lpm_bustri_component
+ 67. Parameter Settings for User Entity Instance: CPU:inst|Stack:inst4|lpm_stack_flag_bustri:inst6|lpm_bustri:lpm_bustri_component
+ 68. Parameter Settings for User Entity Instance: CPU:inst|Stack:inst4|stack_overflow_compare:OVERFLOW_DETECTOR|lpm_compare:lpm_compare_component
+ 69. Parameter Settings for User Entity Instance: CPU:inst|Stack:inst4|stack_counter:STACK_POINTER|lpm_counter:lpm_counter_component
+ 70. Parameter Settings for User Entity Instance: CPU:inst|Stack:inst4|stack_latch_counter:inst1|lpm_counter:lpm_counter_component
+ 71. Parameter Settings for User Entity Instance: CPU:inst|Stack:inst4|lpm_stack_out_bustri:inst5|lpm_bustri:lpm_bustri_component
+ 72. Parameter Settings for User Entity Instance: CPU:inst|Stack:inst4|BUSMUX:inst14
+ 73. Parameter Settings for User Entity Instance: CPU:inst|Stack:inst4|stack_default_constant:inst15|lpm_constant:lpm_constant_component
+ 74. Parameter Settings for User Entity Instance: CPU:inst|Stack:inst4|stack_ram:STACK_MEMORY|altsyncram:altsyncram_component
+ 75. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|lpm_reg_out_mux:inst1|lpm_mux:lpm_mux_component
+ 76. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R0|lpm_ff:lpm_ff_component
+ 77. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|lpm_reg_decode:inst|lpm_decode:lpm_decode_component
+ 78. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R10|lpm_ff:lpm_ff_component
+ 79. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R11|lpm_ff:lpm_ff_component
+ 80. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R12|lpm_ff:lpm_ff_component
+ 81. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R13|lpm_ff:lpm_ff_component
+ 82. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R1|lpm_ff:lpm_ff_component
+ 83. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R2|lpm_ff:lpm_ff_component
+ 84. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R3|lpm_ff:lpm_ff_component
+ 85. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R4|lpm_ff:lpm_ff_component
+ 86. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R5|lpm_ff:lpm_ff_component
+ 87. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R6|lpm_ff:lpm_ff_component
+ 88. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R7|lpm_ff:lpm_ff_component
+ 89. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R8|lpm_ff:lpm_ff_component
+ 90. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|reg_dff:R9|lpm_ff:lpm_ff_component
+ 91. Parameter Settings for User Entity Instance: CPU:inst|Registers:inst5|lpm_reg_out_bustri:inst3|lpm_bustri:lpm_bustri_component
+ 92. Parameter Settings for User Entity Instance: pc_bustri:inst5|lpm_bustri:lpm_bustri_component
+ 93. Parameter Settings for User Entity Instance: pc_bustri:inst4|lpm_bustri:lpm_bustri_component
+ 94. altsyncram Parameter Settings by Entity Instance
+ 95. Analysis & Synthesis Messages
 
 
 
@@ -124,13 +126,13 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                            ;
 +-------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Fri May 11 22:39:22 2018   ;
+; Analysis & Synthesis Status   ; Successful - Sat May 12 13:42:48 2018   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; Computer                                ;
 ; Top-level Entity Name         ; Computer                                ;
 ; Family                        ; Stratix III                             ;
 ; Logic utilization             ; N/A                                     ;
-;     Combinational ALUTs       ; 33                                      ;
+;     Combinational ALUTs       ; 34                                      ;
 ;     Memory ALUTs              ; 0                                       ;
 ;     Dedicated logic registers ; 48                                      ;
 ; Total registers               ; 48                                      ;
@@ -297,6 +299,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; cur_ip_dff.vhd                   ; yes             ; User Wizard-Generated File            ; D:/Coursework SIFO/quartus/cur_ip_dff.vhd                     ;
 ; cpu_cu_counter.vhd               ; yes             ; User Wizard-Generated File            ; D:/Coursework SIFO/quartus/cpu_cu_counter.vhd                 ;
 ; cu_comp_0.vhd                    ; yes             ; User Wizard-Generated File            ; D:/Coursework SIFO/quartus/cu_comp_0.vhd                      ;
+; cu_comp_2.vhd                    ; yes             ; User Wizard-Generated File            ; D:/Coursework SIFO/quartus/cu_comp_2.vhd                      ;
+; cu_comp_3.vhd                    ; yes             ; User Wizard-Generated File            ; D:/Coursework SIFO/quartus/cu_comp_3.vhd                      ;
 ; lpm_bustri.tdf                   ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_bustri.tdf   ;
 ; busmux.tdf                       ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/busmux.tdf       ;
 ; lpm_mux.tdf                      ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_mux.tdf      ;
@@ -313,6 +317,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; lpm_compare.tdf                  ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_compare.tdf  ;
 ; db/cmpr_uqi.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/Coursework SIFO/quartus/db/cmpr_uqi.tdf                    ;
 ; db/cntr_2ph.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/Coursework SIFO/quartus/db/cntr_2ph.tdf                    ;
+; db/cmpr_qbj.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/Coursework SIFO/quartus/db/cmpr_qbj.tdf                    ;
 ; db/cmpr_vqi.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/Coursework SIFO/quartus/db/cmpr_vqi.tdf                    ;
 ; db/cmpr_rbj.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/Coursework SIFO/quartus/db/cmpr_rbj.tdf                    ;
 ; comp_push_reg.vhd                ; yes             ; Auto-Found Wizard-Generated File      ; D:/Coursework SIFO/quartus/comp_push_reg.vhd                  ;
@@ -336,8 +341,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-----------------------------------------------+-------------+
 ; Resource                                      ; Usage       ;
 +-----------------------------------------------+-------------+
-; Estimated ALUTs Used                          ; 33          ;
-;     -- Combinational ALUTs                    ; 33          ;
+; Estimated ALUTs Used                          ; 34          ;
+;     -- Combinational ALUTs                    ; 34          ;
 ;     -- Memory ALUTs                           ; 0           ;
 ;     -- LUT_REGs                               ; 0           ;
 ; Dedicated logic registers                     ; 48          ;
@@ -346,16 +351,16 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;     -- Due to unpartnered combinational logic ; 0           ;
 ;     -- Due to Memory ALUTs                    ; 0           ;
 ;                                               ;             ;
-; Total combinational functions                 ; 33          ;
+; Total combinational functions                 ; 34          ;
 ; Combinational ALUT usage by number of inputs  ;             ;
 ;     -- 7 input functions                      ; 0           ;
 ;     -- 6 input functions                      ; 0           ;
 ;     -- 5 input functions                      ; 0           ;
 ;     -- 4 input functions                      ; 0           ;
-;     -- <=3 input functions                    ; 33          ;
+;     -- <=3 input functions                    ; 34          ;
 ;                                               ;             ;
 ; Combinational ALUTs by mode                   ;             ;
-;     -- normal mode                            ; 19          ;
+;     -- normal mode                            ; 20          ;
 ;     -- extended LUT mode                      ; 0           ;
 ;     -- arithmetic mode                        ; 14          ;
 ;     -- shared arithmetic mode                 ; 0           ;
@@ -374,8 +379,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Total block memory bits                       ; 131072      ;
 ; Maximum fan-out node                          ; clock~input ;
 ; Maximum fan-out                               ; 68          ;
-; Total fan-out                                 ; 714         ;
-; Average fan-out                               ; 3.01        ;
+; Total fan-out                                 ; 748         ;
+; Average fan-out                               ; 3.14        ;
 +-----------------------------------------------+-------------+
 
 
@@ -384,8 +389,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                      ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 12x12 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                    ; Library Name ;
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------+--------------+
-; |Computer                                       ; 33 (0)            ; 48 (0)       ; 131072            ; 0            ; 0       ; 0         ; 0         ; 0         ; 62   ; 0            ; |Computer                                                                                              ; work         ;
-;    |CPU:inst|                                   ; 16 (0)            ; 47 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst                                                                                     ;              ;
+; |Computer                                       ; 34 (0)            ; 48 (0)       ; 131072            ; 0            ; 0       ; 0         ; 0         ; 0         ; 62   ; 0            ; |Computer                                                                                              ; work         ;
+;    |CPU:inst|                                   ; 17 (1)            ; 47 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst                                                                                     ;              ;
 ;       |IP:inst13|                               ; 12 (0)            ; 12 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst|IP:inst13                                                                           ;              ;
 ;          |cur_ip_dff:inst4|                     ; 1 (0)             ; 12 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst|IP:inst13|cur_ip_dff:inst4                                                          ;              ;
 ;             |lpm_ff:lpm_ff_component|           ; 1 (1)             ; 12 (12)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst|IP:inst13|cur_ip_dff:inst4|lpm_ff:lpm_ff_component                                  ;              ;
@@ -458,7 +463,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Clock Enable       ; 32    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -871,6 +876,54 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                 ;
 ; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                               ;
 +------------------------+-------------+--------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst|cu_comp_3:inst15|lpm_compare:lpm_compare_component ;
++------------------------+-------------+-------------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                              ;
++------------------------+-------------+-------------------------------------------------------------------+
+; lpm_width              ; 3           ; Signed Integer                                                    ;
+; LPM_REPRESENTATION     ; UNSIGNED    ; Untyped                                                           ;
+; LPM_PIPELINE           ; 0           ; Untyped                                                           ;
+; CHAIN_SIZE             ; 8           ; Untyped                                                           ;
+; ONE_INPUT_IS_CONSTANT  ; YES         ; Untyped                                                           ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                           ;
+; CASCADE_CHAIN          ; MANUAL      ; Untyped                                                           ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                ;
+; CASCADE_CHAIN_LENGTH   ; 2           ; CASCADE_CHAIN_LENGTH                                              ;
+; DEVICE_FAMILY          ; Stratix III ; Untyped                                                           ;
+; CBXI_PARAMETER         ; cmpr_qbj    ; Untyped                                                           ;
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                    ;
++------------------------+-------------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst|cu_comp_2:inst2|lpm_compare:lpm_compare_component ;
++------------------------+-------------+------------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                             ;
++------------------------+-------------+------------------------------------------------------------------+
+; lpm_width              ; 3           ; Signed Integer                                                   ;
+; LPM_REPRESENTATION     ; UNSIGNED    ; Untyped                                                          ;
+; LPM_PIPELINE           ; 0           ; Untyped                                                          ;
+; CHAIN_SIZE             ; 8           ; Untyped                                                          ;
+; ONE_INPUT_IS_CONSTANT  ; YES         ; Untyped                                                          ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                          ;
+; CASCADE_CHAIN          ; MANUAL      ; Untyped                                                          ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                               ;
+; CASCADE_CHAIN_LENGTH   ; 2           ; CASCADE_CHAIN_LENGTH                                             ;
+; DEVICE_FAMILY          ; Stratix III ; Untyped                                                          ;
+; CBXI_PARAMETER         ; cmpr_qbj    ; Untyped                                                          ;
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                       ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                     ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                     ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                   ;
++------------------------+-------------+------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -2035,7 +2088,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Fri May 11 22:39:08 2018
+    Info: Processing started: Sat May 12 13:42:37 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Computer -c Computer
 Warning: Tcl Script File ../../×óæîå SIFO/ddd/stack_latch.qip not found
     Info: set_global_assignment -name QIP_FILE "../../×óæîå SIFO/ddd/stack_latch.qip"
@@ -2200,6 +2253,12 @@ Info: Found 2 design units, including 1 entities, in source file cpu_cu_counter.
 Info: Found 2 design units, including 1 entities, in source file cu_comp_0.vhd
     Info: Found design unit 1: cu_comp_0-SYN
     Info: Found entity 1: cu_comp_0
+Info: Found 2 design units, including 1 entities, in source file cu_comp_2.vhd
+    Info: Found design unit 1: cu_comp_2-SYN
+    Info: Found entity 1: cu_comp_2
+Info: Found 2 design units, including 1 entities, in source file cu_comp_3.vhd
+    Info: Found design unit 1: cu_comp_3-SYN
+    Info: Found entity 1: cu_comp_3
 Info: Elaborating entity "Computer" for the top level hierarchy
 Info: Elaborating entity "Memory" for hierarchy "Memory:inst2"
 Info: Elaborating entity "mem_bustri" for hierarchy "Memory:inst2|mem_bustri:inst6"
@@ -2341,6 +2400,25 @@ Info: Instantiated megafunction "CPU:inst|IR:inst1|ir_dff:inst|lpm_ff:lpm_ff_com
     Info: Parameter "lpm_fftype" = "DFF"
     Info: Parameter "lpm_type" = "LPM_FF"
     Info: Parameter "lpm_width" = "16"
+Info: Elaborating entity "cu_comp_3" for hierarchy "CPU:inst|cu_comp_3:inst15"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst|cu_comp_3:inst15|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst|cu_comp_3:inst15|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst|cu_comp_3:inst15|lpm_compare:lpm_compare_component" with the following parameter:
+    Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
+    Info: Parameter "lpm_representation" = "UNSIGNED"
+    Info: Parameter "lpm_type" = "LPM_COMPARE"
+    Info: Parameter "lpm_width" = "3"
+Info: Found 1 design units, including 1 entities, in source file db/cmpr_qbj.tdf
+    Info: Found entity 1: cmpr_qbj
+Info: Elaborating entity "cmpr_qbj" for hierarchy "CPU:inst|cu_comp_3:inst15|lpm_compare:lpm_compare_component|cmpr_qbj:auto_generated"
+Info: Elaborating entity "cu_comp_2" for hierarchy "CPU:inst|cu_comp_2:inst2"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst|cu_comp_2:inst2|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst|cu_comp_2:inst2|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst|cu_comp_2:inst2|lpm_compare:lpm_compare_component" with the following parameter:
+    Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
+    Info: Parameter "lpm_representation" = "UNSIGNED"
+    Info: Parameter "lpm_type" = "LPM_COMPARE"
+    Info: Parameter "lpm_width" = "3"
 Info: Elaborating entity "DCD" for hierarchy "CPU:inst|DCD:inst"
 Info: Elaborating entity "comp_mov_r_m" for hierarchy "CPU:inst|DCD:inst|comp_mov_r_m:inst"
 Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst|DCD:inst|comp_mov_r_m:inst|lpm_compare:lpm_compare_component"
@@ -2727,15 +2805,15 @@ Warning: Output pins are stuck at VCC or GND
     Warning (13410): Pin "zzz" is stuck at VCC
 Info: 1 registers lost all their fanouts during netlist optimizations. The first 1 are displayed below.
     Info: Register "CPU:inst|Stack:inst4|stack_latch_counter:inst1|lpm_counter:lpm_counter_component|cntr_ndi:auto_generated|counter_reg_bit[0]" lost all its fanouts during netlist optimizations.
-Info: Implemented 159 device resources after synthesis - the final resource count might be different
+Info: Implemented 160 device resources after synthesis - the final resource count might be different
     Info: Implemented 1 input pins
     Info: Implemented 61 output pins
-    Info: Implemented 65 logic cells
+    Info: Implemented 66 logic cells
     Info: Implemented 32 RAM segments
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 93 warnings
     Info: Peak virtual memory: 235 megabytes
-    Info: Processing ended: Fri May 11 22:39:22 2018
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:12
+    Info: Processing ended: Sat May 12 13:42:48 2018
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:11
 
 
