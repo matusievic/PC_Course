@@ -93,6 +93,13 @@ applicable agreement for further details.
 		(text "regB_out[15..0]" (rect 108 139 195 153)(font "Arial" (font_size 8)))
 		(line (pt 216 144)(pt 200 144)(line_width 3))
 	)
+	(port
+		(pt 216 160)
+		(output)
+		(text "new_cycle" (rect 0 0 63 14)(font "Arial" (font_size 8)))
+		(text "new_cycle" (rect 132 155 195 169)(font "Arial" (font_size 8)))
+		(line (pt 216 160)(pt 200 160)(line_width 1))
+	)
 	(drawing
 		(rectangle (rect 16 16 200 176)(line_width 1))
 	)

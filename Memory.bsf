@@ -66,6 +66,13 @@ applicable agreement for further details.
 		(line (pt 0 112)(pt 16 112)(line_width 1))
 	)
 	(port
+		(pt 0 128)
+		(input)
+		(text "new_cycle" (rect 0 0 63 14)(font "Arial" (font_size 8)))
+		(text "new_cycle" (rect 21 123 84 137)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
 		(pt 224 32)
 		(output)
 		(text "allow_ROM" (rect 0 0 64 14)(font "Arial" (font_size 8)))

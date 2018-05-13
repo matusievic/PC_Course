@@ -70,7 +70,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1808 -88 1984 -72)
+	(rect 1896 48 2072 64)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "address[11..0]" (rect 90 0 160 12)(font "Arial" ))
 	(pt 0 8)
@@ -169,6 +169,22 @@ applicable agreement for further details.
 	(rect 1592 768 1768 784)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "regB_out[15..0]" (rect 90 0 165 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
+	(output)
+	(rect 1592 848 1768 864)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "new_cycle" (rect 90 0 141 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -2554,11 +2570,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1792 -80)
-	(pt 1808 -80)
-	(bus)
-)
-(connector
 	(pt 1632 40)
 	(pt 1624 40)
 	(bus)
@@ -3049,6 +3060,26 @@ applicable agreement for further details.
 (connector
 	(pt 1696 256)
 	(pt 1696 272)
+)
+(connector
+	(text "en_ip" (rect 1544 848 1569 860)(font "Arial" ))
+	(pt 1592 856)
+	(pt 1576 856)
+)
+(connector
+	(pt 1888 -80)
+	(pt 1888 56)
+	(bus)
+)
+(connector
+	(pt 1888 56)
+	(pt 1896 56)
+	(bus)
+)
+(connector
+	(pt 1792 -80)
+	(pt 1888 -80)
+	(bus)
 )
 (junction (pt 296 80))
 (junction (pt 904 800))

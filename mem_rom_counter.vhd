@@ -44,6 +44,7 @@ ENTITY mem_rom_counter IS
 	(
 		clk_en		: IN STD_LOGIC ;
 		clock		: IN STD_LOGIC ;
+		sset		: IN STD_LOGIC ;
 		q		: OUT STD_LOGIC_VECTOR (0 DOWNTO 0)
 	);
 END mem_rom_counter;
@@ -65,7 +66,8 @@ ARCHITECTURE SYN OF mem_rom_counter IS
 	PORT (
 			clk_en	: IN STD_LOGIC ;
 			clock	: IN STD_LOGIC ;
-			q	: OUT STD_LOGIC_VECTOR (0 DOWNTO 0)
+			q	: OUT STD_LOGIC_VECTOR (0 DOWNTO 0);
+			sset	: IN STD_LOGIC 
 	);
 	END COMPONENT;
 
@@ -82,6 +84,7 @@ BEGIN
 	PORT MAP (
 		clk_en => clk_en,
 		clock => clock,
+		sset => sset,
 		q => sub_wire0
 	);
 
@@ -106,7 +109,7 @@ END SYN;
 -- Retrieval info: PRIVATE: ModulusValue NUMERIC "0"
 -- Retrieval info: PRIVATE: SCLR NUMERIC "0"
 -- Retrieval info: PRIVATE: SLOAD NUMERIC "0"
--- Retrieval info: PRIVATE: SSET NUMERIC "0"
+-- Retrieval info: PRIVATE: SSET NUMERIC "1"
 -- Retrieval info: PRIVATE: SSET_ALL1 NUMERIC "1"
 -- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
 -- Retrieval info: PRIVATE: nBit NUMERIC "1"
@@ -117,9 +120,11 @@ END SYN;
 -- Retrieval info: USED_PORT: clk_en 0 0 0 0 INPUT NODEFVAL clk_en
 -- Retrieval info: USED_PORT: clock 0 0 0 0 INPUT NODEFVAL clock
 -- Retrieval info: USED_PORT: q 0 0 1 0 OUTPUT NODEFVAL q[0..0]
+-- Retrieval info: USED_PORT: sset 0 0 0 0 INPUT NODEFVAL sset
 -- Retrieval info: CONNECT: @clock 0 0 0 0 clock 0 0 0 0
 -- Retrieval info: CONNECT: q 0 0 1 0 @q 0 0 1 0
 -- Retrieval info: CONNECT: @clk_en 0 0 0 0 clk_en 0 0 0 0
+-- Retrieval info: CONNECT: @sset 0 0 0 0 sset 0 0 0 0
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 -- Retrieval info: GEN_FILE: TYPE_NORMAL mem_rom_counter.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL mem_rom_counter.inc FALSE

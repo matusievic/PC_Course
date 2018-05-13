@@ -139,6 +139,7 @@ out_data[12] <= mem_bustri:inst6.tridata[12]
 out_data[13] <= mem_bustri:inst6.tridata[13]
 out_data[14] <= mem_bustri:inst6.tridata[14]
 out_data[15] <= mem_bustri:inst6.tridata[15]
+new_cycle => mem_rom_counter:inst4.sset
 clock => mem_rom_counter:inst4.clock
 clock => rom_lpm_rom:ROM.clock
 clock => ram_lpm_ram:RAM.clock
@@ -688,12 +689,13 @@ sel[0] => _~15.IN0
 |Computer|Memory:inst|mem_rom_counter:inst4
 clk_en => lpm_counter:lpm_counter_component.clk_en
 clock => lpm_counter:lpm_counter_component.clock
+sset => lpm_counter:lpm_counter_component.sset
 q[0] <= lpm_counter:lpm_counter_component.q[0]
 
 
 |Computer|Memory:inst|mem_rom_counter:inst4|lpm_counter:lpm_counter_component
-clock => cntr_cdi:auto_generated.clock
-clk_en => cntr_cdi:auto_generated.clk_en
+clock => cntr_bsi:auto_generated.clock
+clk_en => cntr_bsi:auto_generated.clk_en
 cnt_en => ~NO_FANOUT~
 updown => ~NO_FANOUT~
 aclr => ~NO_FANOUT~
@@ -701,12 +703,12 @@ aset => ~NO_FANOUT~
 aconst => ~NO_FANOUT~
 aload => ~NO_FANOUT~
 sclr => ~NO_FANOUT~
-sset => ~NO_FANOUT~
+sset => cntr_bsi:auto_generated.sset
 sconst => ~NO_FANOUT~
 sload => ~NO_FANOUT~
 data[0] => ~NO_FANOUT~
 cin => ~NO_FANOUT~
-q[0] <= cntr_cdi:auto_generated.q[0]
+q[0] <= cntr_bsi:auto_generated.q[0]
 cout <= <GND>
 eq[0] <= <GND>
 eq[1] <= <GND>
@@ -726,10 +728,14 @@ eq[14] <= <GND>
 eq[15] <= <GND>
 
 
-|Computer|Memory:inst|mem_rom_counter:inst4|lpm_counter:lpm_counter_component|cntr_cdi:auto_generated
+|Computer|Memory:inst|mem_rom_counter:inst4|lpm_counter:lpm_counter_component|cntr_bsi:auto_generated
 clk_en => counter_reg_bit[0]~2.IN0
 clock => counter_reg_bit[0].CLK
 q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+sset => _~0.IN0
+sset => _~1.IN0
+sset => _~4.IN1
+sset => counter_reg_bit[0]~3.IN0
 
 
 |Computer|Memory:inst|rom_lpm_rom:ROM
@@ -1771,6 +1777,7 @@ clock => ALU:inst3.clock
 clock => Stack:inst4.clock
 R/W <= <GND>
 memory_en <= <VCC>
+new_cycle <= en_ip.DB_MAX_OUTPUT_PORT_TYPE
 address[0] <= out_address_mux:inst32.result[0]
 address[1] <= out_address_mux:inst32.result[1]
 address[2] <= out_address_mux:inst32.result[2]
@@ -2072,6 +2079,42 @@ q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
 q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
 q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
 q[3] <= counter_reg_bit[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Computer|CPU:inst7|cu_comp_0:inst12
+dataa[0] => lpm_compare:lpm_compare_component.dataa[0]
+dataa[1] => lpm_compare:lpm_compare_component.dataa[1]
+dataa[2] => lpm_compare:lpm_compare_component.dataa[2]
+dataa[3] => lpm_compare:lpm_compare_component.dataa[3]
+AeB <= lpm_compare:lpm_compare_component.AeB
+
+
+|Computer|CPU:inst7|cu_comp_0:inst12|lpm_compare:lpm_compare_component
+dataa[0] => cmpr_vqi:auto_generated.dataa[0]
+dataa[1] => cmpr_vqi:auto_generated.dataa[1]
+dataa[2] => cmpr_vqi:auto_generated.dataa[2]
+dataa[3] => cmpr_vqi:auto_generated.dataa[3]
+datab[0] => ~NO_FANOUT~
+datab[1] => ~NO_FANOUT~
+datab[2] => ~NO_FANOUT~
+datab[3] => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+alb <= <GND>
+aeb <= cmpr_vqi:auto_generated.aeb
+agb <= <GND>
+aleb <= <GND>
+aneb <= <GND>
+ageb <= <GND>
+
+
+|Computer|CPU:inst7|cu_comp_0:inst12|lpm_compare:lpm_compare_component|cmpr_vqi:auto_generated
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0]~2.IN0
+dataa[1] => data_wire[0]~3.IN0
+dataa[2] => data_wire[1]~0.IN0
+dataa[3] => data_wire[1]~1.IN0
 
 
 |Computer|CPU:inst7|out_address_mux:inst32
@@ -3524,42 +3567,6 @@ result[8] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 result[9] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 result[10] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 result[11] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Computer|CPU:inst7|cu_comp_0:inst12
-dataa[0] => lpm_compare:lpm_compare_component.dataa[0]
-dataa[1] => lpm_compare:lpm_compare_component.dataa[1]
-dataa[2] => lpm_compare:lpm_compare_component.dataa[2]
-dataa[3] => lpm_compare:lpm_compare_component.dataa[3]
-AeB <= lpm_compare:lpm_compare_component.AeB
-
-
-|Computer|CPU:inst7|cu_comp_0:inst12|lpm_compare:lpm_compare_component
-dataa[0] => cmpr_vqi:auto_generated.dataa[0]
-dataa[1] => cmpr_vqi:auto_generated.dataa[1]
-dataa[2] => cmpr_vqi:auto_generated.dataa[2]
-dataa[3] => cmpr_vqi:auto_generated.dataa[3]
-datab[0] => ~NO_FANOUT~
-datab[1] => ~NO_FANOUT~
-datab[2] => ~NO_FANOUT~
-datab[3] => ~NO_FANOUT~
-clock => ~NO_FANOUT~
-aclr => ~NO_FANOUT~
-clken => ~NO_FANOUT~
-alb <= <GND>
-aeb <= cmpr_vqi:auto_generated.aeb
-agb <= <GND>
-aleb <= <GND>
-aneb <= <GND>
-ageb <= <GND>
-
-
-|Computer|CPU:inst7|cu_comp_0:inst12|lpm_compare:lpm_compare_component|cmpr_vqi:auto_generated
-aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
-dataa[0] => data_wire[0]~2.IN0
-dataa[1] => data_wire[0]~3.IN0
-dataa[2] => data_wire[1]~0.IN0
-dataa[3] => data_wire[1]~1.IN0
 
 
 |Computer|CPU:inst7|DCD:inst31

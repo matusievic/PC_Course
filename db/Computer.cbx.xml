@@ -14,7 +14,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst7|BUSMUX:inst|lpm_mux:$00000" CBX_FILE_NAME="mux_msc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst7|DCD:inst31|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst7|DCD:inst31|comp_nor_r_r:inst8|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|Memory:inst|mem_rom_counter:inst4|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_cdi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|Memory:inst|mem_rom_counter:inst4|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_bsi.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|Memory:inst|rom_lpm_rom:ROM|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_p9g1.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst7|ALU:inst3|BUSMUX:inst9|lpm_mux:$00000" CBX_FILE_NAME="mux_0rc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst7|DCD:inst31|comp_srl_cr_r:inst14|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
