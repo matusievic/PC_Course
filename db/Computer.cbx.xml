@@ -11,6 +11,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|cu_comp_3:inst15|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|cu_comp_6:inst21|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_7fj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|Memory:inst|BUSMUX:inst5|lpm_mux:$00000" CBX_FILE_NAME="mux_msc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|BUSMUX:inst23|lpm_mux:$00000" CBX_FILE_NAME="mux_isc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|DCD:inst31|comp_hlt:inst6|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|cu_comp_A:inst36|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_2fj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|DCD:inst31|comp_mov_r_m:inst|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_vqi.tdf"/>
@@ -21,13 +22,9 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|Memory:inst|mem_rom_counter:inst4|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_bsi.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|Memory:inst|rom_lpm_rom:ROM|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_p9g1.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|DCD:inst31|comp_mov_m_r:inst1|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|IP:inst13|ip_add:inst1|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_mth.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|Stack:inst4|stack_latch_counter:inst1|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_ndi.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|Stack:inst4|stack_ram:STACK_MEMORY|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_dol1.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|cu_comp_2:inst2|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|out_address_mux:inst32|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_lae.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|rom_ram_out_mux:inst33|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_39e.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|Memory:inst|BUSMUX:inst|lpm_mux:$00000" CBX_FILE_NAME="mux_msc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|DCD:inst31|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|DCD:inst31|comp_nor_r_r:inst8|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|cu_comp_4:inst18|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_2fj.tdf"/>
@@ -38,6 +35,8 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|DCD:inst31|comp_srl_cr_r:inst14|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|Registers:inst5|lpm_reg_decode:inst|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_u0g.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|Stack:inst4|stack_overflow_compare:OVERFLOW_DETECTOR|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_tqi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|cpu_offset_const:inst11|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_of6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|cpu_op_add:inst|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_2qh.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|BUSMUX:inst29|lpm_mux:$00000" CBX_FILE_NAME="mux_msc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|DCD:inst31|comp_srl_r_r:inst10|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|DCD:inst31|comp_xor_r_r:inst9|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
@@ -48,5 +47,9 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|cpu_cu_counter:inst8|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_3ph.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|cu_comp_0:inst12|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_vqi.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|cu_comp_9:inst19|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_7fj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|IP:inst13|ip_add:inst1|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_mth.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|cu_comp_2:inst2|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|rom_ram_out_mux:inst33|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_39e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|Memory:inst|BUSMUX:inst|lpm_mux:$00000" CBX_FILE_NAME="mux_msc.tdf"/>
 	</PROJECT>
 </LOG_ROOT>
