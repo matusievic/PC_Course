@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Computer
-Sun May 13 15:06:12 2018
+Sun May 13 17:24:32 2018
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -39,29 +39,29 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
  31. Parameter Settings for User Entity Instance: CPU:inst7|IP:inst13|ip_dff:inst|lpm_ff:lpm_ff_component
  32. Parameter Settings for User Entity Instance: CPU:inst7|IP:inst13|ip_add:inst1|lpm_add_sub:lpm_add_sub_component
  33. Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_0:inst12|lpm_compare:lpm_compare_component
- 34. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_mov_r_m:inst|lpm_compare:lpm_compare_component
- 35. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_mov_m_r:inst1|lpm_compare:lpm_compare_component
- 36. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_push_reg:inst2|lpm_compare:lpm_compare_component
- 37. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_pop_reg:inst3|lpm_compare:lpm_compare_component
- 38. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_jmp_m:inst4|lpm_compare:lpm_compare_component
- 39. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_jns_m:inst5|lpm_compare:lpm_compare_component
- 40. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_hlt:inst6|lpm_compare:lpm_compare_component
- 41. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component
- 42. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_nor_r_r:inst8|lpm_compare:lpm_compare_component
- 43. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_xor_r_r:inst9|lpm_compare:lpm_compare_component
- 44. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_srl_r_r:inst10|lpm_compare:lpm_compare_component
- 45. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_cmp_r_cr:inst11|lpm_compare:lpm_compare_component
- 46. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_nor_r_cr:inst12|lpm_compare:lpm_compare_component
- 47. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_xor_r_cr:inst13|lpm_compare:lpm_compare_component
- 48. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_srl_cr_r:inst14|lpm_compare:lpm_compare_component
- 49. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_mov_r_cr:inst15|lpm_compare:lpm_compare_component
+ 34. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_mov_r_m:inst|lpm_compare:lpm_compare_component
+ 35. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_mov_m_r:inst1|lpm_compare:lpm_compare_component
+ 36. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_push_reg:inst2|lpm_compare:lpm_compare_component
+ 37. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_pop_reg:inst3|lpm_compare:lpm_compare_component
+ 38. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_jmp_m:inst4|lpm_compare:lpm_compare_component
+ 39. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_jns_m:inst5|lpm_compare:lpm_compare_component
+ 40. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_hlt:inst6|lpm_compare:lpm_compare_component
+ 41. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component
+ 42. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_nor_r_r:inst8|lpm_compare:lpm_compare_component
+ 43. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_xor_r_r:inst9|lpm_compare:lpm_compare_component
+ 44. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_srl_r_r:inst10|lpm_compare:lpm_compare_component
+ 45. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_cmp_r_cr:inst11|lpm_compare:lpm_compare_component
+ 46. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_nor_r_cr:inst12|lpm_compare:lpm_compare_component
+ 47. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_xor_r_cr:inst13|lpm_compare:lpm_compare_component
+ 48. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_srl_cr_r:inst14|lpm_compare:lpm_compare_component
+ 49. Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_mov_r_cr:inst15|lpm_compare:lpm_compare_component
  50. Parameter Settings for User Entity Instance: CPU:inst7|IR:inst1|ir_dff:inst|lpm_ff:lpm_ff_component
  51. Parameter Settings for User Entity Instance: CPU:inst7|IR:inst1|ir_dff:inst1|lpm_ff:lpm_ff_component
  52. Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_3:inst15|lpm_compare:lpm_compare_component
  53. Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_2:inst2|lpm_compare:lpm_compare_component
  54. Parameter Settings for User Entity Instance: CPU:inst7|cpu_op_reg:opA|lpm_ff:lpm_ff_component
- 55. Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_6:inst21|lpm_compare:lpm_compare_component
- 56. Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_4:inst18|lpm_compare:lpm_compare_component
+ 55. Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_4:inst18|lpm_compare:lpm_compare_component
+ 56. Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_6:inst21|lpm_compare:lpm_compare_component
  57. Parameter Settings for User Entity Instance: CPU:inst7|BUSMUX:inst29
  58. Parameter Settings for User Entity Instance: CPU:inst7|Registers:inst5|lpm_reg_out_mux:inst1|lpm_mux:lpm_mux_component
  59. Parameter Settings for User Entity Instance: CPU:inst7|Registers:inst5|reg_dff:R0|lpm_ff:lpm_ff_component
@@ -80,39 +80,42 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
  72. Parameter Settings for User Entity Instance: CPU:inst7|Registers:inst5|reg_dff:R8|lpm_ff:lpm_ff_component
  73. Parameter Settings for User Entity Instance: CPU:inst7|Registers:inst5|reg_dff:R9|lpm_ff:lpm_ff_component
  74. Parameter Settings for User Entity Instance: CPU:inst7|Registers:inst5|lpm_reg_out_bustri:inst3|lpm_bustri:lpm_bustri_component
- 75. Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_9:inst19|lpm_compare:lpm_compare_component
- 76. Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_7:inst22|lpm_compare:lpm_compare_component
- 77. Parameter Settings for User Entity Instance: CPU:inst7|BUSMUX:inst27
- 78. Parameter Settings for User Entity Instance: CPU:inst7|cpu_op_reg:opB|lpm_ff:lpm_ff_component
- 79. Parameter Settings for User Entity Instance: CPU:inst7|BUSMUX:inst30
- 80. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_bustri_flag:inst13|lpm_bustri:lpm_bustri_component
- 81. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_reg_flag:inst5|lpm_ff:lpm_ff_component
- 82. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|BUSMUX:inst9
- 83. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_cmp_or:inst1|LPM_OR:lpm_or_component
- 84. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_cmp_xor:inst|LPM_XOR:lpm_xor_component
- 85. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_reg:OPERAND_A|lpm_ff:lpm_ff_component
- 86. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_reg:OPERAND_B|lpm_ff:lpm_ff_component
- 87. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_bustri:inst6|lpm_bustri:lpm_bustri_component
- 88. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_reg:inst11|lpm_ff:lpm_ff_component
- 89. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_bustri:inst4|lpm_bustri:lpm_bustri_component
- 90. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_bustri:inst7|lpm_bustri:lpm_bustri_component
- 91. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_bustri:inst8|lpm_bustri:lpm_bustri_component
- 92. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_nor_inv:inst3|lpm_inv:lpm_inv_component
- 93. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_nor_or:inst2|LPM_OR:lpm_or_component
- 94. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_bustri:inst10|lpm_bustri:lpm_bustri_component
- 95. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|SRL:ALU_SRL|srl_bustri:inst1|lpm_bustri:lpm_bustri_component
- 96. Parameter Settings for User Entity Instance: CPU:inst7|Stack:inst4|lpm_stack_flag_bustri:inst6|lpm_bustri:lpm_bustri_component
- 97. Parameter Settings for User Entity Instance: CPU:inst7|Stack:inst4|stack_overflow_compare:OVERFLOW_DETECTOR|lpm_compare:lpm_compare_component
- 98. Parameter Settings for User Entity Instance: CPU:inst7|Stack:inst4|stack_counter:STACK_POINTER|lpm_counter:lpm_counter_component
- 99. Parameter Settings for User Entity Instance: CPU:inst7|Stack:inst4|stack_latch_counter:inst1|lpm_counter:lpm_counter_component
-100. Parameter Settings for User Entity Instance: CPU:inst7|Stack:inst4|lpm_stack_out_bustri:inst5|lpm_bustri:lpm_bustri_component
-101. Parameter Settings for User Entity Instance: CPU:inst7|Stack:inst4|BUSMUX:inst14
-102. Parameter Settings for User Entity Instance: CPU:inst7|Stack:inst4|stack_default_constant:inst15|lpm_constant:lpm_constant_component
-103. Parameter Settings for User Entity Instance: CPU:inst7|Stack:inst4|stack_ram:STACK_MEMORY|altsyncram:altsyncram_component
-104. Parameter Settings for User Entity Instance: pc_bustri:inst5|lpm_bustri:lpm_bustri_component
-105. Parameter Settings for User Entity Instance: pc_bustri:inst4|lpm_bustri:lpm_bustri_component
-106. altsyncram Parameter Settings by Entity Instance
-107. Analysis & Synthesis Messages
+ 75. Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_A:inst36|lpm_compare:lpm_compare_component
+ 76. Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_C:inst37|lpm_compare:lpm_compare_component
+ 77. Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_7:inst22|lpm_compare:lpm_compare_component
+ 78. Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_9:inst19|lpm_compare:lpm_compare_component
+ 79. Parameter Settings for User Entity Instance: CPU:inst7|BUSMUX:inst
+ 80. Parameter Settings for User Entity Instance: CPU:inst7|cpu_op_reg:opB|lpm_ff:lpm_ff_component
+ 81. Parameter Settings for User Entity Instance: CPU:inst7|BUSMUX:inst30
+ 82. Parameter Settings for User Entity Instance: CPU:inst7|BUSMUX:inst27
+ 83. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_bustri_flag:inst13|lpm_bustri:lpm_bustri_component
+ 84. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_reg_flag:inst5|lpm_ff:lpm_ff_component
+ 85. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|BUSMUX:inst9
+ 86. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_cmp_or:inst1|LPM_OR:lpm_or_component
+ 87. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_cmp_xor:inst|LPM_XOR:lpm_xor_component
+ 88. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_reg:OPERAND_A|lpm_ff:lpm_ff_component
+ 89. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_reg:OPERAND_B|lpm_ff:lpm_ff_component
+ 90. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_bustri:inst6|lpm_bustri:lpm_bustri_component
+ 91. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_reg:inst11|lpm_ff:lpm_ff_component
+ 92. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_bustri:inst4|lpm_bustri:lpm_bustri_component
+ 93. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_bustri:inst7|lpm_bustri:lpm_bustri_component
+ 94. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_bustri:inst8|lpm_bustri:lpm_bustri_component
+ 95. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_nor_inv:inst3|lpm_inv:lpm_inv_component
+ 96. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_nor_or:inst2|LPM_OR:lpm_or_component
+ 97. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|alu_bustri:inst10|lpm_bustri:lpm_bustri_component
+ 98. Parameter Settings for User Entity Instance: CPU:inst7|ALU:inst3|SRL:ALU_SRL|srl_bustri:inst1|lpm_bustri:lpm_bustri_component
+ 99. Parameter Settings for User Entity Instance: CPU:inst7|Stack:inst4|lpm_stack_flag_bustri:inst6|lpm_bustri:lpm_bustri_component
+100. Parameter Settings for User Entity Instance: CPU:inst7|Stack:inst4|stack_overflow_compare:OVERFLOW_DETECTOR|lpm_compare:lpm_compare_component
+101. Parameter Settings for User Entity Instance: CPU:inst7|Stack:inst4|stack_counter:STACK_POINTER|lpm_counter:lpm_counter_component
+102. Parameter Settings for User Entity Instance: CPU:inst7|Stack:inst4|stack_latch_counter:inst1|lpm_counter:lpm_counter_component
+103. Parameter Settings for User Entity Instance: CPU:inst7|Stack:inst4|lpm_stack_out_bustri:inst5|lpm_bustri:lpm_bustri_component
+104. Parameter Settings for User Entity Instance: CPU:inst7|Stack:inst4|BUSMUX:inst14
+105. Parameter Settings for User Entity Instance: CPU:inst7|Stack:inst4|stack_default_constant:inst15|lpm_constant:lpm_constant_component
+106. Parameter Settings for User Entity Instance: CPU:inst7|Stack:inst4|stack_ram:STACK_MEMORY|altsyncram:altsyncram_component
+107. Parameter Settings for User Entity Instance: pc_bustri:inst5|lpm_bustri:lpm_bustri_component
+108. Parameter Settings for User Entity Instance: pc_bustri:inst4|lpm_bustri:lpm_bustri_component
+109. altsyncram Parameter Settings by Entity Instance
+110. Analysis & Synthesis Messages
 
 
 
@@ -138,16 +141,16 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                            ;
 +-------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Sun May 13 15:06:12 2018   ;
+; Analysis & Synthesis Status   ; Successful - Sun May 13 17:24:32 2018   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; Computer                                ;
 ; Top-level Entity Name         ; Computer                                ;
 ; Family                        ; Stratix III                             ;
 ; Logic utilization             ; N/A                                     ;
-;     Combinational ALUTs       ; 51                                      ;
+;     Combinational ALUTs       ; 172                                     ;
 ;     Memory ALUTs              ; 0                                       ;
-;     Dedicated logic registers ; 81                                      ;
-; Total registers               ; 81                                      ;
+;     Dedicated logic registers ; 305                                     ;
+; Total registers               ; 305                                     ;
 ; Total pins                    ; 112                                     ;
 ; Total virtual pins            ; 0                                       ;
 ; Total block memory bits       ; 196,608                                 ;
@@ -320,6 +323,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; out_address_mux.vhd              ; yes             ; User Wizard-Generated File            ; D:/Coursework SIFO/quartus/out_address_mux.vhd                ;
 ; rom_ram_out_mux.vhd              ; yes             ; User Wizard-Generated File            ; D:/Coursework SIFO/quartus/rom_ram_out_mux.vhd                ;
 ; cu_comp_9.vhd                    ; yes             ; User Wizard-Generated File            ; D:/Coursework SIFO/quartus/cu_comp_9.vhd                      ;
+; cu_comp_A.vhd                    ; yes             ; User Wizard-Generated File            ; D:/Coursework SIFO/quartus/cu_comp_A.vhd                      ;
+; cu_comp_C.vhd                    ; yes             ; User Wizard-Generated File            ; D:/Coursework SIFO/quartus/cu_comp_C.vhd                      ;
 ; lpm_bustri.tdf                   ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_bustri.tdf   ;
 ; busmux.tdf                       ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/busmux.tdf       ;
 ; lpm_mux.tdf                      ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_mux.tdf      ;
@@ -340,8 +345,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; db/cmpr_vqi.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/Coursework SIFO/quartus/db/cmpr_vqi.tdf                    ;
 ; db/cmpr_rbj.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/Coursework SIFO/quartus/db/cmpr_rbj.tdf                    ;
 ; comp_push_reg.vhd                ; yes             ; Auto-Found Wizard-Generated File      ; D:/Coursework SIFO/quartus/comp_push_reg.vhd                  ;
-; db/cmpr_7fj.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/Coursework SIFO/quartus/db/cmpr_7fj.tdf                    ;
 ; db/cmpr_2fj.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/Coursework SIFO/quartus/db/cmpr_2fj.tdf                    ;
+; db/cmpr_7fj.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/Coursework SIFO/quartus/db/cmpr_7fj.tdf                    ;
 ; db/mux_nae.tdf                   ; yes             ; Auto-Generated Megafunction           ; D:/Coursework SIFO/quartus/db/mux_nae.tdf                     ;
 ; lpm_decode.tdf                   ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_decode.tdf   ;
 ; db/decode_u0g.tdf                ; yes             ; Auto-Generated Megafunction           ; D:/Coursework SIFO/quartus/db/decode_u0g.tdf                  ;
@@ -363,102 +368,139 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-----------------------------------------------+-------------+
 ; Resource                                      ; Usage       ;
 +-----------------------------------------------+-------------+
-; Estimated ALUTs Used                          ; 51          ;
-;     -- Combinational ALUTs                    ; 51          ;
+; Estimated ALUTs Used                          ; 172         ;
+;     -- Combinational ALUTs                    ; 172         ;
 ;     -- Memory ALUTs                           ; 0           ;
 ;     -- LUT_REGs                               ; 0           ;
-; Dedicated logic registers                     ; 81          ;
+; Dedicated logic registers                     ; 305         ;
 ;                                               ;             ;
-; Estimated ALUTs Unavailable                   ; 18          ;
-;     -- Due to unpartnered combinational logic ; 18          ;
+; Estimated ALUTs Unavailable                   ; 0           ;
+;     -- Due to unpartnered combinational logic ; 0           ;
 ;     -- Due to Memory ALUTs                    ; 0           ;
 ;                                               ;             ;
-; Total combinational functions                 ; 51          ;
+; Total combinational functions                 ; 172         ;
 ; Combinational ALUT usage by number of inputs  ;             ;
 ;     -- 7 input functions                      ; 0           ;
-;     -- 6 input functions                      ; 28          ;
-;     -- 5 input functions                      ; 0           ;
-;     -- 4 input functions                      ; 3           ;
-;     -- <=3 input functions                    ; 20          ;
+;     -- 6 input functions                      ; 94          ;
+;     -- 5 input functions                      ; 16          ;
+;     -- 4 input functions                      ; 26          ;
+;     -- <=3 input functions                    ; 36          ;
 ;                                               ;             ;
 ; Combinational ALUTs by mode                   ;             ;
-;     -- normal mode                            ; 36          ;
+;     -- normal mode                            ; 157         ;
 ;     -- extended LUT mode                      ; 0           ;
 ;     -- arithmetic mode                        ; 15          ;
 ;     -- shared arithmetic mode                 ; 0           ;
 ;                                               ;             ;
-; Estimated ALUT/register pairs used            ; 113         ;
+; Estimated ALUT/register pairs used            ; 393         ;
 ;                                               ;             ;
-; Total registers                               ; 81          ;
-;     -- Dedicated logic registers              ; 81          ;
+; Total registers                               ; 305         ;
+;     -- Dedicated logic registers              ; 305         ;
 ;     -- I/O registers                          ; 0           ;
 ;     -- LUT_REGs                               ; 0           ;
 ;                                               ;             ;
-; Estimated ALMs:  partially or completely used ; 57          ;
+; Estimated ALMs:  partially or completely used ; 197         ;
 ;                                               ;             ;
 ; I/O pins                                      ; 112         ;
 ; Total MLAB memory bits                        ; 0           ;
 ; Total block memory bits                       ; 196608      ;
 ; Maximum fan-out node                          ; clock~input ;
-; Maximum fan-out                               ; 117         ;
-; Total fan-out                                 ; 1388        ;
-; Average fan-out                               ; 3.44        ;
+; Maximum fan-out                               ; 341         ;
+; Total fan-out                                 ; 2707        ;
+; Average fan-out                               ; 3.61        ;
 +-----------------------------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                   ;
-+-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------+--------------+
-; Compilation Hierarchy Node                      ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 12x12 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                        ; Library Name ;
-+-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------+--------------+
-; |Computer                                       ; 51 (0)            ; 81 (0)       ; 196608            ; 0            ; 0       ; 0         ; 0         ; 0         ; 112  ; 0            ; |Computer                                                                                                  ; work         ;
-;    |CPU:inst7|                                  ; 34 (1)            ; 80 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7                                                                                        ;              ;
-;       |DCD:inst24|                              ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|DCD:inst24                                                                             ;              ;
-;       |IP:inst13|                               ; 12 (0)            ; 12 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IP:inst13                                                                              ;              ;
-;          |cur_ip_dff:inst4|                     ; 1 (0)             ; 12 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IP:inst13|cur_ip_dff:inst4                                                             ;              ;
-;             |lpm_ff:lpm_ff_component|           ; 1 (1)             ; 12 (12)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IP:inst13|cur_ip_dff:inst4|lpm_ff:lpm_ff_component                                     ;              ;
-;          |ip_add:inst1|                         ; 11 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IP:inst13|ip_add:inst1                                                                 ;              ;
-;             |lpm_add_sub:lpm_add_sub_component| ; 11 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IP:inst13|ip_add:inst1|lpm_add_sub:lpm_add_sub_component                               ;              ;
-;                |add_sub_mth:auto_generated|     ; 11 (11)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IP:inst13|ip_add:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_mth:auto_generated    ;              ;
-;       |IR:inst1|                                ; 0 (0)             ; 32 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IR:inst1                                                                               ; work         ;
-;          |ir_dff:inst1|                         ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IR:inst1|ir_dff:inst1                                                                  ; work         ;
-;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IR:inst1|ir_dff:inst1|lpm_ff:lpm_ff_component                                          ; work         ;
-;          |ir_dff:inst|                          ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IR:inst1|ir_dff:inst                                                                   ; work         ;
-;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IR:inst1|ir_dff:inst|lpm_ff:lpm_ff_component                                           ; work         ;
-;       |Registers:inst5|                         ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5                                                                        ; work         ;
-;          |lpm_reg_out_mux:inst1|                ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|lpm_reg_out_mux:inst1                                                  ; work         ;
-;             |lpm_mux:lpm_mux_component|         ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|lpm_reg_out_mux:inst1|lpm_mux:lpm_mux_component                        ; work         ;
-;                |mux_nae:auto_generated|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|lpm_reg_out_mux:inst1|lpm_mux:lpm_mux_component|mux_nae:auto_generated ; work         ;
-;       |cpu_cu_counter:inst8|                    ; 4 (0)             ; 4 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cpu_cu_counter:inst8                                                                   ;              ;
-;          |lpm_counter:lpm_counter_component|    ; 4 (0)             ; 4 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cpu_cu_counter:inst8|lpm_counter:lpm_counter_component                                 ;              ;
-;             |cntr_3ph:auto_generated|           ; 4 (4)             ; 4 (4)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cpu_cu_counter:inst8|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated         ;              ;
-;       |cpu_op_reg:opA|                          ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cpu_op_reg:opA                                                                         ; work         ;
-;          |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cpu_op_reg:opA|lpm_ff:lpm_ff_component                                                 ; work         ;
-;       |cpu_op_reg:opB|                          ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cpu_op_reg:opB                                                                         ; work         ;
-;          |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cpu_op_reg:opB|lpm_ff:lpm_ff_component                                                 ; work         ;
-;       |cu_comp_0:inst12|                        ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cu_comp_0:inst12                                                                       ;              ;
-;          |lpm_compare:lpm_compare_component|    ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cu_comp_0:inst12|lpm_compare:lpm_compare_component                                     ;              ;
-;             |cmpr_vqi:auto_generated|           ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cu_comp_0:inst12|lpm_compare:lpm_compare_component|cmpr_vqi:auto_generated             ;              ;
-;       |out_address_mux:inst32|                  ; 12 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|out_address_mux:inst32                                                                 ;              ;
-;          |lpm_mux:lpm_mux_component|            ; 12 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|out_address_mux:inst32|lpm_mux:lpm_mux_component                                       ;              ;
-;             |mux_lae:auto_generated|            ; 12 (12)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|out_address_mux:inst32|lpm_mux:lpm_mux_component|mux_lae:auto_generated                ;              ;
-;       |rom_ram_out_mux:inst33|                  ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|rom_ram_out_mux:inst33                                                                 ;              ;
-;          |lpm_mux:lpm_mux_component|            ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|rom_ram_out_mux:inst33|lpm_mux:lpm_mux_component                                       ;              ;
-;             |mux_39e:auto_generated|            ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|rom_ram_out_mux:inst33|lpm_mux:lpm_mux_component|mux_39e:auto_generated                ;              ;
-;    |Memory:inst|                                ; 17 (0)            ; 1 (0)        ; 196608            ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst                                                                                      ;              ;
-;       |busmux:inst5|                            ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|busmux:inst5                                                                         ; work         ;
-;          |lpm_mux:$00000|                       ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|busmux:inst5|lpm_mux:$00000                                                          ; work         ;
-;             |mux_msc:auto_generated|            ; 16 (16)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|busmux:inst5|lpm_mux:$00000|mux_msc:auto_generated                                   ; work         ;
-;       |mem_rom_counter:inst4|                   ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|mem_rom_counter:inst4                                                                ; work         ;
-;          |lpm_counter:lpm_counter_component|    ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|mem_rom_counter:inst4|lpm_counter:lpm_counter_component                              ; work         ;
-;             |cntr_cdi:auto_generated|           ; 1 (1)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|mem_rom_counter:inst4|lpm_counter:lpm_counter_component|cntr_cdi:auto_generated      ; work         ;
-;       |ram_lpm_ram:RAM|                         ; 0 (0)             ; 0 (0)        ; 65536             ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|ram_lpm_ram:RAM                                                                      ; work         ;
-;          |altsyncram:altsyncram_component|      ; 0 (0)             ; 0 (0)        ; 65536             ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|ram_lpm_ram:RAM|altsyncram:altsyncram_component                                      ;              ;
-;             |altsyncram_tho1:auto_generated|    ; 0 (0)             ; 0 (0)        ; 65536             ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|ram_lpm_ram:RAM|altsyncram:altsyncram_component|altsyncram_tho1:auto_generated       ;              ;
-;       |rom_lpm_rom:ROM|                         ; 0 (0)             ; 0 (0)        ; 131072            ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|rom_lpm_rom:ROM                                                                      ; work         ;
-;          |altsyncram:altsyncram_component|      ; 0 (0)             ; 0 (0)        ; 131072            ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|rom_lpm_rom:ROM|altsyncram:altsyncram_component                                      ; work         ;
-;             |altsyncram_p9g1:auto_generated|    ; 0 (0)             ; 0 (0)        ; 131072            ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|rom_lpm_rom:ROM|altsyncram:altsyncram_component|altsyncram_p9g1:auto_generated       ; work         ;
-+-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                          ;
++-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node                      ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 12x12 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                               ; Library Name ;
++-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------+--------------+
+; |Computer                                       ; 172 (0)           ; 305 (0)      ; 196608            ; 0            ; 0       ; 0         ; 0         ; 0         ; 112  ; 0            ; |Computer                                                                                                         ; work         ;
+;    |CPU:inst7|                                  ; 155 (3)           ; 304 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7                                                                                               ;              ;
+;       |DCD:inst31|                              ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|DCD:inst31                                                                                    ;              ;
+;       |IP:inst13|                               ; 12 (0)            ; 12 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IP:inst13                                                                                     ;              ;
+;          |cur_ip_dff:inst4|                     ; 1 (0)             ; 12 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IP:inst13|cur_ip_dff:inst4                                                                    ;              ;
+;             |lpm_ff:lpm_ff_component|           ; 1 (1)             ; 12 (12)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IP:inst13|cur_ip_dff:inst4|lpm_ff:lpm_ff_component                                            ;              ;
+;          |ip_add:inst1|                         ; 11 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IP:inst13|ip_add:inst1                                                                        ;              ;
+;             |lpm_add_sub:lpm_add_sub_component| ; 11 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IP:inst13|ip_add:inst1|lpm_add_sub:lpm_add_sub_component                                      ;              ;
+;                |add_sub_mth:auto_generated|     ; 11 (11)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IP:inst13|ip_add:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_mth:auto_generated           ;              ;
+;       |IR:inst1|                                ; 0 (0)             ; 32 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IR:inst1                                                                                      ; work         ;
+;          |ir_dff:inst1|                         ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IR:inst1|ir_dff:inst1                                                                         ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IR:inst1|ir_dff:inst1|lpm_ff:lpm_ff_component                                                 ; work         ;
+;          |ir_dff:inst|                          ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IR:inst1|ir_dff:inst                                                                          ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|IR:inst1|ir_dff:inst|lpm_ff:lpm_ff_component                                                  ; work         ;
+;       |Registers:inst5|                         ; 96 (2)            ; 224 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5                                                                               ; work         ;
+;          |lpm_reg_decode:inst|                  ; 14 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|lpm_reg_decode:inst                                                           ; work         ;
+;             |lpm_decode:lpm_decode_component|   ; 14 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|lpm_reg_decode:inst|lpm_decode:lpm_decode_component                           ; work         ;
+;                |decode_u0g:auto_generated|      ; 14 (14)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|lpm_reg_decode:inst|lpm_decode:lpm_decode_component|decode_u0g:auto_generated ; work         ;
+;          |lpm_reg_out_mux:inst1|                ; 80 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|lpm_reg_out_mux:inst1                                                         ; work         ;
+;             |lpm_mux:lpm_mux_component|         ; 80 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|lpm_reg_out_mux:inst1|lpm_mux:lpm_mux_component                               ; work         ;
+;                |mux_nae:auto_generated|         ; 80 (80)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|lpm_reg_out_mux:inst1|lpm_mux:lpm_mux_component|mux_nae:auto_generated        ; work         ;
+;          |reg_dff:R0|                           ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R0                                                                    ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R0|lpm_ff:lpm_ff_component                                            ; work         ;
+;          |reg_dff:R10|                          ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R10                                                                   ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R10|lpm_ff:lpm_ff_component                                           ; work         ;
+;          |reg_dff:R11|                          ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R11                                                                   ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R11|lpm_ff:lpm_ff_component                                           ; work         ;
+;          |reg_dff:R12|                          ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R12                                                                   ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R12|lpm_ff:lpm_ff_component                                           ; work         ;
+;          |reg_dff:R13|                          ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R13                                                                   ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R13|lpm_ff:lpm_ff_component                                           ; work         ;
+;          |reg_dff:R1|                           ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R1                                                                    ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R1|lpm_ff:lpm_ff_component                                            ; work         ;
+;          |reg_dff:R2|                           ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R2                                                                    ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R2|lpm_ff:lpm_ff_component                                            ; work         ;
+;          |reg_dff:R3|                           ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R3                                                                    ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R3|lpm_ff:lpm_ff_component                                            ; work         ;
+;          |reg_dff:R4|                           ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R4                                                                    ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R4|lpm_ff:lpm_ff_component                                            ; work         ;
+;          |reg_dff:R5|                           ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R5                                                                    ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R5|lpm_ff:lpm_ff_component                                            ; work         ;
+;          |reg_dff:R6|                           ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R6                                                                    ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R6|lpm_ff:lpm_ff_component                                            ; work         ;
+;          |reg_dff:R7|                           ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R7                                                                    ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R7|lpm_ff:lpm_ff_component                                            ; work         ;
+;          |reg_dff:R8|                           ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R8                                                                    ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R8|lpm_ff:lpm_ff_component                                            ; work         ;
+;          |reg_dff:R9|                           ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R9                                                                    ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|Registers:inst5|reg_dff:R9|lpm_ff:lpm_ff_component                                            ; work         ;
+;       |busmux:inst27|                           ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|busmux:inst27                                                                                 ; work         ;
+;          |lpm_mux:$00000|                       ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|busmux:inst27|lpm_mux:$00000                                                                  ; work         ;
+;             |mux_3rc:auto_generated|            ; 4 (4)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|busmux:inst27|lpm_mux:$00000|mux_3rc:auto_generated                                           ; work         ;
+;       |busmux:inst|                             ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|busmux:inst                                                                                   ; work         ;
+;          |lpm_mux:$00000|                       ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|busmux:inst|lpm_mux:$00000                                                                    ; work         ;
+;             |mux_msc:auto_generated|            ; 16 (16)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|busmux:inst|lpm_mux:$00000|mux_msc:auto_generated                                             ; work         ;
+;       |cpu_cu_counter:inst8|                    ; 4 (0)             ; 4 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cpu_cu_counter:inst8                                                                          ;              ;
+;          |lpm_counter:lpm_counter_component|    ; 4 (0)             ; 4 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cpu_cu_counter:inst8|lpm_counter:lpm_counter_component                                        ;              ;
+;             |cntr_3ph:auto_generated|           ; 4 (4)             ; 4 (4)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cpu_cu_counter:inst8|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated                ;              ;
+;       |cpu_op_reg:opA|                          ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cpu_op_reg:opA                                                                                ; work         ;
+;          |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cpu_op_reg:opA|lpm_ff:lpm_ff_component                                                        ; work         ;
+;       |cpu_op_reg:opB|                          ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cpu_op_reg:opB                                                                                ; work         ;
+;          |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cpu_op_reg:opB|lpm_ff:lpm_ff_component                                                        ; work         ;
+;       |cu_comp_0:inst12|                        ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cu_comp_0:inst12                                                                              ;              ;
+;          |lpm_compare:lpm_compare_component|    ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cu_comp_0:inst12|lpm_compare:lpm_compare_component                                            ;              ;
+;             |cmpr_vqi:auto_generated|           ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|cu_comp_0:inst12|lpm_compare:lpm_compare_component|cmpr_vqi:auto_generated                    ;              ;
+;       |out_address_mux:inst32|                  ; 15 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|out_address_mux:inst32                                                                        ;              ;
+;          |lpm_mux:lpm_mux_component|            ; 15 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|out_address_mux:inst32|lpm_mux:lpm_mux_component                                              ;              ;
+;             |mux_lae:auto_generated|            ; 15 (15)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|out_address_mux:inst32|lpm_mux:lpm_mux_component|mux_lae:auto_generated                       ;              ;
+;       |rom_ram_out_mux:inst33|                  ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|rom_ram_out_mux:inst33                                                                        ;              ;
+;          |lpm_mux:lpm_mux_component|            ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|rom_ram_out_mux:inst33|lpm_mux:lpm_mux_component                                              ;              ;
+;             |mux_39e:auto_generated|            ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst7|rom_ram_out_mux:inst33|lpm_mux:lpm_mux_component|mux_39e:auto_generated                       ;              ;
+;    |Memory:inst|                                ; 17 (0)            ; 1 (0)        ; 196608            ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst                                                                                             ;              ;
+;       |busmux:inst5|                            ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|busmux:inst5                                                                                ; work         ;
+;          |lpm_mux:$00000|                       ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|busmux:inst5|lpm_mux:$00000                                                                 ; work         ;
+;             |mux_msc:auto_generated|            ; 16 (16)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|busmux:inst5|lpm_mux:$00000|mux_msc:auto_generated                                          ; work         ;
+;       |mem_rom_counter:inst4|                   ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|mem_rom_counter:inst4                                                                       ; work         ;
+;          |lpm_counter:lpm_counter_component|    ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|mem_rom_counter:inst4|lpm_counter:lpm_counter_component                                     ; work         ;
+;             |cntr_cdi:auto_generated|           ; 1 (1)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|mem_rom_counter:inst4|lpm_counter:lpm_counter_component|cntr_cdi:auto_generated             ; work         ;
+;       |ram_lpm_ram:RAM|                         ; 0 (0)             ; 0 (0)        ; 65536             ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|ram_lpm_ram:RAM                                                                             ; work         ;
+;          |altsyncram:altsyncram_component|      ; 0 (0)             ; 0 (0)        ; 65536             ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|ram_lpm_ram:RAM|altsyncram:altsyncram_component                                             ;              ;
+;             |altsyncram_tho1:auto_generated|    ; 0 (0)             ; 0 (0)        ; 65536             ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|ram_lpm_ram:RAM|altsyncram:altsyncram_component|altsyncram_tho1:auto_generated              ;              ;
+;       |rom_lpm_rom:ROM|                         ; 0 (0)             ; 0 (0)        ; 131072            ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|rom_lpm_rom:ROM                                                                             ; work         ;
+;          |altsyncram:altsyncram_component|      ; 0 (0)             ; 0 (0)        ; 131072            ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|rom_lpm_rom:ROM|altsyncram:altsyncram_component                                             ; work         ;
+;             |altsyncram_p9g1:auto_generated|    ; 0 (0)             ; 0 (0)        ; 131072            ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|rom_lpm_rom:ROM|altsyncram:altsyncram_component|altsyncram_p9g1:auto_generated              ; work         ;
++-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -477,24 +519,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------------------------------------------------------------------------------------------------------------+----------------------------------------+
 ; Register name                                                                                                                     ; Reason for Removal                     ;
 +-----------------------------------------------------------------------------------------------------------------------------------+----------------------------------------+
-; CPU:inst7|Registers:inst5|reg_dff:R9|lpm_ff:lpm_ff_component|dffs[0..15]                                                          ; Stuck at VCC due to stuck port data_in ;
-; CPU:inst7|Registers:inst5|reg_dff:R8|lpm_ff:lpm_ff_component|dffs[0..15]                                                          ; Stuck at VCC due to stuck port data_in ;
-; CPU:inst7|Registers:inst5|reg_dff:R7|lpm_ff:lpm_ff_component|dffs[0..15]                                                          ; Stuck at VCC due to stuck port data_in ;
-; CPU:inst7|Registers:inst5|reg_dff:R6|lpm_ff:lpm_ff_component|dffs[0..15]                                                          ; Stuck at VCC due to stuck port data_in ;
-; CPU:inst7|Registers:inst5|reg_dff:R5|lpm_ff:lpm_ff_component|dffs[0..15]                                                          ; Stuck at VCC due to stuck port data_in ;
-; CPU:inst7|Registers:inst5|reg_dff:R4|lpm_ff:lpm_ff_component|dffs[0..15]                                                          ; Stuck at VCC due to stuck port data_in ;
-; CPU:inst7|Registers:inst5|reg_dff:R3|lpm_ff:lpm_ff_component|dffs[0..15]                                                          ; Stuck at VCC due to stuck port data_in ;
-; CPU:inst7|Registers:inst5|reg_dff:R2|lpm_ff:lpm_ff_component|dffs[0..15]                                                          ; Stuck at VCC due to stuck port data_in ;
-; CPU:inst7|Registers:inst5|reg_dff:R1|lpm_ff:lpm_ff_component|dffs[0..15]                                                          ; Stuck at VCC due to stuck port data_in ;
-; CPU:inst7|Registers:inst5|reg_dff:R13|lpm_ff:lpm_ff_component|dffs[0..15]                                                         ; Stuck at VCC due to stuck port data_in ;
-; CPU:inst7|Registers:inst5|reg_dff:R12|lpm_ff:lpm_ff_component|dffs[0..15]                                                         ; Stuck at VCC due to stuck port data_in ;
-; CPU:inst7|Registers:inst5|reg_dff:R11|lpm_ff:lpm_ff_component|dffs[0..15]                                                         ; Stuck at VCC due to stuck port data_in ;
-; CPU:inst7|Registers:inst5|reg_dff:R10|lpm_ff:lpm_ff_component|dffs[0..15]                                                         ; Stuck at VCC due to stuck port data_in ;
-; CPU:inst7|Registers:inst5|reg_dff:R0|lpm_ff:lpm_ff_component|dffs[0..15]                                                          ; Stuck at VCC due to stuck port data_in ;
 ; CPU:inst7|IP:inst13|ip_dff:inst|lpm_ff:lpm_ff_component|dffs[0..11]                                                               ; Stuck at VCC due to stuck port data_in ;
 ; CPU:inst7|Stack:inst4|stack_counter:STACK_POINTER|lpm_counter:lpm_counter_component|cntr_5jh:auto_generated|counter_reg_bit[0..1] ; Stuck at VCC due to stuck port clock   ;
 ; CPU:inst7|Stack:inst4|stack_latch_counter:inst1|lpm_counter:lpm_counter_component|cntr_ndi:auto_generated|counter_reg_bit[0]      ; Lost fanout                            ;
-; Total Number of Removed Registers = 239                                                                                           ;                                        ;
+; Total Number of Removed Registers = 15                                                                                            ;                                        ;
 +-----------------------------------------------------------------------------------------------------------------------------------+----------------------------------------+
 
 
@@ -513,24 +541,25 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 81    ;
+; Total registers                              ; 305   ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 32    ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 33    ;
+; Number of registers using Clock Enable       ; 289   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                                 ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                       ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------------+
-; 3:1                ; 12 bits   ; 24 ALUTs      ; 24 ALUTs             ; 0 ALUTs                ; No         ; |Computer|CPU:inst7|out_address_mux:inst32|lpm_mux:lpm_mux_component|mux_lae:auto_generated|l3_w9_n0_mux_dataout ;
-; 3:1                ; 16 bits   ; 32 ALUTs      ; 32 ALUTs             ; 0 ALUTs                ; No         ; |Computer|Memory:inst|busmux:inst5|lpm_mux:$00000|mux_msc:auto_generated|l1_w15_n0_mux_dataout                   ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                                                 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                                       ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------------------+
+; 3:1                ; 16 bits   ; 32 ALUTs      ; 32 ALUTs             ; 0 ALUTs                ; No         ; |Computer|Memory:inst|busmux:inst5|lpm_mux:$00000|mux_msc:auto_generated|l1_w5_n0_mux_dataout                                    ;
+; 5:1                ; 12 bits   ; 36 ALUTs      ; 24 ALUTs             ; 12 ALUTs               ; No         ; |Computer|CPU:inst7|out_address_mux:inst32|lpm_mux:lpm_mux_component|mux_lae:auto_generated|l4_w9_n0_mux_dataout                 ;
+; 13:1               ; 16 bits   ; 128 ALUTs     ; 128 ALUTs            ; 0 ALUTs                ; No         ; |Computer|CPU:inst7|Registers:inst5|lpm_reg_out_mux:inst1|lpm_mux:lpm_mux_component|mux_nae:auto_generated|l4_w15_n0_mux_dataout ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------------------+
 
 
 +--------------------------------------------------------------------------------------------+
@@ -945,7 +974,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_mov_r_m:inst|lpm_compare:lpm_compare_component ;
+; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_mov_r_m:inst|lpm_compare:lpm_compare_component ;
 +------------------------+-------------+--------------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                           ;
 +------------------------+-------------+--------------------------------------------------------------------------------+
@@ -969,7 +998,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_mov_m_r:inst1|lpm_compare:lpm_compare_component ;
+; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_mov_m_r:inst1|lpm_compare:lpm_compare_component ;
 +------------------------+-------------+---------------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                            ;
 +------------------------+-------------+---------------------------------------------------------------------------------+
@@ -993,7 +1022,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_push_reg:inst2|lpm_compare:lpm_compare_component ;
+; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_push_reg:inst2|lpm_compare:lpm_compare_component ;
 +------------------------+-------------+----------------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                             ;
 +------------------------+-------------+----------------------------------------------------------------------------------+
@@ -1017,7 +1046,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_pop_reg:inst3|lpm_compare:lpm_compare_component ;
+; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_pop_reg:inst3|lpm_compare:lpm_compare_component ;
 +------------------------+-------------+---------------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                            ;
 +------------------------+-------------+---------------------------------------------------------------------------------+
@@ -1041,7 +1070,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_jmp_m:inst4|lpm_compare:lpm_compare_component ;
+; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_jmp_m:inst4|lpm_compare:lpm_compare_component ;
 +------------------------+-------------+-------------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                          ;
 +------------------------+-------------+-------------------------------------------------------------------------------+
@@ -1065,7 +1094,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_jns_m:inst5|lpm_compare:lpm_compare_component ;
+; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_jns_m:inst5|lpm_compare:lpm_compare_component ;
 +------------------------+-------------+-------------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                          ;
 +------------------------+-------------+-------------------------------------------------------------------------------+
@@ -1089,7 +1118,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +--------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_hlt:inst6|lpm_compare:lpm_compare_component ;
+; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_hlt:inst6|lpm_compare:lpm_compare_component ;
 +------------------------+-------------+-----------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                        ;
 +------------------------+-------------+-----------------------------------------------------------------------------+
@@ -1113,7 +1142,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component ;
+; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component ;
 +------------------------+-------------+---------------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                            ;
 +------------------------+-------------+---------------------------------------------------------------------------------+
@@ -1137,7 +1166,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_nor_r_r:inst8|lpm_compare:lpm_compare_component ;
+; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_nor_r_r:inst8|lpm_compare:lpm_compare_component ;
 +------------------------+-------------+---------------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                            ;
 +------------------------+-------------+---------------------------------------------------------------------------------+
@@ -1161,7 +1190,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_xor_r_r:inst9|lpm_compare:lpm_compare_component ;
+; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_xor_r_r:inst9|lpm_compare:lpm_compare_component ;
 +------------------------+-------------+---------------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                            ;
 +------------------------+-------------+---------------------------------------------------------------------------------+
@@ -1185,7 +1214,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_srl_r_r:inst10|lpm_compare:lpm_compare_component ;
+; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_srl_r_r:inst10|lpm_compare:lpm_compare_component ;
 +------------------------+-------------+----------------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                             ;
 +------------------------+-------------+----------------------------------------------------------------------------------+
@@ -1209,7 +1238,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_cmp_r_cr:inst11|lpm_compare:lpm_compare_component ;
+; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_cmp_r_cr:inst11|lpm_compare:lpm_compare_component ;
 +------------------------+-------------+-----------------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                              ;
 +------------------------+-------------+-----------------------------------------------------------------------------------+
@@ -1233,7 +1262,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_nor_r_cr:inst12|lpm_compare:lpm_compare_component ;
+; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_nor_r_cr:inst12|lpm_compare:lpm_compare_component ;
 +------------------------+-------------+-----------------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                              ;
 +------------------------+-------------+-----------------------------------------------------------------------------------+
@@ -1257,7 +1286,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_xor_r_cr:inst13|lpm_compare:lpm_compare_component ;
+; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_xor_r_cr:inst13|lpm_compare:lpm_compare_component ;
 +------------------------+-------------+-----------------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                              ;
 +------------------------+-------------+-----------------------------------------------------------------------------------+
@@ -1281,7 +1310,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_srl_cr_r:inst14|lpm_compare:lpm_compare_component ;
+; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_srl_cr_r:inst14|lpm_compare:lpm_compare_component ;
 +------------------------+-------------+-----------------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                              ;
 +------------------------+-------------+-----------------------------------------------------------------------------------+
@@ -1305,7 +1334,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst24|comp_mov_r_cr:inst15|lpm_compare:lpm_compare_component ;
+; Parameter Settings for User Entity Instance: CPU:inst7|DCD:inst31|comp_mov_r_cr:inst15|lpm_compare:lpm_compare_component ;
 +------------------------+-------------+-----------------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                              ;
 +------------------------+-------------+-----------------------------------------------------------------------------------+
@@ -1434,30 +1463,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_6:inst21|lpm_compare:lpm_compare_component ;
-+------------------------+-------------+--------------------------------------------------------------------+
-; Parameter Name         ; Value       ; Type                                                               ;
-+------------------------+-------------+--------------------------------------------------------------------+
-; lpm_width              ; 4           ; Signed Integer                                                     ;
-; LPM_REPRESENTATION     ; UNSIGNED    ; Untyped                                                            ;
-; LPM_PIPELINE           ; 0           ; Untyped                                                            ;
-; CHAIN_SIZE             ; 8           ; Untyped                                                            ;
-; ONE_INPUT_IS_CONSTANT  ; YES         ; Untyped                                                            ;
-; CARRY_CHAIN            ; MANUAL      ; Untyped                                                            ;
-; CASCADE_CHAIN          ; MANUAL      ; Untyped                                                            ;
-; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                 ;
-; CASCADE_CHAIN_LENGTH   ; 2           ; CASCADE_CHAIN_LENGTH                                               ;
-; DEVICE_FAMILY          ; Stratix III ; Untyped                                                            ;
-; CBXI_PARAMETER         ; cmpr_7fj    ; Untyped                                                            ;
-; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                         ;
-; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                       ;
-; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                       ;
-; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                     ;
-+------------------------+-------------+--------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_4:inst18|lpm_compare:lpm_compare_component ;
 +------------------------+-------------+--------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                               ;
@@ -1473,6 +1478,30 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; CASCADE_CHAIN_LENGTH   ; 2           ; CASCADE_CHAIN_LENGTH                                               ;
 ; DEVICE_FAMILY          ; Stratix III ; Untyped                                                            ;
 ; CBXI_PARAMETER         ; cmpr_2fj    ; Untyped                                                            ;
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                         ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                       ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                       ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                     ;
++------------------------+-------------+--------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_6:inst21|lpm_compare:lpm_compare_component ;
++------------------------+-------------+--------------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                               ;
++------------------------+-------------+--------------------------------------------------------------------+
+; lpm_width              ; 4           ; Signed Integer                                                     ;
+; LPM_REPRESENTATION     ; UNSIGNED    ; Untyped                                                            ;
+; LPM_PIPELINE           ; 0           ; Untyped                                                            ;
+; CHAIN_SIZE             ; 8           ; Untyped                                                            ;
+; ONE_INPUT_IS_CONSTANT  ; YES         ; Untyped                                                            ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                            ;
+; CASCADE_CHAIN          ; MANUAL      ; Untyped                                                            ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                 ;
+; CASCADE_CHAIN_LENGTH   ; 2           ; CASCADE_CHAIN_LENGTH                                               ;
+; DEVICE_FAMILY          ; Stratix III ; Untyped                                                            ;
+; CBXI_PARAMETER         ; cmpr_7fj    ; Untyped                                                            ;
 ; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                         ;
 ; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                       ;
 ; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                       ;
@@ -1806,7 +1835,31 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_9:inst19|lpm_compare:lpm_compare_component ;
+; Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_A:inst36|lpm_compare:lpm_compare_component ;
++------------------------+-------------+--------------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                               ;
++------------------------+-------------+--------------------------------------------------------------------+
+; lpm_width              ; 4           ; Signed Integer                                                     ;
+; LPM_REPRESENTATION     ; UNSIGNED    ; Untyped                                                            ;
+; LPM_PIPELINE           ; 0           ; Untyped                                                            ;
+; CHAIN_SIZE             ; 8           ; Untyped                                                            ;
+; ONE_INPUT_IS_CONSTANT  ; YES         ; Untyped                                                            ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                            ;
+; CASCADE_CHAIN          ; MANUAL      ; Untyped                                                            ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                 ;
+; CASCADE_CHAIN_LENGTH   ; 2           ; CASCADE_CHAIN_LENGTH                                               ;
+; DEVICE_FAMILY          ; Stratix III ; Untyped                                                            ;
+; CBXI_PARAMETER         ; cmpr_2fj    ; Untyped                                                            ;
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                         ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                       ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                       ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                     ;
++------------------------+-------------+--------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_C:inst37|lpm_compare:lpm_compare_component ;
 +------------------------+-------------+--------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                               ;
 +------------------------+-------------+--------------------------------------------------------------------+
@@ -1853,13 +1906,37 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst7|BUSMUX:inst27 ;
-+----------------+-------+---------------------------------------------+
-; Parameter Name ; Value ; Type                                        ;
-+----------------+-------+---------------------------------------------+
-; WIDTH          ; 4     ; Untyped                                     ;
-+----------------+-------+---------------------------------------------+
++-----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst7|cu_comp_9:inst19|lpm_compare:lpm_compare_component ;
++------------------------+-------------+--------------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                               ;
++------------------------+-------------+--------------------------------------------------------------------+
+; lpm_width              ; 4           ; Signed Integer                                                     ;
+; LPM_REPRESENTATION     ; UNSIGNED    ; Untyped                                                            ;
+; LPM_PIPELINE           ; 0           ; Untyped                                                            ;
+; CHAIN_SIZE             ; 8           ; Untyped                                                            ;
+; ONE_INPUT_IS_CONSTANT  ; YES         ; Untyped                                                            ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                            ;
+; CASCADE_CHAIN          ; MANUAL      ; Untyped                                                            ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                 ;
+; CASCADE_CHAIN_LENGTH   ; 2           ; CASCADE_CHAIN_LENGTH                                               ;
+; DEVICE_FAMILY          ; Stratix III ; Untyped                                                            ;
+; CBXI_PARAMETER         ; cmpr_7fj    ; Untyped                                                            ;
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                         ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                       ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                       ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                     ;
++------------------------+-------------+--------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst7|BUSMUX:inst ;
++----------------+-------+-------------------------------------------+
+; Parameter Name ; Value ; Type                                      ;
++----------------+-------+-------------------------------------------+
+; WIDTH          ; 16    ; Untyped                                   ;
++----------------+-------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1888,6 +1965,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Parameter Name ; Value ; Type                                        ;
 +----------------+-------+---------------------------------------------+
 ; WIDTH          ; 16    ; Untyped                                     ;
++----------------+-------+---------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst7|BUSMUX:inst27 ;
++----------------+-------+---------------------------------------------+
+; Parameter Name ; Value ; Type                                        ;
++----------------+-------+---------------------------------------------+
+; WIDTH          ; 4     ; Untyped                                     ;
 +----------------+-------+---------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2355,7 +2442,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Sun May 13 15:05:56 2018
+    Info: Processing started: Sun May 13 17:24:19 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Computer -c Computer
 Warning: Tcl Script File ../../×óæîå SIFO/ddd/stack_latch.qip not found
     Info: set_global_assignment -name QIP_FILE "../../×óæîå SIFO/ddd/stack_latch.qip"
@@ -2550,6 +2637,12 @@ Info: Found 2 design units, including 1 entities, in source file rom_ram_out_mux
 Info: Found 2 design units, including 1 entities, in source file cu_comp_9.vhd
     Info: Found design unit 1: cu_comp_9-SYN
     Info: Found entity 1: cu_comp_9
+Info: Found 2 design units, including 1 entities, in source file cu_comp_a.vhd
+    Info: Found design unit 1: cu_comp_a-SYN
+    Info: Found entity 1: cu_comp_A
+Info: Found 2 design units, including 1 entities, in source file cu_comp_c.vhd
+    Info: Found design unit 1: cu_comp_c-SYN
+    Info: Found entity 1: cu_comp_C
 Info: Elaborating entity "Computer" for the top level hierarchy
 Warning: Block or symbol "Memory" of instance "inst" overlaps another block or symbol
 Info: Elaborating entity "Memory" for hierarchy "Memory:inst"
@@ -2709,130 +2802,130 @@ Info: Instantiated megafunction "CPU:inst7|cu_comp_0:inst12|lpm_compare:lpm_comp
 Info: Found 1 design units, including 1 entities, in source file db/cmpr_vqi.tdf
     Info: Found entity 1: cmpr_vqi
 Info: Elaborating entity "cmpr_vqi" for hierarchy "CPU:inst7|cu_comp_0:inst12|lpm_compare:lpm_compare_component|cmpr_vqi:auto_generated"
-Info: Elaborating entity "DCD" for hierarchy "CPU:inst7|DCD:inst24"
-Info: Elaborating entity "comp_mov_r_m" for hierarchy "CPU:inst7|DCD:inst24|comp_mov_r_m:inst"
-Info: Elaborating entity "comp_mov_m_r" for hierarchy "CPU:inst7|DCD:inst24|comp_mov_m_r:inst1"
-Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst24|comp_mov_m_r:inst1|lpm_compare:lpm_compare_component"
-Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst24|comp_mov_m_r:inst1|lpm_compare:lpm_compare_component"
-Info: Instantiated megafunction "CPU:inst7|DCD:inst24|comp_mov_m_r:inst1|lpm_compare:lpm_compare_component" with the following parameter:
+Info: Elaborating entity "DCD" for hierarchy "CPU:inst7|DCD:inst31"
+Info: Elaborating entity "comp_mov_r_m" for hierarchy "CPU:inst7|DCD:inst31|comp_mov_r_m:inst"
+Info: Elaborating entity "comp_mov_m_r" for hierarchy "CPU:inst7|DCD:inst31|comp_mov_m_r:inst1"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst31|comp_mov_m_r:inst1|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst31|comp_mov_m_r:inst1|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst7|DCD:inst31|comp_mov_m_r:inst1|lpm_compare:lpm_compare_component" with the following parameter:
     Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
     Info: Parameter "lpm_representation" = "UNSIGNED"
     Info: Parameter "lpm_type" = "LPM_COMPARE"
     Info: Parameter "lpm_width" = "4"
 Info: Found 1 design units, including 1 entities, in source file db/cmpr_rbj.tdf
     Info: Found entity 1: cmpr_rbj
-Info: Elaborating entity "cmpr_rbj" for hierarchy "CPU:inst7|DCD:inst24|comp_mov_m_r:inst1|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated"
+Info: Elaborating entity "cmpr_rbj" for hierarchy "CPU:inst7|DCD:inst31|comp_mov_m_r:inst1|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated"
 Warning: Using design file comp_push_reg.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info: Found design unit 1: comp_push_reg-SYN
     Info: Found entity 1: comp_push_reg
-Info: Elaborating entity "comp_push_reg" for hierarchy "CPU:inst7|DCD:inst24|comp_push_reg:inst2"
-Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst24|comp_push_reg:inst2|lpm_compare:lpm_compare_component"
-Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst24|comp_push_reg:inst2|lpm_compare:lpm_compare_component"
-Info: Instantiated megafunction "CPU:inst7|DCD:inst24|comp_push_reg:inst2|lpm_compare:lpm_compare_component" with the following parameter:
+Info: Elaborating entity "comp_push_reg" for hierarchy "CPU:inst7|DCD:inst31|comp_push_reg:inst2"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst31|comp_push_reg:inst2|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst31|comp_push_reg:inst2|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst7|DCD:inst31|comp_push_reg:inst2|lpm_compare:lpm_compare_component" with the following parameter:
     Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
     Info: Parameter "lpm_representation" = "UNSIGNED"
     Info: Parameter "lpm_type" = "LPM_COMPARE"
     Info: Parameter "lpm_width" = "4"
-Info: Elaborating entity "comp_pop_reg" for hierarchy "CPU:inst7|DCD:inst24|comp_pop_reg:inst3"
-Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst24|comp_pop_reg:inst3|lpm_compare:lpm_compare_component"
-Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst24|comp_pop_reg:inst3|lpm_compare:lpm_compare_component"
-Info: Instantiated megafunction "CPU:inst7|DCD:inst24|comp_pop_reg:inst3|lpm_compare:lpm_compare_component" with the following parameter:
+Info: Elaborating entity "comp_pop_reg" for hierarchy "CPU:inst7|DCD:inst31|comp_pop_reg:inst3"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst31|comp_pop_reg:inst3|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst31|comp_pop_reg:inst3|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst7|DCD:inst31|comp_pop_reg:inst3|lpm_compare:lpm_compare_component" with the following parameter:
     Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
     Info: Parameter "lpm_representation" = "UNSIGNED"
     Info: Parameter "lpm_type" = "LPM_COMPARE"
     Info: Parameter "lpm_width" = "4"
-Info: Elaborating entity "comp_jmp_m" for hierarchy "CPU:inst7|DCD:inst24|comp_jmp_m:inst4"
-Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst24|comp_jmp_m:inst4|lpm_compare:lpm_compare_component"
-Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst24|comp_jmp_m:inst4|lpm_compare:lpm_compare_component"
-Info: Instantiated megafunction "CPU:inst7|DCD:inst24|comp_jmp_m:inst4|lpm_compare:lpm_compare_component" with the following parameter:
+Info: Elaborating entity "comp_jmp_m" for hierarchy "CPU:inst7|DCD:inst31|comp_jmp_m:inst4"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst31|comp_jmp_m:inst4|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst31|comp_jmp_m:inst4|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst7|DCD:inst31|comp_jmp_m:inst4|lpm_compare:lpm_compare_component" with the following parameter:
     Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
     Info: Parameter "lpm_representation" = "UNSIGNED"
     Info: Parameter "lpm_type" = "LPM_COMPARE"
     Info: Parameter "lpm_width" = "4"
-Info: Elaborating entity "comp_jns_m" for hierarchy "CPU:inst7|DCD:inst24|comp_jns_m:inst5"
-Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst24|comp_jns_m:inst5|lpm_compare:lpm_compare_component"
-Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst24|comp_jns_m:inst5|lpm_compare:lpm_compare_component"
-Info: Instantiated megafunction "CPU:inst7|DCD:inst24|comp_jns_m:inst5|lpm_compare:lpm_compare_component" with the following parameter:
+Info: Elaborating entity "comp_jns_m" for hierarchy "CPU:inst7|DCD:inst31|comp_jns_m:inst5"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst31|comp_jns_m:inst5|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst31|comp_jns_m:inst5|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst7|DCD:inst31|comp_jns_m:inst5|lpm_compare:lpm_compare_component" with the following parameter:
     Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
     Info: Parameter "lpm_representation" = "UNSIGNED"
     Info: Parameter "lpm_type" = "LPM_COMPARE"
     Info: Parameter "lpm_width" = "4"
-Info: Elaborating entity "comp_hlt" for hierarchy "CPU:inst7|DCD:inst24|comp_hlt:inst6"
-Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst24|comp_hlt:inst6|lpm_compare:lpm_compare_component"
-Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst24|comp_hlt:inst6|lpm_compare:lpm_compare_component"
-Info: Instantiated megafunction "CPU:inst7|DCD:inst24|comp_hlt:inst6|lpm_compare:lpm_compare_component" with the following parameter:
+Info: Elaborating entity "comp_hlt" for hierarchy "CPU:inst7|DCD:inst31|comp_hlt:inst6"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst31|comp_hlt:inst6|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst31|comp_hlt:inst6|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst7|DCD:inst31|comp_hlt:inst6|lpm_compare:lpm_compare_component" with the following parameter:
     Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
     Info: Parameter "lpm_representation" = "UNSIGNED"
     Info: Parameter "lpm_type" = "LPM_COMPARE"
     Info: Parameter "lpm_width" = "4"
-Info: Elaborating entity "comp_cmp_r_r" for hierarchy "CPU:inst7|DCD:inst24|comp_cmp_r_r:inst7"
-Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst24|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component"
-Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst24|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component"
-Info: Instantiated megafunction "CPU:inst7|DCD:inst24|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component" with the following parameter:
+Info: Elaborating entity "comp_cmp_r_r" for hierarchy "CPU:inst7|DCD:inst31|comp_cmp_r_r:inst7"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst31|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst31|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst7|DCD:inst31|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component" with the following parameter:
     Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
     Info: Parameter "lpm_representation" = "UNSIGNED"
     Info: Parameter "lpm_type" = "LPM_COMPARE"
     Info: Parameter "lpm_width" = "4"
-Info: Elaborating entity "comp_nor_r_r" for hierarchy "CPU:inst7|DCD:inst24|comp_nor_r_r:inst8"
-Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst24|comp_nor_r_r:inst8|lpm_compare:lpm_compare_component"
-Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst24|comp_nor_r_r:inst8|lpm_compare:lpm_compare_component"
-Info: Instantiated megafunction "CPU:inst7|DCD:inst24|comp_nor_r_r:inst8|lpm_compare:lpm_compare_component" with the following parameter:
+Info: Elaborating entity "comp_nor_r_r" for hierarchy "CPU:inst7|DCD:inst31|comp_nor_r_r:inst8"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst31|comp_nor_r_r:inst8|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst31|comp_nor_r_r:inst8|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst7|DCD:inst31|comp_nor_r_r:inst8|lpm_compare:lpm_compare_component" with the following parameter:
     Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
     Info: Parameter "lpm_representation" = "UNSIGNED"
     Info: Parameter "lpm_type" = "LPM_COMPARE"
     Info: Parameter "lpm_width" = "4"
-Info: Elaborating entity "comp_xor_r_r" for hierarchy "CPU:inst7|DCD:inst24|comp_xor_r_r:inst9"
-Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst24|comp_xor_r_r:inst9|lpm_compare:lpm_compare_component"
-Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst24|comp_xor_r_r:inst9|lpm_compare:lpm_compare_component"
-Info: Instantiated megafunction "CPU:inst7|DCD:inst24|comp_xor_r_r:inst9|lpm_compare:lpm_compare_component" with the following parameter:
+Info: Elaborating entity "comp_xor_r_r" for hierarchy "CPU:inst7|DCD:inst31|comp_xor_r_r:inst9"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst31|comp_xor_r_r:inst9|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst31|comp_xor_r_r:inst9|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst7|DCD:inst31|comp_xor_r_r:inst9|lpm_compare:lpm_compare_component" with the following parameter:
     Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
     Info: Parameter "lpm_representation" = "UNSIGNED"
     Info: Parameter "lpm_type" = "LPM_COMPARE"
     Info: Parameter "lpm_width" = "4"
-Info: Elaborating entity "comp_srl_r_r" for hierarchy "CPU:inst7|DCD:inst24|comp_srl_r_r:inst10"
-Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst24|comp_srl_r_r:inst10|lpm_compare:lpm_compare_component"
-Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst24|comp_srl_r_r:inst10|lpm_compare:lpm_compare_component"
-Info: Instantiated megafunction "CPU:inst7|DCD:inst24|comp_srl_r_r:inst10|lpm_compare:lpm_compare_component" with the following parameter:
+Info: Elaborating entity "comp_srl_r_r" for hierarchy "CPU:inst7|DCD:inst31|comp_srl_r_r:inst10"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst31|comp_srl_r_r:inst10|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst31|comp_srl_r_r:inst10|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst7|DCD:inst31|comp_srl_r_r:inst10|lpm_compare:lpm_compare_component" with the following parameter:
     Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
     Info: Parameter "lpm_representation" = "UNSIGNED"
     Info: Parameter "lpm_type" = "LPM_COMPARE"
     Info: Parameter "lpm_width" = "4"
-Info: Elaborating entity "comp_cmp_r_cr" for hierarchy "CPU:inst7|DCD:inst24|comp_cmp_r_cr:inst11"
-Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst24|comp_cmp_r_cr:inst11|lpm_compare:lpm_compare_component"
-Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst24|comp_cmp_r_cr:inst11|lpm_compare:lpm_compare_component"
-Info: Instantiated megafunction "CPU:inst7|DCD:inst24|comp_cmp_r_cr:inst11|lpm_compare:lpm_compare_component" with the following parameter:
+Info: Elaborating entity "comp_cmp_r_cr" for hierarchy "CPU:inst7|DCD:inst31|comp_cmp_r_cr:inst11"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst31|comp_cmp_r_cr:inst11|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst31|comp_cmp_r_cr:inst11|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst7|DCD:inst31|comp_cmp_r_cr:inst11|lpm_compare:lpm_compare_component" with the following parameter:
     Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
     Info: Parameter "lpm_representation" = "UNSIGNED"
     Info: Parameter "lpm_type" = "LPM_COMPARE"
     Info: Parameter "lpm_width" = "4"
-Info: Elaborating entity "comp_nor_r_cr" for hierarchy "CPU:inst7|DCD:inst24|comp_nor_r_cr:inst12"
-Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst24|comp_nor_r_cr:inst12|lpm_compare:lpm_compare_component"
-Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst24|comp_nor_r_cr:inst12|lpm_compare:lpm_compare_component"
-Info: Instantiated megafunction "CPU:inst7|DCD:inst24|comp_nor_r_cr:inst12|lpm_compare:lpm_compare_component" with the following parameter:
+Info: Elaborating entity "comp_nor_r_cr" for hierarchy "CPU:inst7|DCD:inst31|comp_nor_r_cr:inst12"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst31|comp_nor_r_cr:inst12|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst31|comp_nor_r_cr:inst12|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst7|DCD:inst31|comp_nor_r_cr:inst12|lpm_compare:lpm_compare_component" with the following parameter:
     Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
     Info: Parameter "lpm_representation" = "UNSIGNED"
     Info: Parameter "lpm_type" = "LPM_COMPARE"
     Info: Parameter "lpm_width" = "4"
-Info: Elaborating entity "comp_xor_r_cr" for hierarchy "CPU:inst7|DCD:inst24|comp_xor_r_cr:inst13"
-Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst24|comp_xor_r_cr:inst13|lpm_compare:lpm_compare_component"
-Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst24|comp_xor_r_cr:inst13|lpm_compare:lpm_compare_component"
-Info: Instantiated megafunction "CPU:inst7|DCD:inst24|comp_xor_r_cr:inst13|lpm_compare:lpm_compare_component" with the following parameter:
+Info: Elaborating entity "comp_xor_r_cr" for hierarchy "CPU:inst7|DCD:inst31|comp_xor_r_cr:inst13"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst31|comp_xor_r_cr:inst13|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst31|comp_xor_r_cr:inst13|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst7|DCD:inst31|comp_xor_r_cr:inst13|lpm_compare:lpm_compare_component" with the following parameter:
     Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
     Info: Parameter "lpm_representation" = "UNSIGNED"
     Info: Parameter "lpm_type" = "LPM_COMPARE"
     Info: Parameter "lpm_width" = "4"
-Info: Elaborating entity "comp_srl_cr_r" for hierarchy "CPU:inst7|DCD:inst24|comp_srl_cr_r:inst14"
-Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst24|comp_srl_cr_r:inst14|lpm_compare:lpm_compare_component"
-Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst24|comp_srl_cr_r:inst14|lpm_compare:lpm_compare_component"
-Info: Instantiated megafunction "CPU:inst7|DCD:inst24|comp_srl_cr_r:inst14|lpm_compare:lpm_compare_component" with the following parameter:
+Info: Elaborating entity "comp_srl_cr_r" for hierarchy "CPU:inst7|DCD:inst31|comp_srl_cr_r:inst14"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst31|comp_srl_cr_r:inst14|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst31|comp_srl_cr_r:inst14|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst7|DCD:inst31|comp_srl_cr_r:inst14|lpm_compare:lpm_compare_component" with the following parameter:
     Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
     Info: Parameter "lpm_representation" = "UNSIGNED"
     Info: Parameter "lpm_type" = "LPM_COMPARE"
     Info: Parameter "lpm_width" = "4"
-Info: Elaborating entity "comp_mov_r_cr" for hierarchy "CPU:inst7|DCD:inst24|comp_mov_r_cr:inst15"
-Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst24|comp_mov_r_cr:inst15|lpm_compare:lpm_compare_component"
-Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst24|comp_mov_r_cr:inst15|lpm_compare:lpm_compare_component"
-Info: Instantiated megafunction "CPU:inst7|DCD:inst24|comp_mov_r_cr:inst15|lpm_compare:lpm_compare_component" with the following parameter:
+Info: Elaborating entity "comp_mov_r_cr" for hierarchy "CPU:inst7|DCD:inst31|comp_mov_r_cr:inst15"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|DCD:inst31|comp_mov_r_cr:inst15|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst7|DCD:inst31|comp_mov_r_cr:inst15|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst7|DCD:inst31|comp_mov_r_cr:inst15|lpm_compare:lpm_compare_component" with the following parameter:
     Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
     Info: Parameter "lpm_representation" = "UNSIGNED"
     Info: Parameter "lpm_type" = "LPM_COMPARE"
@@ -2848,17 +2941,6 @@ Info: Instantiated megafunction "CPU:inst7|IR:inst1|ir_dff:inst|lpm_ff:lpm_ff_co
 Info: Elaborating entity "cu_comp_3" for hierarchy "CPU:inst7|cu_comp_3:inst15"
 Info: Elaborating entity "cu_comp_2" for hierarchy "CPU:inst7|cu_comp_2:inst2"
 Info: Elaborating entity "cpu_op_reg" for hierarchy "CPU:inst7|cpu_op_reg:opA"
-Info: Elaborating entity "cu_comp_6" for hierarchy "CPU:inst7|cu_comp_6:inst21"
-Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|cu_comp_6:inst21|lpm_compare:lpm_compare_component"
-Info: Elaborated megafunction instantiation "CPU:inst7|cu_comp_6:inst21|lpm_compare:lpm_compare_component"
-Info: Instantiated megafunction "CPU:inst7|cu_comp_6:inst21|lpm_compare:lpm_compare_component" with the following parameter:
-    Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
-    Info: Parameter "lpm_representation" = "UNSIGNED"
-    Info: Parameter "lpm_type" = "LPM_COMPARE"
-    Info: Parameter "lpm_width" = "4"
-Info: Found 1 design units, including 1 entities, in source file db/cmpr_7fj.tdf
-    Info: Found entity 1: cmpr_7fj
-Info: Elaborating entity "cmpr_7fj" for hierarchy "CPU:inst7|cu_comp_6:inst21|lpm_compare:lpm_compare_component|cmpr_7fj:auto_generated"
 Info: Elaborating entity "cu_comp_4" for hierarchy "CPU:inst7|cu_comp_4:inst18"
 Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|cu_comp_4:inst18|lpm_compare:lpm_compare_component"
 Info: Elaborated megafunction instantiation "CPU:inst7|cu_comp_4:inst18|lpm_compare:lpm_compare_component"
@@ -2870,6 +2952,17 @@ Info: Instantiated megafunction "CPU:inst7|cu_comp_4:inst18|lpm_compare:lpm_comp
 Info: Found 1 design units, including 1 entities, in source file db/cmpr_2fj.tdf
     Info: Found entity 1: cmpr_2fj
 Info: Elaborating entity "cmpr_2fj" for hierarchy "CPU:inst7|cu_comp_4:inst18|lpm_compare:lpm_compare_component|cmpr_2fj:auto_generated"
+Info: Elaborating entity "cu_comp_6" for hierarchy "CPU:inst7|cu_comp_6:inst21"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|cu_comp_6:inst21|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst7|cu_comp_6:inst21|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst7|cu_comp_6:inst21|lpm_compare:lpm_compare_component" with the following parameter:
+    Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
+    Info: Parameter "lpm_representation" = "UNSIGNED"
+    Info: Parameter "lpm_type" = "LPM_COMPARE"
+    Info: Parameter "lpm_width" = "4"
+Info: Found 1 design units, including 1 entities, in source file db/cmpr_7fj.tdf
+    Info: Found entity 1: cmpr_7fj
+Info: Elaborating entity "cmpr_7fj" for hierarchy "CPU:inst7|cu_comp_6:inst21|lpm_compare:lpm_compare_component|cmpr_7fj:auto_generated"
 Info: Elaborating entity "Registers" for hierarchy "CPU:inst7|Registers:inst5"
 Info: Elaborating entity "lpm_reg_out_mux" for hierarchy "CPU:inst7|Registers:inst5|lpm_reg_out_mux:inst1"
 Info: Elaborating entity "lpm_mux" for hierarchy "CPU:inst7|Registers:inst5|lpm_reg_out_mux:inst1|lpm_mux:lpm_mux_component"
@@ -2901,10 +2994,18 @@ Info: Elaborated megafunction instantiation "CPU:inst7|Registers:inst5|lpm_reg_o
 Info: Instantiated megafunction "CPU:inst7|Registers:inst5|lpm_reg_out_bustri:inst3|lpm_bustri:lpm_bustri_component" with the following parameter:
     Info: Parameter "lpm_type" = "LPM_BUSTRI"
     Info: Parameter "lpm_width" = "4"
-Info: Elaborating entity "cu_comp_9" for hierarchy "CPU:inst7|cu_comp_9:inst19"
-Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|cu_comp_9:inst19|lpm_compare:lpm_compare_component"
-Info: Elaborated megafunction instantiation "CPU:inst7|cu_comp_9:inst19|lpm_compare:lpm_compare_component"
-Info: Instantiated megafunction "CPU:inst7|cu_comp_9:inst19|lpm_compare:lpm_compare_component" with the following parameter:
+Info: Elaborating entity "cu_comp_A" for hierarchy "CPU:inst7|cu_comp_A:inst36"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|cu_comp_A:inst36|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst7|cu_comp_A:inst36|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst7|cu_comp_A:inst36|lpm_compare:lpm_compare_component" with the following parameter:
+    Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
+    Info: Parameter "lpm_representation" = "UNSIGNED"
+    Info: Parameter "lpm_type" = "LPM_COMPARE"
+    Info: Parameter "lpm_width" = "4"
+Info: Elaborating entity "cu_comp_C" for hierarchy "CPU:inst7|cu_comp_C:inst37"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|cu_comp_C:inst37|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst7|cu_comp_C:inst37|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst7|cu_comp_C:inst37|lpm_compare:lpm_compare_component" with the following parameter:
     Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
     Info: Parameter "lpm_representation" = "UNSIGNED"
     Info: Parameter "lpm_type" = "LPM_COMPARE"
@@ -2913,6 +3014,14 @@ Info: Elaborating entity "cu_comp_7" for hierarchy "CPU:inst7|cu_comp_7:inst22"
 Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|cu_comp_7:inst22|lpm_compare:lpm_compare_component"
 Info: Elaborated megafunction instantiation "CPU:inst7|cu_comp_7:inst22|lpm_compare:lpm_compare_component"
 Info: Instantiated megafunction "CPU:inst7|cu_comp_7:inst22|lpm_compare:lpm_compare_component" with the following parameter:
+    Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
+    Info: Parameter "lpm_representation" = "UNSIGNED"
+    Info: Parameter "lpm_type" = "LPM_COMPARE"
+    Info: Parameter "lpm_width" = "4"
+Info: Elaborating entity "cu_comp_9" for hierarchy "CPU:inst7|cu_comp_9:inst19"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst7|cu_comp_9:inst19|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst7|cu_comp_9:inst19|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst7|cu_comp_9:inst19|lpm_compare:lpm_compare_component" with the following parameter:
     Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
     Info: Parameter "lpm_representation" = "UNSIGNED"
     Info: Parameter "lpm_type" = "LPM_COMPARE"
@@ -3076,6 +3185,7 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted tri-state buffer "CPU:inst7|Registers:inst5|lpm_reg_out_bustri:inst3|lpm_bustri:lpm_bustri_component|dout[3]" feeding internal logic into a wire
     Warning: Converted tri-state buffer "CPU:inst7|Registers:inst5|lpm_reg_out_bustri:inst3|lpm_bustri:lpm_bustri_component|dout[2]" feeding internal logic into a wire
     Warning: Converted tri-state buffer "CPU:inst7|Registers:inst5|lpm_reg_out_bustri:inst3|lpm_bustri:lpm_bustri_component|dout[1]" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "CPU:inst7|Registers:inst5|lpm_reg_out_bustri:inst3|lpm_bustri:lpm_bustri_component|dout[0]" feeding internal logic into a wire
 Warning: Timing-Driven Synthesis is skipped because the Classic Timing Analyzer is turned on
 Warning: Removed fan-outs from the following always-disabled I/O buffers
     Warning: Removed fan-out from the always-disabled I/O buffer "pc_bustri:inst5|lpm_bustri:lpm_bustri_component|dout[15]" to the node "bus[15]"
@@ -3132,15 +3242,15 @@ Warning: Output pins are stuck at VCC or GND
     Warning (13410): Pin "mem_enab" is stuck at VCC
 Info: 1 registers lost all their fanouts during netlist optimizations. The first 1 are displayed below.
     Info: Register "CPU:inst7|Stack:inst4|stack_latch_counter:inst1|lpm_counter:lpm_counter_component|cntr_ndi:auto_generated|counter_reg_bit[0]" lost all its fanouts during netlist optimizations.
-Info: Implemented 275 device resources after synthesis - the final resource count might be different
+Info: Implemented 620 device resources after synthesis - the final resource count might be different
     Info: Implemented 1 input pins
     Info: Implemented 111 output pins
-    Info: Implemented 115 logic cells
+    Info: Implemented 460 logic cells
     Info: Implemented 48 RAM segments
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 82 warnings
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 83 warnings
     Info: Peak virtual memory: 239 megabytes
-    Info: Processing ended: Sun May 13 15:06:12 2018
-    Info: Elapsed time: 00:00:16
+    Info: Processing ended: Sun May 13 17:24:32 2018
+    Info: Elapsed time: 00:00:13
     Info: Total CPU time (on all processors): 00:00:13
 
 
