@@ -16577,26 +16577,6 @@ CPU:inst7|rom_ram_out_mux:inst33|lpm_mux:lpm_mux_component|mux_39e:auto_generate
 
 # end
 # entity
-DCD
-# storage
-db|Computer.(124).cnf
-db|Computer.(124).cnf
-# case_insensitive
-# source_file
-dcd.bdf
-9beee05eab27487f34094ee6d6270b7
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-CPU:inst7|DCD:inst24
-}
-# macro_sequence
-
-# end
-# entity
 altsyncram_tho1
 # storage
 db|Computer.(122).cnf
@@ -17493,26 +17473,6 @@ Memory:inst
 
 # end
 # entity
-Computer
-# storage
-db|Computer.(0).cnf
-db|Computer.(0).cnf
-# case_insensitive
-# source_file
-computer.bdf
-e66243efabda3b927539c16d03c9543
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-|
-}
-# macro_sequence
-
-# end
-# entity
 CPU
 # storage
 db|Computer.(119).cnf
@@ -17628,6 +17588,46 @@ CPU:inst7|cu_comp_7:inst22
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
 a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+Computer
+# storage
+db|Computer.(0).cnf
+db|Computer.(0).cnf
+# case_insensitive
+# source_file
+computer.bdf
+6a33fc694673a8cd807624926fdd49ba
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+DCD
+# storage
+db|Computer.(124).cnf
+db|Computer.(124).cnf
+# case_insensitive
+# source_file
+dcd.bdf
+f4febc4cfcafc5f4f26e8c44c295e5a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+CPU:inst7|DCD:inst24
+}
 # macro_sequence
 
 # end

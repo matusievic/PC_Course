@@ -20,9 +20,9 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 240 496)
+	(rect 16 16 240 560)
 	(text "DCD" (rect 5 0 29 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 464 25 476)(font "Arial" ))
+	(text "inst" (rect 8 528 25 540)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -212,7 +212,35 @@ applicable agreement for further details.
 		(text "reg_C_opB" (rect 140 427 203 441)(font "Arial" (font_size 8)))
 		(line (pt 224 432)(pt 208 432)(line_width 1))
 	)
+	(port
+		(pt 224 448)
+		(output)
+		(text "wr_regA" (rect 0 0 51 14)(font "Arial" (font_size 8)))
+		(text "wr_regA" (rect 152 443 203 457)(font "Arial" (font_size 8)))
+		(line (pt 224 448)(pt 208 448)(line_width 1))
+	)
+	(port
+		(pt 224 464)
+		(output)
+		(text "wr_regB" (rect 0 0 50 14)(font "Arial" (font_size 8)))
+		(text "wr_regB" (rect 153 459 203 473)(font "Arial" (font_size 8)))
+		(line (pt 224 464)(pt 208 464)(line_width 1))
+	)
+	(port
+		(pt 224 480)
+		(output)
+		(text "wr_memA" (rect 0 0 59 14)(font "Arial" (font_size 8)))
+		(text "wr_memA" (rect 144 475 203 489)(font "Arial" (font_size 8)))
+		(line (pt 224 480)(pt 208 480)(line_width 1))
+	)
+	(port
+		(pt 224 496)
+		(output)
+		(text "wr_regCB" (rect 0 0 59 14)(font "Arial" (font_size 8)))
+		(text "wr_regCB" (rect 144 491 203 505)(font "Arial" (font_size 8)))
+		(line (pt 224 496)(pt 208 496)(line_width 1))
+	)
 	(drawing
-		(rectangle (rect 16 16 208 464)(line_width 1))
+		(rectangle (rect 16 16 208 528)(line_width 1))
 	)
 )

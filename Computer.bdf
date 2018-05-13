@@ -744,3 +744,4 @@ applicable agreement for further details.
 (junction (pt 936 128))
 (junction (pt 856 264))
 (junction (pt 888 352))
+(text "8" (rect 400 488 407 502)(font "Arial" (font_size 8)))
