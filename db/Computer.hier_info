@@ -1,7 +1,9 @@
 |Computer
-zzz <= Memory:inst2.zzz
-clock => Memory:inst2.clock
+all_ROM <= Memory:inst.allow_ROM
+clock => Memory:inst.clock
 clock => CPU:inst7.clock
+all_RAM <= Memory:inst.allow_RAM
+mem_enab <= mem_en.DB_MAX_OUTPUT_PORT_TYPE
 adr[0] <= CPU:inst7.address[0]
 adr[1] <= CPU:inst7.address[1]
 adr[2] <= CPU:inst7.address[2]
@@ -30,6 +32,22 @@ bus[12] <= gdfx_temp0[12].DB_MAX_OUTPUT_PORT_TYPE
 bus[13] <= gdfx_temp0[13].DB_MAX_OUTPUT_PORT_TYPE
 bus[14] <= gdfx_temp0[14].DB_MAX_OUTPUT_PORT_TYPE
 bus[15] <= gdfx_temp0[15].DB_MAX_OUTPUT_PORT_TYPE
+ram_out[0] <= Memory:inst.ram_out[0]
+ram_out[1] <= Memory:inst.ram_out[1]
+ram_out[2] <= Memory:inst.ram_out[2]
+ram_out[3] <= Memory:inst.ram_out[3]
+ram_out[4] <= Memory:inst.ram_out[4]
+ram_out[5] <= Memory:inst.ram_out[5]
+ram_out[6] <= Memory:inst.ram_out[6]
+ram_out[7] <= Memory:inst.ram_out[7]
+ram_out[8] <= Memory:inst.ram_out[8]
+ram_out[9] <= Memory:inst.ram_out[9]
+ram_out[10] <= Memory:inst.ram_out[10]
+ram_out[11] <= Memory:inst.ram_out[11]
+ram_out[12] <= Memory:inst.ram_out[12]
+ram_out[13] <= Memory:inst.ram_out[13]
+ram_out[14] <= Memory:inst.ram_out[14]
+ram_out[15] <= Memory:inst.ram_out[15]
 reg[0] <= CPU:inst7.comma[0]
 reg[1] <= CPU:inst7.comma[1]
 reg[2] <= CPU:inst7.comma[2]
@@ -96,14 +114,15 @@ regB[14] <= CPU:inst7.regB_out[14]
 regB[15] <= CPU:inst7.regB_out[15]
 
 
-|Computer|Memory:inst2
-zzz <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+|Computer|Memory:inst
+allow_ROM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
 ROM/RAM => inst1.IN0
-ROM/RAM => BUSMUX:inst5.sel
 ROM/RAM => inst2.IN1
+ROM/RAM => BUSMUX:inst5.sel
 enable => inst3.IN1
-enable => mem_bustri:inst6.enabledt
 enable => inst2.IN0
+enable => mem_bustri:inst6.enabledt
+allow_RAM <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 out_data[0] <= mem_bustri:inst6.tridata[0]
 out_data[1] <= mem_bustri:inst6.tridata[1]
 out_data[2] <= mem_bustri:inst6.tridata[2]
@@ -164,9 +183,25 @@ in_data[12] => ram_lpm_ram:RAM.data[12]
 in_data[13] => ram_lpm_ram:RAM.data[13]
 in_data[14] => ram_lpm_ram:RAM.data[14]
 in_data[15] => ram_lpm_ram:RAM.data[15]
+ram_out[0] <= ram_lpm_ram:RAM.q[0]
+ram_out[1] <= ram_lpm_ram:RAM.q[1]
+ram_out[2] <= ram_lpm_ram:RAM.q[2]
+ram_out[3] <= ram_lpm_ram:RAM.q[3]
+ram_out[4] <= ram_lpm_ram:RAM.q[4]
+ram_out[5] <= ram_lpm_ram:RAM.q[5]
+ram_out[6] <= ram_lpm_ram:RAM.q[6]
+ram_out[7] <= ram_lpm_ram:RAM.q[7]
+ram_out[8] <= ram_lpm_ram:RAM.q[8]
+ram_out[9] <= ram_lpm_ram:RAM.q[9]
+ram_out[10] <= ram_lpm_ram:RAM.q[10]
+ram_out[11] <= ram_lpm_ram:RAM.q[11]
+ram_out[12] <= ram_lpm_ram:RAM.q[12]
+ram_out[13] <= ram_lpm_ram:RAM.q[13]
+ram_out[14] <= ram_lpm_ram:RAM.q[14]
+ram_out[15] <= ram_lpm_ram:RAM.q[15]
 
 
-|Computer|Memory:inst2|mem_bustri:inst6
+|Computer|Memory:inst|mem_bustri:inst6
 data[0] => lpm_bustri:lpm_bustri_component.data[0]
 data[1] => lpm_bustri:lpm_bustri_component.data[1]
 data[2] => lpm_bustri:lpm_bustri_component.data[2]
@@ -202,7 +237,7 @@ tridata[14] <> lpm_bustri:lpm_bustri_component.tridata[14]
 tridata[15] <> lpm_bustri:lpm_bustri_component.tridata[15]
 
 
-|Computer|Memory:inst2|mem_bustri:inst6|lpm_bustri:lpm_bustri_component
+|Computer|Memory:inst|mem_bustri:inst6|lpm_bustri:lpm_bustri_component
 tridata[0] <> dout[0]
 tridata[1] <> dout[1]
 tridata[2] <> dout[2]
@@ -270,7 +305,7 @@ result[14] <= result[14]~1.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result[15]~0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Computer|Memory:inst2|BUSMUX:inst5
+|Computer|Memory:inst|BUSMUX:inst5
 dataa[0] => lpm_mux:$00000.data[0][0]
 dataa[1] => lpm_mux:$00000.data[0][1]
 dataa[2] => lpm_mux:$00000.data[0][2]
@@ -322,7 +357,7 @@ result[14] <= lpm_mux:$00000.result[14]
 result[15] <= lpm_mux:$00000.result[15]
 
 
-|Computer|Memory:inst2|BUSMUX:inst5|lpm_mux:$00000
+|Computer|Memory:inst|BUSMUX:inst5|lpm_mux:$00000
 data[0][0] => mux_msc:auto_generated.data[0]
 data[0][1] => mux_msc:auto_generated.data[1]
 data[0][2] => mux_msc:auto_generated.data[2]
@@ -377,7 +412,7 @@ result[14] <= mux_msc:auto_generated.result[14]
 result[15] <= mux_msc:auto_generated.result[15]
 
 
-|Computer|Memory:inst2|BUSMUX:inst5|lpm_mux:$00000|mux_msc:auto_generated
+|Computer|Memory:inst|BUSMUX:inst5|lpm_mux:$00000|mux_msc:auto_generated
 data[0] => l1_w0_n0_mux_dataout~1.IN1
 data[1] => l1_w1_n0_mux_dataout~1.IN1
 data[2] => l1_w2_n0_mux_dataout~1.IN1
@@ -460,7 +495,7 @@ sel[0] => l1_w9_n0_mux_dataout~0.IN0
 sel[0] => _~15.IN0
 
 
-|Computer|Memory:inst2|BUSMUX:inst
+|Computer|Memory:inst|BUSMUX:inst
 dataa[0] => lpm_mux:$00000.data[0][0]
 dataa[1] => lpm_mux:$00000.data[0][1]
 dataa[2] => lpm_mux:$00000.data[0][2]
@@ -512,7 +547,7 @@ result[14] <= lpm_mux:$00000.result[14]
 result[15] <= lpm_mux:$00000.result[15]
 
 
-|Computer|Memory:inst2|BUSMUX:inst|lpm_mux:$00000
+|Computer|Memory:inst|BUSMUX:inst|lpm_mux:$00000
 data[0][0] => mux_msc:auto_generated.data[0]
 data[0][1] => mux_msc:auto_generated.data[1]
 data[0][2] => mux_msc:auto_generated.data[2]
@@ -567,7 +602,7 @@ result[14] <= mux_msc:auto_generated.result[14]
 result[15] <= mux_msc:auto_generated.result[15]
 
 
-|Computer|Memory:inst2|BUSMUX:inst|lpm_mux:$00000|mux_msc:auto_generated
+|Computer|Memory:inst|BUSMUX:inst|lpm_mux:$00000|mux_msc:auto_generated
 data[0] => l1_w0_n0_mux_dataout~1.IN1
 data[1] => l1_w1_n0_mux_dataout~1.IN1
 data[2] => l1_w2_n0_mux_dataout~1.IN1
@@ -650,13 +685,13 @@ sel[0] => l1_w9_n0_mux_dataout~0.IN0
 sel[0] => _~15.IN0
 
 
-|Computer|Memory:inst2|mem_rom_counter:inst4
+|Computer|Memory:inst|mem_rom_counter:inst4
 clk_en => lpm_counter:lpm_counter_component.clk_en
 clock => lpm_counter:lpm_counter_component.clock
 q[0] <= lpm_counter:lpm_counter_component.q[0]
 
 
-|Computer|Memory:inst2|mem_rom_counter:inst4|lpm_counter:lpm_counter_component
+|Computer|Memory:inst|mem_rom_counter:inst4|lpm_counter:lpm_counter_component
 clock => cntr_cdi:auto_generated.clock
 clk_en => cntr_cdi:auto_generated.clk_en
 cnt_en => ~NO_FANOUT~
@@ -691,13 +726,13 @@ eq[14] <= <GND>
 eq[15] <= <GND>
 
 
-|Computer|Memory:inst2|mem_rom_counter:inst4|lpm_counter:lpm_counter_component|cntr_cdi:auto_generated
+|Computer|Memory:inst|mem_rom_counter:inst4|lpm_counter:lpm_counter_component|cntr_cdi:auto_generated
 clk_en => counter_reg_bit[0]~2.IN0
 clock => counter_reg_bit[0].CLK
 q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Computer|Memory:inst2|rom_lpm_rom:ROM
+|Computer|Memory:inst|rom_lpm_rom:ROM
 address[0] => altsyncram:altsyncram_component.address_a[0]
 address[1] => altsyncram:altsyncram_component.address_a[1]
 address[2] => altsyncram:altsyncram_component.address_a[2]
@@ -746,7 +781,7 @@ q[30] <= altsyncram:altsyncram_component.q_a[30]
 q[31] <= altsyncram:altsyncram_component.q_a[31]
 
 
-|Computer|Memory:inst2|rom_lpm_rom:ROM|altsyncram:altsyncram_component
+|Computer|Memory:inst|rom_lpm_rom:ROM|altsyncram:altsyncram_component
 wren_a => ~NO_FANOUT~
 rden_a => ~NO_FANOUT~
 wren_b => ~NO_FANOUT~
@@ -847,7 +882,7 @@ eccstatus[1] <= <GND>
 eccstatus[2] <= <GND>
 
 
-|Computer|Memory:inst2|rom_lpm_rom:ROM|altsyncram:altsyncram_component|altsyncram_p9g1:auto_generated
+|Computer|Memory:inst|rom_lpm_rom:ROM|altsyncram:altsyncram_component|altsyncram_p9g1:auto_generated
 address_a[0] => ram_block1a0.PORTAADDR
 address_a[0] => ram_block1a1.PORTAADDR
 address_a[0] => ram_block1a2.PORTAADDR
@@ -1330,7 +1365,7 @@ q_a[30] <= ram_block1a30.PORTADATAOUT
 q_a[31] <= ram_block1a31.PORTADATAOUT
 
 
-|Computer|Memory:inst2|ram_lpm_ram:RAM
+|Computer|Memory:inst|ram_lpm_ram:RAM
 address[0] => altsyncram:altsyncram_component.address_a[0]
 address[1] => altsyncram:altsyncram_component.address_a[1]
 address[2] => altsyncram:altsyncram_component.address_a[2]
@@ -1380,7 +1415,7 @@ q[14] <= altsyncram:altsyncram_component.q_a[14]
 q[15] <= altsyncram:altsyncram_component.q_a[15]
 
 
-|Computer|Memory:inst2|ram_lpm_ram:RAM|altsyncram:altsyncram_component
+|Computer|Memory:inst|ram_lpm_ram:RAM|altsyncram:altsyncram_component
 wren_a => altsyncram_tho1:auto_generated.wren_a
 rden_a => ~NO_FANOUT~
 wren_b => ~NO_FANOUT~
@@ -1449,7 +1484,7 @@ eccstatus[1] <= <GND>
 eccstatus[2] <= <GND>
 
 
-|Computer|Memory:inst2|ram_lpm_ram:RAM|altsyncram:altsyncram_component|altsyncram_tho1:auto_generated
+|Computer|Memory:inst|ram_lpm_ram:RAM|altsyncram:altsyncram_component|altsyncram_tho1:auto_generated
 address_a[0] => ram_block1a0.PORTAADDR
 address_a[0] => ram_block1a1.PORTAADDR
 address_a[0] => ram_block1a2.PORTAADDR
@@ -4816,44 +4851,52 @@ q[14] <= dffs[14].DB_MAX_OUTPUT_PORT_TYPE
 q[15] <= dffs[15].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Computer|CPU:inst7|cu_comp_5:inst19
+|Computer|CPU:inst7|cu_comp_6:inst21
 dataa[0] => lpm_compare:lpm_compare_component.dataa[0]
 dataa[1] => lpm_compare:lpm_compare_component.dataa[1]
 dataa[2] => lpm_compare:lpm_compare_component.dataa[2]
 dataa[3] => lpm_compare:lpm_compare_component.dataa[3]
-AeB <= lpm_compare:lpm_compare_component.AeB
+AleB <= lpm_compare:lpm_compare_component.AleB
 
 
-|Computer|CPU:inst7|cu_comp_5:inst19|lpm_compare:lpm_compare_component
-dataa[0] => cmpr_rbj:auto_generated.dataa[0]
-dataa[1] => cmpr_rbj:auto_generated.dataa[1]
-dataa[2] => cmpr_rbj:auto_generated.dataa[2]
-dataa[3] => cmpr_rbj:auto_generated.dataa[3]
-datab[0] => cmpr_rbj:auto_generated.datab[0]
-datab[1] => cmpr_rbj:auto_generated.datab[1]
-datab[2] => cmpr_rbj:auto_generated.datab[2]
-datab[3] => cmpr_rbj:auto_generated.datab[3]
+|Computer|CPU:inst7|cu_comp_6:inst21|lpm_compare:lpm_compare_component
+dataa[0] => cmpr_7fj:auto_generated.dataa[0]
+dataa[1] => cmpr_7fj:auto_generated.dataa[1]
+dataa[2] => cmpr_7fj:auto_generated.dataa[2]
+dataa[3] => cmpr_7fj:auto_generated.dataa[3]
+datab[0] => cmpr_7fj:auto_generated.datab[0]
+datab[1] => cmpr_7fj:auto_generated.datab[1]
+datab[2] => cmpr_7fj:auto_generated.datab[2]
+datab[3] => cmpr_7fj:auto_generated.datab[3]
 clock => ~NO_FANOUT~
 aclr => ~NO_FANOUT~
 clken => ~NO_FANOUT~
 alb <= <GND>
-aeb <= cmpr_rbj:auto_generated.aeb
+aeb <= <GND>
 agb <= <GND>
-aleb <= <GND>
+aleb <= cmpr_7fj:auto_generated.aleb
 aneb <= <GND>
 ageb <= <GND>
 
 
-|Computer|CPU:inst7|cu_comp_5:inst19|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated
-aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
-dataa[0] => data_wire[0]~2.IN0
-dataa[1] => data_wire[0]~3.IN0
-dataa[2] => data_wire[1]~0.IN0
-dataa[3] => data_wire[1]~1.IN0
-datab[0] => data_wire[0]~2.IN1
-datab[1] => data_wire[0]~3.IN1
-datab[2] => data_wire[1]~0.IN1
-datab[3] => data_wire[1]~1.IN1
+|Computer|CPU:inst7|cu_comp_6:inst21|lpm_compare:lpm_compare_component|cmpr_7fj:auto_generated
+aleb <= aleb~0.DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => _~3.IN0
+dataa[0] => op_1.IN7
+dataa[1] => _~2.IN0
+dataa[1] => op_1.IN5
+dataa[2] => _~1.IN0
+dataa[2] => op_1.IN3
+dataa[3] => _~0.IN0
+dataa[3] => op_1.IN1
+datab[0] => _~3.IN1
+datab[0] => op_1.IN8
+datab[1] => _~2.IN1
+datab[1] => op_1.IN6
+datab[2] => _~1.IN1
+datab[2] => op_1.IN4
+datab[3] => _~0.IN1
+datab[3] => op_1.IN2
 
 
 |Computer|CPU:inst7|cu_comp_4:inst18
@@ -4861,39 +4904,47 @@ dataa[0] => lpm_compare:lpm_compare_component.dataa[0]
 dataa[1] => lpm_compare:lpm_compare_component.dataa[1]
 dataa[2] => lpm_compare:lpm_compare_component.dataa[2]
 dataa[3] => lpm_compare:lpm_compare_component.dataa[3]
-AeB <= lpm_compare:lpm_compare_component.AeB
+AgeB <= lpm_compare:lpm_compare_component.AgeB
 
 
 |Computer|CPU:inst7|cu_comp_4:inst18|lpm_compare:lpm_compare_component
-dataa[0] => cmpr_rbj:auto_generated.dataa[0]
-dataa[1] => cmpr_rbj:auto_generated.dataa[1]
-dataa[2] => cmpr_rbj:auto_generated.dataa[2]
-dataa[3] => cmpr_rbj:auto_generated.dataa[3]
-datab[0] => cmpr_rbj:auto_generated.datab[0]
-datab[1] => cmpr_rbj:auto_generated.datab[1]
-datab[2] => cmpr_rbj:auto_generated.datab[2]
-datab[3] => cmpr_rbj:auto_generated.datab[3]
+dataa[0] => cmpr_2fj:auto_generated.dataa[0]
+dataa[1] => cmpr_2fj:auto_generated.dataa[1]
+dataa[2] => cmpr_2fj:auto_generated.dataa[2]
+dataa[3] => cmpr_2fj:auto_generated.dataa[3]
+datab[0] => cmpr_2fj:auto_generated.datab[0]
+datab[1] => cmpr_2fj:auto_generated.datab[1]
+datab[2] => cmpr_2fj:auto_generated.datab[2]
+datab[3] => cmpr_2fj:auto_generated.datab[3]
 clock => ~NO_FANOUT~
 aclr => ~NO_FANOUT~
 clken => ~NO_FANOUT~
 alb <= <GND>
-aeb <= cmpr_rbj:auto_generated.aeb
+aeb <= <GND>
 agb <= <GND>
 aleb <= <GND>
 aneb <= <GND>
-ageb <= <GND>
+ageb <= cmpr_2fj:auto_generated.ageb
 
 
-|Computer|CPU:inst7|cu_comp_4:inst18|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated
-aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
-dataa[0] => data_wire[0]~2.IN0
-dataa[1] => data_wire[0]~3.IN0
-dataa[2] => data_wire[1]~0.IN0
-dataa[3] => data_wire[1]~1.IN0
-datab[0] => data_wire[0]~2.IN1
-datab[1] => data_wire[0]~3.IN1
-datab[2] => data_wire[1]~0.IN1
-datab[3] => data_wire[1]~1.IN1
+|Computer|CPU:inst7|cu_comp_4:inst18|lpm_compare:lpm_compare_component|cmpr_2fj:auto_generated
+ageb <= ageb~0.DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => _~3.IN0
+dataa[0] => op_1.IN8
+dataa[1] => _~2.IN0
+dataa[1] => op_1.IN6
+dataa[2] => _~1.IN0
+dataa[2] => op_1.IN4
+dataa[3] => _~0.IN0
+dataa[3] => op_1.IN2
+datab[0] => _~3.IN1
+datab[0] => op_1.IN7
+datab[1] => _~2.IN1
+datab[1] => op_1.IN5
+datab[2] => _~1.IN1
+datab[2] => op_1.IN3
+datab[3] => _~0.IN1
+datab[3] => op_1.IN1
 
 
 |Computer|CPU:inst7|BUSMUX:inst29
@@ -8266,84 +8317,100 @@ result[2] <= result[2]~1.DB_MAX_OUTPUT_PORT_TYPE
 result[3] <= result[3]~0.DB_MAX_OUTPUT_PORT_TYPE
 
 
+|Computer|CPU:inst7|cu_comp_9:inst19
+dataa[0] => lpm_compare:lpm_compare_component.dataa[0]
+dataa[1] => lpm_compare:lpm_compare_component.dataa[1]
+dataa[2] => lpm_compare:lpm_compare_component.dataa[2]
+dataa[3] => lpm_compare:lpm_compare_component.dataa[3]
+AleB <= lpm_compare:lpm_compare_component.AleB
+
+
+|Computer|CPU:inst7|cu_comp_9:inst19|lpm_compare:lpm_compare_component
+dataa[0] => cmpr_7fj:auto_generated.dataa[0]
+dataa[1] => cmpr_7fj:auto_generated.dataa[1]
+dataa[2] => cmpr_7fj:auto_generated.dataa[2]
+dataa[3] => cmpr_7fj:auto_generated.dataa[3]
+datab[0] => cmpr_7fj:auto_generated.datab[0]
+datab[1] => cmpr_7fj:auto_generated.datab[1]
+datab[2] => cmpr_7fj:auto_generated.datab[2]
+datab[3] => cmpr_7fj:auto_generated.datab[3]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+alb <= <GND>
+aeb <= <GND>
+agb <= <GND>
+aleb <= cmpr_7fj:auto_generated.aleb
+aneb <= <GND>
+ageb <= <GND>
+
+
+|Computer|CPU:inst7|cu_comp_9:inst19|lpm_compare:lpm_compare_component|cmpr_7fj:auto_generated
+aleb <= aleb~0.DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => _~3.IN0
+dataa[0] => op_1.IN7
+dataa[1] => _~2.IN0
+dataa[1] => op_1.IN5
+dataa[2] => _~1.IN0
+dataa[2] => op_1.IN3
+dataa[3] => _~0.IN0
+dataa[3] => op_1.IN1
+datab[0] => _~3.IN1
+datab[0] => op_1.IN8
+datab[1] => _~2.IN1
+datab[1] => op_1.IN6
+datab[2] => _~1.IN1
+datab[2] => op_1.IN4
+datab[3] => _~0.IN1
+datab[3] => op_1.IN2
+
+
 |Computer|CPU:inst7|cu_comp_7:inst22
 dataa[0] => lpm_compare:lpm_compare_component.dataa[0]
 dataa[1] => lpm_compare:lpm_compare_component.dataa[1]
 dataa[2] => lpm_compare:lpm_compare_component.dataa[2]
 dataa[3] => lpm_compare:lpm_compare_component.dataa[3]
-AeB <= lpm_compare:lpm_compare_component.AeB
+AgeB <= lpm_compare:lpm_compare_component.AgeB
 
 
 |Computer|CPU:inst7|cu_comp_7:inst22|lpm_compare:lpm_compare_component
-dataa[0] => cmpr_rbj:auto_generated.dataa[0]
-dataa[1] => cmpr_rbj:auto_generated.dataa[1]
-dataa[2] => cmpr_rbj:auto_generated.dataa[2]
-dataa[3] => cmpr_rbj:auto_generated.dataa[3]
-datab[0] => cmpr_rbj:auto_generated.datab[0]
-datab[1] => cmpr_rbj:auto_generated.datab[1]
-datab[2] => cmpr_rbj:auto_generated.datab[2]
-datab[3] => cmpr_rbj:auto_generated.datab[3]
+dataa[0] => cmpr_2fj:auto_generated.dataa[0]
+dataa[1] => cmpr_2fj:auto_generated.dataa[1]
+dataa[2] => cmpr_2fj:auto_generated.dataa[2]
+dataa[3] => cmpr_2fj:auto_generated.dataa[3]
+datab[0] => cmpr_2fj:auto_generated.datab[0]
+datab[1] => cmpr_2fj:auto_generated.datab[1]
+datab[2] => cmpr_2fj:auto_generated.datab[2]
+datab[3] => cmpr_2fj:auto_generated.datab[3]
 clock => ~NO_FANOUT~
 aclr => ~NO_FANOUT~
 clken => ~NO_FANOUT~
 alb <= <GND>
-aeb <= cmpr_rbj:auto_generated.aeb
+aeb <= <GND>
 agb <= <GND>
 aleb <= <GND>
 aneb <= <GND>
-ageb <= <GND>
+ageb <= cmpr_2fj:auto_generated.ageb
 
 
-|Computer|CPU:inst7|cu_comp_7:inst22|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated
-aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
-dataa[0] => data_wire[0]~2.IN0
-dataa[1] => data_wire[0]~3.IN0
-dataa[2] => data_wire[1]~0.IN0
-dataa[3] => data_wire[1]~1.IN0
-datab[0] => data_wire[0]~2.IN1
-datab[1] => data_wire[0]~3.IN1
-datab[2] => data_wire[1]~0.IN1
-datab[3] => data_wire[1]~1.IN1
-
-
-|Computer|CPU:inst7|cu_comp_6:inst21
-dataa[0] => lpm_compare:lpm_compare_component.dataa[0]
-dataa[1] => lpm_compare:lpm_compare_component.dataa[1]
-dataa[2] => lpm_compare:lpm_compare_component.dataa[2]
-dataa[3] => lpm_compare:lpm_compare_component.dataa[3]
-AeB <= lpm_compare:lpm_compare_component.AeB
-
-
-|Computer|CPU:inst7|cu_comp_6:inst21|lpm_compare:lpm_compare_component
-dataa[0] => cmpr_rbj:auto_generated.dataa[0]
-dataa[1] => cmpr_rbj:auto_generated.dataa[1]
-dataa[2] => cmpr_rbj:auto_generated.dataa[2]
-dataa[3] => cmpr_rbj:auto_generated.dataa[3]
-datab[0] => cmpr_rbj:auto_generated.datab[0]
-datab[1] => cmpr_rbj:auto_generated.datab[1]
-datab[2] => cmpr_rbj:auto_generated.datab[2]
-datab[3] => cmpr_rbj:auto_generated.datab[3]
-clock => ~NO_FANOUT~
-aclr => ~NO_FANOUT~
-clken => ~NO_FANOUT~
-alb <= <GND>
-aeb <= cmpr_rbj:auto_generated.aeb
-agb <= <GND>
-aleb <= <GND>
-aneb <= <GND>
-ageb <= <GND>
-
-
-|Computer|CPU:inst7|cu_comp_6:inst21|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated
-aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
-dataa[0] => data_wire[0]~2.IN0
-dataa[1] => data_wire[0]~3.IN0
-dataa[2] => data_wire[1]~0.IN0
-dataa[3] => data_wire[1]~1.IN0
-datab[0] => data_wire[0]~2.IN1
-datab[1] => data_wire[0]~3.IN1
-datab[2] => data_wire[1]~0.IN1
-datab[3] => data_wire[1]~1.IN1
+|Computer|CPU:inst7|cu_comp_7:inst22|lpm_compare:lpm_compare_component|cmpr_2fj:auto_generated
+ageb <= ageb~0.DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => _~3.IN0
+dataa[0] => op_1.IN8
+dataa[1] => _~2.IN0
+dataa[1] => op_1.IN6
+dataa[2] => _~1.IN0
+dataa[2] => op_1.IN4
+dataa[3] => _~0.IN0
+dataa[3] => op_1.IN2
+datab[0] => _~3.IN1
+datab[0] => op_1.IN7
+datab[1] => _~2.IN1
+datab[1] => op_1.IN5
+datab[2] => _~1.IN1
+datab[2] => op_1.IN3
+datab[3] => _~0.IN1
+datab[3] => op_1.IN1
 
 
 |Computer|CPU:inst7|BUSMUX:inst27

@@ -43,7 +43,7 @@ ENTITY cu_comp_7 IS
 	PORT
 	(
 		dataa		: IN STD_LOGIC_VECTOR (3 DOWNTO 0);
-		AeB		: OUT STD_LOGIC 
+		AgeB		: OUT STD_LOGIC 
 	);
 END cu_comp_7;
 
@@ -66,14 +66,14 @@ ARCHITECTURE SYN OF cu_comp_7 IS
 	PORT (
 			dataa	: IN STD_LOGIC_VECTOR (3 DOWNTO 0);
 			datab	: IN STD_LOGIC_VECTOR (3 DOWNTO 0);
-			AeB	: OUT STD_LOGIC 
+			AgeB	: OUT STD_LOGIC 
 	);
 	END COMPONENT;
 
 BEGIN
 	sub_wire1_bv(3 DOWNTO 0) <= "0111";
 	sub_wire1    <= To_stdlogicvector(sub_wire1_bv);
-	AeB    <= sub_wire0;
+	AgeB    <= sub_wire0;
 
 	lpm_compare_component : lpm_compare
 	GENERIC MAP (
@@ -85,7 +85,7 @@ BEGIN
 	PORT MAP (
 		dataa => dataa,
 		datab => sub_wire1,
-		AeB => sub_wire0
+		AgeB => sub_wire0
 	);
 
 
@@ -95,8 +95,8 @@ END SYN;
 -- ============================================================
 -- CNX file retrieval info
 -- ============================================================
--- Retrieval info: PRIVATE: AeqB NUMERIC "1"
--- Retrieval info: PRIVATE: AgeB NUMERIC "0"
+-- Retrieval info: PRIVATE: AeqB NUMERIC "0"
+-- Retrieval info: PRIVATE: AgeB NUMERIC "1"
 -- Retrieval info: PRIVATE: AgtB NUMERIC "0"
 -- Retrieval info: PRIVATE: AleB NUMERIC "0"
 -- Retrieval info: PRIVATE: AltB NUMERIC "0"
@@ -116,9 +116,9 @@ END SYN;
 -- Retrieval info: CONSTANT: LPM_REPRESENTATION STRING "UNSIGNED"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_COMPARE"
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "4"
--- Retrieval info: USED_PORT: AeB 0 0 0 0 OUTPUT NODEFVAL AeB
+-- Retrieval info: USED_PORT: AgeB 0 0 0 0 OUTPUT NODEFVAL AgeB
 -- Retrieval info: USED_PORT: dataa 0 0 4 0 INPUT NODEFVAL dataa[3..0]
--- Retrieval info: CONNECT: AeB 0 0 0 0 @AeB 0 0 0 0
+-- Retrieval info: CONNECT: AgeB 0 0 0 0 @AgeB 0 0 0 0
 -- Retrieval info: CONNECT: @dataa 0 0 4 0 dataa 0 0 4 0
 -- Retrieval info: CONNECT: @datab 0 0 4 0 7 0 0 0 0
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all

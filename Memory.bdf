@@ -136,7 +136,39 @@ applicable agreement for further details.
 	(output)
 	(rect 520 240 696 256)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "zzz" (rect 90 0 104 12)(font "Arial" ))
+	(text "allow_ROM" (rect 90 0 144 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
+	(output)
+	(rect 296 408 472 424)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "allow_RAM" (rect 90 0 143 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
+	(output)
+	(rect 520 448 696 464)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "ram_out[15..0]" (rect 90 0 161 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -514,10 +546,6 @@ applicable agreement for further details.
 	(pt 208 344)
 )
 (connector
-	(pt 208 344)
-	(pt 208 264)
-)
-(connector
 	(pt 216 200)
 	(pt 216 112)
 )
@@ -651,11 +679,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 448 280)
-	(pt 904 280)
-	(bus)
-)
-(connector
 	(pt 888 248)
 	(pt 904 248)
 	(bus)
@@ -701,6 +724,38 @@ applicable agreement for further details.
 	(pt 400 200)
 	(pt 400 248)
 )
+(connector
+	(pt 208 416)
+	(pt 296 416)
+)
+(connector
+	(pt 208 264)
+	(pt 208 344)
+)
+(connector
+	(pt 208 344)
+	(pt 208 416)
+)
+(connector
+	(pt 520 456)
+	(pt 504 456)
+	(bus)
+)
+(connector
+	(pt 504 456)
+	(pt 504 280)
+	(bus)
+)
+(connector
+	(pt 448 280)
+	(pt 504 280)
+	(bus)
+)
+(connector
+	(pt 504 280)
+	(pt 904 280)
+	(bus)
+)
 (junction (pt 216 112))
 (junction (pt 248 80))
 (junction (pt 232 96))
@@ -708,3 +763,5 @@ applicable agreement for further details.
 (junction (pt 232 184))
 (junction (pt 400 120))
 (junction (pt 400 200))
+(junction (pt 208 344))
+(junction (pt 504 280))
