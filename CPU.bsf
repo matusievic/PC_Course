@@ -135,6 +135,13 @@ applicable agreement for further details.
 		(text "wr_reg_B" (rect 138 235 195 249)(font "Arial" (font_size 8)))
 		(line (pt 216 240)(pt 200 240)(line_width 1))
 	)
+	(port
+		(pt 216 256)
+		(output)
+		(text "st_ou[15..0]" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "st_ou[15..0]" (rect 128 251 195 265)(font "Arial" (font_size 8)))
+		(line (pt 216 256)(pt 200 256)(line_width 3))
+	)
 	(drawing
 		(rectangle (rect 16 16 200 272)(line_width 1))
 	)

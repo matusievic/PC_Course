@@ -392,39 +392,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 744 120 792 184)
-	(text "AND2" (rect 0 39 10 63)(font "Arial" (font_size 6))(vertical))
-	(text "inst16" (rect 37 32 49 61)(font "Arial" )(vertical))
-	(port
-		(pt 16 64)
-		(input)
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 7 45 19 62)(font "Courier New" (bold))(vertical)(invisible))
-		(line (pt 16 64)(pt 16 50)(line_width 1))
-	)
-	(port
-		(pt 32 64)
-		(input)
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(text "IN2" (rect 23 45 35 62)(font "Courier New" (bold))(vertical)(invisible))
-		(line (pt 32 64)(pt 32 50)(line_width 1))
-	)
-	(port
-		(pt 24 0)
-		(output)
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 15 -1 27 16)(font "Courier New" (bold))(vertical)(invisible))
-		(line (pt 24 22)(pt 24 0)(line_width 1))
-	)
-	(drawing
-		(line (pt 12 50)(pt 12 34)(line_width 1))
-		(line (pt 37 50)(pt 37 33)(line_width 1))
-		(line (pt 12 50)(pt 37 50)(line_width 1))
-		(arc (pt 37 33)(pt 12 34)(rect 12 21 37 46)(line_width 1))
-	)
-	(rotate90)
-)
-(symbol
 	(rect 256 184 400 280)
 	(text "stack_counter" (rect 31 1 127 17)(font "Arial" (font_size 10)))
 	(text "STACK_POINTER" (rect 8 80 97 92)(font "Arial" ))
@@ -663,20 +630,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 768 104)
-	(pt 768 120)
-)
-(connector
-	(text "pop" (rect 744 193 756 210)(font "Arial" )(vertical))
-	(pt 760 184)
-	(pt 760 208)
-)
-(connector
-	(text "clock" (rect 784 186 796 211)(font "Arial" )(vertical))
-	(pt 776 184)
-	(pt 776 208)
-)
-(connector
 	(pt 408 256)
 	(pt 528 256)
 	(bus)
@@ -832,6 +785,11 @@ applicable agreement for further details.
 	(text "enable" (rect 720 301 732 332)(font "Arial" )(vertical))
 	(pt 728 280)
 	(pt 728 296)
+)
+(connector
+	(text "pop" (rect 752 129 764 146)(font "Arial" )(vertical))
+	(pt 768 104)
+	(pt 768 144)
 )
 (junction (pt 248 176))
 (junction (pt 464 128))
