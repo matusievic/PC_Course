@@ -138,7 +138,7 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "in_bus[15..1]" (rect 352 8 364 71)(font "Arial" )(vertical))
+	(text "in_bus[15..1]" (rect 351 7 363 70)(font "Arial" )(vertical))
 	(pt 360 120)
 	(pt 360 80)
 	(bus)

@@ -132,6 +132,8 @@ set_global_assignment -name QIP_FILE cpu_offset_const.qip
 set_global_assignment -name QIP_FILE cpu_off_bustri.qip
 set_global_assignment -name QIP_FILE r_w_out_mux.qip
 set_global_assignment -name QIP_FILE cu_comp_stack.qip
+set_global_assignment -name QIP_FILE alu_cmp_sub.qip
+set_global_assignment -name QIP_FILE alu_cmp_comp.qip
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
