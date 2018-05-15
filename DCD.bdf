@@ -2325,18 +2325,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "command[31..28]" (rect 328 45 340 131)(font "Arial" )(vertical))
-	(pt 344 56)
-	(pt 344 120)
-	(bus)
-)
-(connector
-	(text "command[31..28]" (rect 672 53 684 139)(font "Arial" )(vertical))
-	(pt 688 56)
-	(pt 688 120)
-	(bus)
-)
-(connector
 	(text "command[31..0]" (rect 320 40 400 52)(font "Arial" )(invisible))
 	(pt 320 56)
 	(pt 344 56)
@@ -2719,36 +2707,16 @@ applicable agreement for further details.
 	(pt 1352 792)
 )
 (connector
-	(text "command[31]" (rect 1054 48 1121 60)(font "Arial" ))
-	(pt 1120 56)
-	(pt 1136 56)
-)
-(connector
 	(pt 1136 56)
 	(pt 1208 56)
-)
-(connector
-	(text "command[30]" (rect 1054 96 1121 108)(font "Arial" ))
-	(pt 1120 104)
-	(pt 1136 104)
 )
 (connector
 	(pt 1136 104)
 	(pt 1240 104)
 )
 (connector
-	(text "command[29]" (rect 1059 144 1126 156)(font "Arial" ))
-	(pt 1120 152)
-	(pt 1136 152)
-)
-(connector
 	(pt 1136 152)
 	(pt 1272 152)
-)
-(connector
-	(text "command[28]" (rect 1056 192 1123 204)(font "Arial" ))
-	(pt 1120 200)
-	(pt 1136 200)
 )
 (connector
 	(pt 1136 200)
@@ -3197,6 +3165,38 @@ applicable agreement for further details.
 (connector
 	(pt 1432 1648)
 	(pt 1440 1648)
+)
+(connector
+	(text "command[27]" (rect 1054 48 1121 60)(font "Arial" ))
+	(pt 1120 56)
+	(pt 1136 56)
+)
+(connector
+	(text "command[26]" (rect 1054 96 1121 108)(font "Arial" ))
+	(pt 1120 104)
+	(pt 1136 104)
+)
+(connector
+	(text "command[25]" (rect 1059 144 1126 156)(font "Arial" ))
+	(pt 1120 152)
+	(pt 1136 152)
+)
+(connector
+	(text "command[24]" (rect 1056 192 1123 204)(font "Arial" ))
+	(pt 1120 200)
+	(pt 1136 200)
+)
+(connector
+	(text "command[27..24]" (rect 672 53 684 139)(font "Arial" )(vertical))
+	(pt 688 56)
+	(pt 688 120)
+	(bus)
+)
+(connector
+	(text "command[27..24]" (rect 328 45 340 131)(font "Arial" )(vertical))
+	(pt 344 56)
+	(pt 344 120)
+	(bus)
 )
 (junction (pt 344 744))
 (junction (pt 344 640))

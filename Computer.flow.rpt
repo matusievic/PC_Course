@@ -1,5 +1,5 @@
 Flow report for Computer
-Tue May 15 17:14:10 2018
+Wed May 16 00:47:58 2018
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -38,18 +38,18 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Flow Summary                                                            ;
 +-------------------------------+-----------------------------------------+
-; Flow Status                   ; Successful - Tue May 15 17:14:10 2018   ;
+; Flow Status                   ; Successful - Wed May 16 00:47:57 2018   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; Computer                                ;
 ; Top-level Entity Name         ; Computer                                ;
 ; Family                        ; Stratix III                             ;
 ; Met timing requirements       ; N/A                                     ;
 ; Logic utilization             ; N/A                                     ;
-;     Combinational ALUTs       ; 291                                     ;
+;     Combinational ALUTs       ; 349                                     ;
 ;     Memory ALUTs              ; 0                                       ;
 ;     Dedicated logic registers ; 308                                     ;
 ; Total registers               ; 308                                     ;
-; Total pins                    ; 152                                     ;
+; Total pins                    ; 174                                     ;
 ; Total virtual pins            ; 0                                       ;
 ; Total block memory bits       ; 196,672                                 ;
 ; DSP block 18-bit elements     ; 0                                       ;
@@ -63,7 +63,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/15/2018 17:13:55 ;
+; Start date & time ; 05/16/2018 00:47:38 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Computer            ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ applicable agreement for further details.
 +------------------------------------+--------------------------------+---------------+-------------+----------------+
 ; Assignment Name                    ; Value                          ; Default Value ; Entity Name ; Section Id     ;
 +------------------------------------+--------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 46580532445699.152639723407908 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID              ; 46580532445699.152642445707716 ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_COUNTER                    ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_RAM_DQ                     ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_COUNTER                    ; --            ; --          ; --             ;
@@ -142,6 +142,10 @@ applicable agreement for further details.
 ; IP_TOOL_NAME                       ; LPM_COMPARE                    ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_ADD_SUB                    ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_COMPARE                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_FF                         ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_MUX                        ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
@@ -343,6 +347,10 @@ applicable agreement for further details.
 ; MISC_FILE                          ; alu_cmp_sub.cmp                ; --            ; --          ; --             ;
 ; MISC_FILE                          ; alu_cmp_comp.bsf               ; --            ; --          ; --             ;
 ; MISC_FILE                          ; alu_cmp_comp.cmp               ; --            ; --          ; --             ;
+; MISC_FILE                          ; fl_dff.bsf                     ; --            ; --          ; --             ;
+; MISC_FILE                          ; fl_dff.cmp                     ; --            ; --          ; --             ;
+; MISC_FILE                          ; in_reg_mux.bsf                 ; --            ; --          ; --             ;
+; MISC_FILE                          ; in_reg_mux.cmp                 ; --            ; --          ; --             ;
 ; PARTITION_COLOR                    ; 16764057                       ; --            ; --          ; Top            ;
 ; PARTITION_NETLIST_TYPE             ; SOURCE                         ; --            ; --          ; Top            ;
 ; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                            ; --            ; --          ; eda_blast_fpga ;
@@ -355,8 +363,8 @@ applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:16     ; 1.0                     ; 240 MB              ; 00:00:16                           ;
-; Total                ; 00:00:16     ; --                      ; --                  ; 00:00:16                           ;
+; Analysis & Synthesis ; 00:00:20     ; 1.0                     ; 242 MB              ; 00:00:20                           ;
+; Total                ; 00:00:20     ; --                      ; --                  ; 00:00:20                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
