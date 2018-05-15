@@ -96,9 +96,23 @@ applicable agreement for further details.
 	(port
 		(pt 184 80)
 		(output)
+		(text "overflow" (rect 0 0 51 14)(font "Arial" (font_size 8)))
+		(text "overflow" (rect 112 75 163 89)(font "Arial" (font_size 8)))
+		(line (pt 184 80)(pt 168 80)(line_width 1))
+	)
+	(port
+		(pt 184 96)
+		(output)
+		(text "carry" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "carry" (rect 133 91 163 105)(font "Arial" (font_size 8)))
+		(line (pt 184 96)(pt 168 96)(line_width 1))
+	)
+	(port
+		(pt 184 112)
+		(output)
 		(text "result[15..0]" (rect 0 0 67 14)(font "Arial" (font_size 8)))
-		(text "result[15..0]" (rect 96 75 163 89)(font "Arial" (font_size 8)))
-		(line (pt 184 80)(pt 168 80)(line_width 3))
+		(text "result[15..0]" (rect 96 107 163 121)(font "Arial" (font_size 8)))
+		(line (pt 184 112)(pt 168 112)(line_width 3))
 	)
 	(drawing
 		(rectangle (rect 16 16 168 144)(line_width 1))

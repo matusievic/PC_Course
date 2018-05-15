@@ -13,13 +13,13 @@
 --applicable agreement for further details.
 
 
-component alu_cmp_sub
+component fl_dff
 	PORT
 	(
-		dataa		: IN STD_LOGIC_VECTOR (15 DOWNTO 0);
-		datab		: IN STD_LOGIC_VECTOR (15 DOWNTO 0);
-		cout		: OUT STD_LOGIC ;
-		overflow		: OUT STD_LOGIC ;
-		result		: OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
+		aclr		: IN STD_LOGIC ;
+		aset		: IN STD_LOGIC ;
+		clock		: IN STD_LOGIC ;
+		data		: IN STD_LOGIC ;
+		q		: OUT STD_LOGIC 
 	);
 end component;

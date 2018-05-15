@@ -44,6 +44,7 @@ ENTITY alu_cmp_sub IS
 	(
 		dataa		: IN STD_LOGIC_VECTOR (15 DOWNTO 0);
 		datab		: IN STD_LOGIC_VECTOR (15 DOWNTO 0);
+		cout		: OUT STD_LOGIC ;
 		overflow		: OUT STD_LOGIC ;
 		result		: OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
 	);
@@ -53,7 +54,8 @@ END alu_cmp_sub;
 ARCHITECTURE SYN OF alu_cmp_sub IS
 
 	SIGNAL sub_wire0	: STD_LOGIC ;
-	SIGNAL sub_wire1	: STD_LOGIC_VECTOR (15 DOWNTO 0);
+	SIGNAL sub_wire1	: STD_LOGIC ;
+	SIGNAL sub_wire2	: STD_LOGIC_VECTOR (15 DOWNTO 0);
 
 
 
@@ -69,13 +71,15 @@ ARCHITECTURE SYN OF alu_cmp_sub IS
 			dataa	: IN STD_LOGIC_VECTOR (15 DOWNTO 0);
 			datab	: IN STD_LOGIC_VECTOR (15 DOWNTO 0);
 			overflow	: OUT STD_LOGIC ;
+			cout	: OUT STD_LOGIC ;
 			result	: OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
 	);
 	END COMPONENT;
 
 BEGIN
 	overflow    <= sub_wire0;
-	result    <= sub_wire1(15 DOWNTO 0);
+	cout    <= sub_wire1;
+	result    <= sub_wire2(15 DOWNTO 0);
 
 	lpm_add_sub_component : lpm_add_sub
 	GENERIC MAP (
@@ -89,7 +93,8 @@ BEGIN
 		dataa => dataa,
 		datab => datab,
 		overflow => sub_wire0,
-		result => sub_wire1
+		cout => sub_wire1,
+		result => sub_wire2
 	);
 
 
@@ -100,7 +105,7 @@ END SYN;
 -- CNX file retrieval info
 -- ============================================================
 -- Retrieval info: PRIVATE: CarryIn NUMERIC "0"
--- Retrieval info: PRIVATE: CarryOut NUMERIC "0"
+-- Retrieval info: PRIVATE: CarryOut NUMERIC "1"
 -- Retrieval info: PRIVATE: ConstantA NUMERIC "0"
 -- Retrieval info: PRIVATE: ConstantB NUMERIC "0"
 -- Retrieval info: PRIVATE: Function NUMERIC "1"
@@ -123,6 +128,7 @@ END SYN;
 -- Retrieval info: CONSTANT: LPM_REPRESENTATION STRING "SIGNED"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_ADD_SUB"
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "16"
+-- Retrieval info: USED_PORT: cout 0 0 0 0 OUTPUT NODEFVAL cout
 -- Retrieval info: USED_PORT: dataa 0 0 16 0 INPUT NODEFVAL dataa[15..0]
 -- Retrieval info: USED_PORT: datab 0 0 16 0 INPUT NODEFVAL datab[15..0]
 -- Retrieval info: USED_PORT: overflow 0 0 0 0 OUTPUT NODEFVAL overflow
@@ -130,6 +136,7 @@ END SYN;
 -- Retrieval info: CONNECT: result 0 0 16 0 @result 0 0 16 0
 -- Retrieval info: CONNECT: @dataa 0 0 16 0 dataa 0 0 16 0
 -- Retrieval info: CONNECT: @datab 0 0 16 0 datab 0 0 16 0
+-- Retrieval info: CONNECT: cout 0 0 0 0 @cout 0 0 0 0
 -- Retrieval info: CONNECT: overflow 0 0 0 0 @overflow 0 0 0 0
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 -- Retrieval info: GEN_FILE: TYPE_NORMAL alu_cmp_sub.vhd TRUE

@@ -240,6 +240,13 @@ applicable agreement for further details.
 		(text "wr_regCB" (rect 144 491 203 505)(font "Arial" (font_size 8)))
 		(line (pt 224 496)(pt 208 496)(line_width 1))
 	)
+	(port
+		(pt 224 512)
+		(output)
+		(text "alu_op" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "alu_op" (rect 166 507 203 521)(font "Arial" (font_size 8)))
+		(line (pt 224 512)(pt 208 512)(line_width 1))
+	)
 	(drawing
 		(rectangle (rect 16 16 208 528)(line_width 1))
 	)
