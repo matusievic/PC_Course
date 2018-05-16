@@ -46,6 +46,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|r_w_out_mux:inst44|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_39e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|Memory:inst|ram_lpm_ram:RAM|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_tho1.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|BUSMUX:inst67|lpm_mux:$00000" CBX_FILE_NAME="mux_msc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|BUSMUX:inst94|lpm_mux:$00000" CBX_FILE_NAME="mux_msc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|DCD:inst59|comp_jns_m:inst5|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|DCD:inst59|comp_mov_r_cr:inst15|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst11|cpu_cu_counter:inst8|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_n7i.tdf"/>

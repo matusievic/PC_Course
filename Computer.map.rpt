@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Computer
-Wed May 16 02:19:31 2018
+Wed May 16 04:11:22 2018
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -126,11 +126,12 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 118. Parameter Settings for User Entity Instance: CPU:inst11|cpu_offset_const:inst11|lpm_constant:lpm_constant_component
 119. Parameter Settings for User Entity Instance: CPU:inst11|cpu_off_bustri:inst17|lpm_bustri:lpm_bustri_component
 120. Parameter Settings for User Entity Instance: CPU:inst11|BUSMUX:inst23
-121. Parameter Settings for User Entity Instance: CPU:inst11|BUSMUX:inst46
-122. Parameter Settings for User Entity Instance: pc_bustri:inst5|lpm_bustri:lpm_bustri_component
-123. Parameter Settings for User Entity Instance: pc_bustri:inst4|lpm_bustri:lpm_bustri_component
-124. altsyncram Parameter Settings by Entity Instance
-125. Analysis & Synthesis Messages
+121. Parameter Settings for User Entity Instance: CPU:inst11|BUSMUX:inst94
+122. Parameter Settings for User Entity Instance: CPU:inst11|BUSMUX:inst46
+123. Parameter Settings for User Entity Instance: pc_bustri:inst5|lpm_bustri:lpm_bustri_component
+124. Parameter Settings for User Entity Instance: pc_bustri:inst4|lpm_bustri:lpm_bustri_component
+125. altsyncram Parameter Settings by Entity Instance
+126. Analysis & Synthesis Messages
 
 
 
@@ -156,13 +157,13 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                            ;
 +-------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Wed May 16 02:19:31 2018   ;
+; Analysis & Synthesis Status   ; Successful - Wed May 16 04:11:21 2018   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; Computer                                ;
 ; Top-level Entity Name         ; Computer                                ;
 ; Family                        ; Stratix III                             ;
 ; Logic utilization             ; N/A                                     ;
-;     Combinational ALUTs       ; 366                                     ;
+;     Combinational ALUTs       ; 387                                     ;
 ;     Memory ALUTs              ; 0                                       ;
 ;     Dedicated logic registers ; 308                                     ;
 ; Total registers               ; 308                                     ;
@@ -392,8 +393,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-----------------------------------------------+----------------------------------+
 ; Resource                                      ; Usage                            ;
 +-----------------------------------------------+----------------------------------+
-; Estimated ALUTs Used                          ; 366                              ;
-;     -- Combinational ALUTs                    ; 366                              ;
+; Estimated ALUTs Used                          ; 387                              ;
+;     -- Combinational ALUTs                    ; 387                              ;
 ;     -- Memory ALUTs                           ; 0                                ;
 ;     -- LUT_REGs                               ; 0                                ;
 ; Dedicated logic registers                     ; 308                              ;
@@ -402,35 +403,35 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;     -- Due to unpartnered combinational logic ; 0                                ;
 ;     -- Due to Memory ALUTs                    ; 0                                ;
 ;                                               ;                                  ;
-; Total combinational functions                 ; 366                              ;
+; Total combinational functions                 ; 387                              ;
 ; Combinational ALUT usage by number of inputs  ;                                  ;
 ;     -- 7 input functions                      ; 0                                ;
-;     -- 6 input functions                      ; 81                               ;
-;     -- 5 input functions                      ; 127                              ;
-;     -- 4 input functions                      ; 51                               ;
-;     -- <=3 input functions                    ; 107                              ;
+;     -- 6 input functions                      ; 103                              ;
+;     -- 5 input functions                      ; 101                              ;
+;     -- 4 input functions                      ; 69                               ;
+;     -- <=3 input functions                    ; 114                              ;
 ;                                               ;                                  ;
 ; Combinational ALUTs by mode                   ;                                  ;
-;     -- normal mode                            ; 320                              ;
+;     -- normal mode                            ; 341                              ;
 ;     -- extended LUT mode                      ; 0                                ;
 ;     -- arithmetic mode                        ; 29                               ;
 ;     -- shared arithmetic mode                 ; 17                               ;
 ;                                               ;                                  ;
-; Estimated ALUT/register pairs used            ; 509                              ;
+; Estimated ALUT/register pairs used            ; 531                              ;
 ;                                               ;                                  ;
 ; Total registers                               ; 308                              ;
 ;     -- Dedicated logic registers              ; 308                              ;
 ;     -- I/O registers                          ; 0                                ;
 ;     -- LUT_REGs                               ; 0                                ;
 ;                                               ;                                  ;
-; Estimated ALMs:  partially or completely used ; 255                              ;
+; Estimated ALMs:  partially or completely used ; 266                              ;
 ;                                               ;                                  ;
 ; I/O pins                                      ; 160                              ;
 ; Total MLAB memory bits                        ; 0                                ;
 ; Total block memory bits                       ; 196672                           ;
 ; Maximum fan-out node                          ; CPU:inst11|Registers:inst5|inst5 ;
 ; Maximum fan-out                               ; 224                              ;
-; Total fan-out                                 ; 3660                             ;
+; Total fan-out                                 ; 3730                             ;
 ; Average fan-out                               ; 3.46                             ;
 +-----------------------------------------------+----------------------------------+
 
@@ -440,13 +441,11 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-----------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                          ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 12x12 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                 ; Library Name ;
 +-----------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |Computer                                           ; 366 (0)           ; 308 (0)      ; 196672            ; 0            ; 0       ; 0         ; 0         ; 0         ; 160  ; 0            ; |Computer                                                                                                                           ; work         ;
-;    |CPU:inst11|                                     ; 333 (17)          ; 307 (0)      ; 64                ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11                                                                                                                ;              ;
-;       |ALU:inst62|                                  ; 55 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|ALU:inst62                                                                                                     ;              ;
-;          |alu_bustri:inst10|                        ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|ALU:inst62|alu_bustri:inst10                                                                                   ; work         ;
-;             |lpm_bustri:lpm_bustri_component|       ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|ALU:inst62|alu_bustri:inst10|lpm_bustri:lpm_bustri_component                                                   ; work         ;
-;          |alu_bustri:inst4|                         ; 30 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|ALU:inst62|alu_bustri:inst4                                                                                    ; work         ;
-;             |lpm_bustri:lpm_bustri_component|       ; 30 (30)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component                                                    ; work         ;
+; |Computer                                           ; 387 (0)           ; 308 (0)      ; 196672            ; 0            ; 0       ; 0         ; 0         ; 0         ; 160  ; 0            ; |Computer                                                                                                                           ; work         ;
+;    |CPU:inst11|                                     ; 336 (18)          ; 307 (0)      ; 64                ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11                                                                                                                ;              ;
+;       |ALU:inst62|                                  ; 51 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|ALU:inst62                                                                                                     ;              ;
+;          |alu_bustri:inst6|                         ; 28 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|ALU:inst62|alu_bustri:inst6                                                                                    ; work         ;
+;             |lpm_bustri:lpm_bustri_component|       ; 28 (28)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component                                                    ; work         ;
 ;          |alu_cmp_comp:inst12|                      ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|ALU:inst62|alu_cmp_comp:inst12                                                                                 ;              ;
 ;             |lpm_compare:lpm_compare_component|     ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|ALU:inst62|alu_cmp_comp:inst12|lpm_compare:lpm_compare_component                                               ;              ;
 ;                |cmpr_8aj:auto_generated|            ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|ALU:inst62|alu_cmp_comp:inst12|lpm_compare:lpm_compare_component|cmpr_8aj:auto_generated                       ;              ;
@@ -492,7 +491,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_ff:lpm_ff_component|               ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|IR:inst1|ir_dff:inst1|lpm_ff:lpm_ff_component                                                                  ; work         ;
 ;          |ir_dff:inst|                              ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|IR:inst1|ir_dff:inst                                                                                           ; work         ;
 ;             |lpm_ff:lpm_ff_component|               ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|IR:inst1|ir_dff:inst|lpm_ff:lpm_ff_component                                                                   ; work         ;
-;       |Registers:inst5|                             ; 95 (1)            ; 224 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|Registers:inst5                                                                                                ; work         ;
+;       |Registers:inst5|                             ; 96 (2)            ; 224 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|Registers:inst5                                                                                                ; work         ;
 ;          |lpm_reg_decode:inst|                      ; 14 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|Registers:inst5|lpm_reg_decode:inst                                                                            ; work         ;
 ;             |lpm_decode:lpm_decode_component|       ; 14 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|Registers:inst5|lpm_reg_decode:inst|lpm_decode:lpm_decode_component                                            ; work         ;
 ;                |decode_u0g:auto_generated|          ; 14 (14)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|Registers:inst5|lpm_reg_decode:inst|lpm_decode:lpm_decode_component|decode_u0g:auto_generated                  ; work         ;
@@ -546,15 +545,12 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;       |busmux:inst30|                               ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|busmux:inst30                                                                                                  ;              ;
 ;          |lpm_mux:$00000|                           ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|busmux:inst30|lpm_mux:$00000                                                                                   ;              ;
 ;             |mux_msc:auto_generated|                ; 16 (16)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|busmux:inst30|lpm_mux:$00000|mux_msc:auto_generated                                                            ;              ;
-;       |busmux:inst50|                               ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|busmux:inst50                                                                                                  ; work         ;
-;          |lpm_mux:$00000|                           ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|busmux:inst50|lpm_mux:$00000                                                                                   ; work         ;
-;             |mux_isc:auto_generated|                ; 4 (4)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|busmux:inst50|lpm_mux:$00000|mux_isc:auto_generated                                                            ; work         ;
+;       |busmux:inst50|                               ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|busmux:inst50                                                                                                  ; work         ;
+;          |lpm_mux:$00000|                           ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|busmux:inst50|lpm_mux:$00000                                                                                   ; work         ;
+;             |mux_isc:auto_generated|                ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|busmux:inst50|lpm_mux:$00000|mux_isc:auto_generated                                                            ; work         ;
 ;       |busmux:inst53|                               ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|busmux:inst53                                                                                                  ; work         ;
 ;          |lpm_mux:$00000|                           ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|busmux:inst53|lpm_mux:$00000                                                                                   ; work         ;
 ;             |mux_msc:auto_generated|                ; 16 (16)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|busmux:inst53|lpm_mux:$00000|mux_msc:auto_generated                                                            ; work         ;
-;       |busmux:inst67|                               ; 15 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|busmux:inst67                                                                                                  ; work         ;
-;          |lpm_mux:$00000|                           ; 15 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|busmux:inst67|lpm_mux:$00000                                                                                   ; work         ;
-;             |mux_msc:auto_generated|                ; 15 (15)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|busmux:inst67|lpm_mux:$00000|mux_msc:auto_generated                                                            ; work         ;
 ;       |cpu_cu_counter:inst8|                        ; 4 (0)             ; 4 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|cpu_cu_counter:inst8                                                                                           ;              ;
 ;          |lpm_counter:lpm_counter_component|        ; 4 (0)             ; 4 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|cpu_cu_counter:inst8|lpm_counter:lpm_counter_component                                                         ;              ;
 ;             |cntr_n7i:auto_generated|               ; 4 (4)             ; 4 (4)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|cpu_cu_counter:inst8|lpm_counter:lpm_counter_component|cntr_n7i:auto_generated                                 ;              ;
@@ -568,14 +564,14 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;       |cu_comp_0:inst12|                            ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|cu_comp_0:inst12                                                                                               ; work         ;
 ;          |lpm_compare:lpm_compare_component|        ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|cu_comp_0:inst12|lpm_compare:lpm_compare_component                                                             ; work         ;
 ;             |cmpr_vqi:auto_generated|               ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|cu_comp_0:inst12|lpm_compare:lpm_compare_component|cmpr_vqi:auto_generated                                     ; work         ;
-;       |out_address_mux:inst32|                      ; 34 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|out_address_mux:inst32                                                                                         ; work         ;
-;          |lpm_mux:lpm_mux_component|                ; 34 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|out_address_mux:inst32|lpm_mux:lpm_mux_component                                                               ; work         ;
-;             |mux_lae:auto_generated|                ; 34 (34)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|out_address_mux:inst32|lpm_mux:lpm_mux_component|mux_lae:auto_generated                                        ; work         ;
+;       |out_address_mux:inst32|                      ; 35 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|out_address_mux:inst32                                                                                         ; work         ;
+;          |lpm_mux:lpm_mux_component|                ; 35 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|out_address_mux:inst32|lpm_mux:lpm_mux_component                                                               ; work         ;
+;             |mux_lae:auto_generated|                ; 35 (35)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|out_address_mux:inst32|lpm_mux:lpm_mux_component|mux_lae:auto_generated                                        ; work         ;
 ;       |r_w_out_mux:inst44|                          ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|r_w_out_mux:inst44                                                                                             ;              ;
 ;          |lpm_mux:lpm_mux_component|                ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|r_w_out_mux:inst44|lpm_mux:lpm_mux_component                                                                   ;              ;
 ;             |mux_39e:auto_generated|                ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated                                            ;              ;
-;       |registers_in_bustri:inst48|                  ; 17 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|registers_in_bustri:inst48                                                                                     ; work         ;
-;          |lpm_bustri:lpm_bustri_component|          ; 17 (17)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|registers_in_bustri:inst48|lpm_bustri:lpm_bustri_component                                                     ; work         ;
+;       |registers_in_bustri:inst48|                  ; 37 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|registers_in_bustri:inst48                                                                                     ; work         ;
+;          |lpm_bustri:lpm_bustri_component|          ; 37 (37)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|registers_in_bustri:inst48|lpm_bustri:lpm_bustri_component                                                     ; work         ;
 ;       |rom_ram_out_mux:inst33|                      ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|rom_ram_out_mux:inst33                                                                                         ;              ;
 ;          |lpm_mux:lpm_mux_component|                ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|rom_ram_out_mux:inst33|lpm_mux:lpm_mux_component                                                               ;              ;
 ;             |mux_39e:auto_generated|                ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|CPU:inst11|rom_ram_out_mux:inst33|lpm_mux:lpm_mux_component|mux_39e:auto_generated                                        ;              ;
@@ -591,8 +587,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |altsyncram_p9g1:auto_generated|        ; 0 (0)             ; 0 (0)        ; 131072            ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|Memory:inst|rom_lpm_rom:ROM|altsyncram:altsyncram_component|altsyncram_p9g1:auto_generated                                ; work         ;
 ;    |pc_bustri:inst4|                                ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|pc_bustri:inst4                                                                                                           ; work         ;
 ;       |lpm_bustri:lpm_bustri_component|             ; 16 (16)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|pc_bustri:inst4|lpm_bustri:lpm_bustri_component                                                                           ; work         ;
-;    |pc_bustri:inst5|                                ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|pc_bustri:inst5                                                                                                           ; work         ;
-;       |lpm_bustri:lpm_bustri_component|             ; 16 (16)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|pc_bustri:inst5|lpm_bustri:lpm_bustri_component                                                                           ; work         ;
+;    |pc_bustri:inst5|                                ; 34 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|pc_bustri:inst5                                                                                                           ; work         ;
+;       |lpm_bustri:lpm_bustri_component|             ; 34 (34)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |Computer|pc_bustri:inst5|lpm_bustri:lpm_bustri_component                                                                           ; work         ;
 +-----------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -653,10 +649,11 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                                       ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------------------+
-; 3:1                ; 16 bits   ; 32 ALUTs      ; 32 ALUTs             ; 0 ALUTs                ; Yes        ; |Computer|CPU:inst11|cpu_op_reg:opA|lpm_ff:lpm_ff_component|dffs[6]                                                              ;
-; 3:1                ; 16 bits   ; 32 ALUTs      ; 32 ALUTs             ; 0 ALUTs                ; No         ; |Computer|Memory:inst|busmux:inst5|lpm_mux:$00000|mux_msc:auto_generated|l1_w15_n0_mux_dataout                                   ;
-; 7:1                ; 12 bits   ; 48 ALUTs      ; 48 ALUTs             ; 0 ALUTs                ; No         ; |Computer|CPU:inst11|out_address_mux:inst32|lpm_mux:lpm_mux_component|mux_lae:auto_generated|l4_w4_n0_mux_dataout                ;
-; 13:1               ; 16 bits   ; 128 ALUTs     ; 128 ALUTs            ; 0 ALUTs                ; No         ; |Computer|CPU:inst11|Registers:inst5|lpm_reg_out_mux:inst1|lpm_mux:lpm_mux_component|mux_nae:auto_generated|l4_w0_n0_mux_dataout ;
+; 3:1                ; 16 bits   ; 32 ALUTs      ; 32 ALUTs             ; 0 ALUTs                ; Yes        ; |Computer|CPU:inst11|cpu_op_reg:opA|lpm_ff:lpm_ff_component|dffs[3]                                                              ;
+; 3:1                ; 16 bits   ; 32 ALUTs      ; 32 ALUTs             ; 0 ALUTs                ; No         ; |Computer|CPU:inst11|busmux:inst94|lpm_mux:$00000|mux_msc:auto_generated|l1_w0_n0_mux_dataout                                    ;
+; 3:1                ; 16 bits   ; 32 ALUTs      ; 32 ALUTs             ; 0 ALUTs                ; No         ; |Computer|Memory:inst|busmux:inst5|lpm_mux:$00000|mux_msc:auto_generated|l1_w11_n0_mux_dataout                                   ;
+; 7:1                ; 12 bits   ; 48 ALUTs      ; 48 ALUTs             ; 0 ALUTs                ; No         ; |Computer|CPU:inst11|out_address_mux:inst32|lpm_mux:lpm_mux_component|mux_lae:auto_generated|l4_w0_n0_mux_dataout                ;
+; 13:1               ; 16 bits   ; 128 ALUTs     ; 128 ALUTs            ; 0 ALUTs                ; No         ; |Computer|CPU:inst11|Registers:inst5|lpm_reg_out_mux:inst1|lpm_mux:lpm_mux_component|mux_nae:auto_generated|l4_w2_n0_mux_dataout ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -2680,6 +2677,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst11|BUSMUX:inst94 ;
++----------------+-------+----------------------------------------------+
+; Parameter Name ; Value ; Type                                         ;
++----------------+-------+----------------------------------------------+
+; WIDTH          ; 16    ; Untyped                                      ;
++----------------+-------+----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: CPU:inst11|BUSMUX:inst46 ;
 +----------------+-------+----------------------------------------------+
 ; Parameter Name ; Value ; Type                                         ;
@@ -2757,7 +2764,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Wed May 16 02:19:13 2018
+    Info: Processing started: Wed May 16 04:11:04 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Computer -c Computer
 Warning: Tcl Script File ../../×óæîå SIFO/ddd/stack_latch.qip not found
     Info: set_global_assignment -name QIP_FILE "../../×óæîå SIFO/ddd/stack_latch.qip"
@@ -3578,6 +3585,8 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted tri-state buffer "CPU:inst11|Stack:inst4|lpm_stack_out_bustri:inst5|lpm_bustri:lpm_bustri_component|dout[0]" feeding internal logic into a wire
     Warning: Converted tri-state buffer "CPU:inst11|Stack:inst4|lpm_stack_flag_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[0]" feeding internal logic into a wire
 Warning: Timing-Driven Synthesis is skipped because the Classic Timing Analyzer is turned on
+Warning: Clock multiplexers are found and protected
+    Warning: Found clock multiplexer CPU:inst11|inst38~synth
 Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[15]" to the node "CPU:inst11|inst60" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[14]" to the node "CPU:inst11|busmux:inst67|lpm_mux:$00000|mux_msc:auto_generated|l1_w14_n0_mux_dataout" into an OR gate
@@ -3613,6 +3622,22 @@ Warning: Always-enabled tri-state buffer(s) removed
     Warning: Converted the fanout from the always-enabled tri-state buffer "pc_bustri:inst5|lpm_bustri:lpm_bustri_component|dout[1]" to the node "bus[1]" into a wire
     Warning: Converted the fanout from the always-enabled tri-state buffer "pc_bustri:inst5|lpm_bustri:lpm_bustri_component|dout[0]" to the node "bus[0]" into a wire
 Warning: Tri-state node(s) do not directly drive top-level pin(s)
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst10|lpm_bustri:lpm_bustri_component|dout[15]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[15]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[14]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[14]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[13]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[13]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[12]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[12]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[11]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[11]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[10]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[10]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[9]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[9]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[8]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[8]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[7]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[7]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[6]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[6]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[5]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[5]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[4]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[4]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[3]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[3]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[2]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[2]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[1]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[1]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[0]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "pc_bustri:inst5|lpm_bustri:lpm_bustri_component|dout[15]" to the node "Memory:inst|ram_lpm_ram:RAM|altsyncram:altsyncram_component|altsyncram_tho1:auto_generated|q_a[15]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "pc_bustri:inst5|lpm_bustri:lpm_bustri_component|dout[14]" to the node "Memory:inst|ram_lpm_ram:RAM|altsyncram:altsyncram_component|altsyncram_tho1:auto_generated|q_a[14]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "pc_bustri:inst5|lpm_bustri:lpm_bustri_component|dout[13]" to the node "Memory:inst|ram_lpm_ram:RAM|altsyncram:altsyncram_component|altsyncram_tho1:auto_generated|q_a[13]" into an OR gate
@@ -3645,22 +3670,6 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|registers_in_bustri:inst48|lpm_bustri:lpm_bustri_component|dout[2]" to the node "CPU:inst11|Registers:inst5|reg_dff:R0|lpm_ff:lpm_ff_component|dffs[2]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|registers_in_bustri:inst48|lpm_bustri:lpm_bustri_component|dout[1]" to the node "CPU:inst11|Registers:inst5|reg_dff:R0|lpm_ff:lpm_ff_component|dffs[1]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|registers_in_bustri:inst48|lpm_bustri:lpm_bustri_component|dout[0]" to the node "CPU:inst11|Registers:inst5|reg_dff:R0|lpm_ff:lpm_ff_component|dffs[0]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst10|lpm_bustri:lpm_bustri_component|dout[15]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[15]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[14]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[14]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[13]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[13]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[12]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[12]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[11]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[11]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[10]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[10]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[9]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[9]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[8]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[8]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[7]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[7]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[6]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[6]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[5]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[5]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[4]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[4]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[3]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[3]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[2]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[2]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[1]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[1]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst11|ALU:inst62|alu_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[0]" to the node "CPU:inst11|ALU:inst62|alu_bustri:inst6|lpm_bustri:lpm_bustri_component|dout[0]" into an OR gate
 Warning: Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
     Warning (13310): Register "CPU:inst11|Flag:OverflowFlag|fl_dff:inst|lpm_ff:lpm_ff_component|dffs[0]" is converted into an equivalent circuit using register "CPU:inst11|Flag:OverflowFlag|fl_dff:inst|lpm_ff:lpm_ff_component|dffs[0]~_emulated" and latch "CPU:inst11|Flag:OverflowFlag|fl_dff:inst|lpm_ff:lpm_ff_component|dffs[0]~latch"
     Warning (13310): Register "CPU:inst11|Flag:SignFlag|fl_dff:inst|lpm_ff:lpm_ff_component|dffs[0]" is converted into an equivalent circuit using register "CPU:inst11|Flag:SignFlag|fl_dff:inst|lpm_ff:lpm_ff_component|dffs[0]~_emulated" and latch "CPU:inst11|Flag:SignFlag|fl_dff:inst|lpm_ff:lpm_ff_component|dffs[0]~latch"
@@ -3668,14 +3677,14 @@ Warning: Presettable and clearable registers converted to equivalent circuits wi
     Warning (13310): Register "CPU:inst11|Flag:ZeroFlag|fl_dff:inst|lpm_ff:lpm_ff_component|dffs[0]" is converted into an equivalent circuit using register "CPU:inst11|Flag:ZeroFlag|fl_dff:inst|lpm_ff:lpm_ff_component|dffs[0]~_emulated" and latch "CPU:inst11|Flag:ZeroFlag|fl_dff:inst|lpm_ff:lpm_ff_component|dffs[0]~latch"
 Warning: Output pins are stuck at VCC or GND
     Warning (13410): Pin "mem_enab" is stuck at VCC
-Info: Implemented 846 device resources after synthesis - the final resource count might be different
+Info: Implemented 867 device resources after synthesis - the final resource count might be different
     Info: Implemented 1 input pins
     Info: Implemented 159 output pins
-    Info: Implemented 622 logic cells
+    Info: Implemented 643 logic cells
     Info: Implemented 64 RAM segments
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 121 warnings
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 123 warnings
     Info: Peak virtual memory: 241 megabytes
-    Info: Processing ended: Wed May 16 02:19:31 2018
+    Info: Processing ended: Wed May 16 04:11:22 2018
     Info: Elapsed time: 00:00:18
     Info: Total CPU time (on all processors): 00:00:20
 
