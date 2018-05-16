@@ -33,15 +33,15 @@ applicable agreement for further details.
 	(port
 		(pt 0 48)
 		(input)
-		(text "jump" (rect 0 0 25 14)(font "Arial" (font_size 8)))
-		(text "jump" (rect 21 43 46 57)(font "Arial" (font_size 8)))
+		(text "clock" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "clock" (rect 21 43 50 57)(font "Arial" (font_size 8)))
 		(line (pt 0 48)(pt 16 48)(line_width 1))
 	)
 	(port
 		(pt 0 64)
 		(input)
-		(text "clock" (rect 0 0 29 14)(font "Arial" (font_size 8)))
-		(text "clock" (rect 21 59 50 73)(font "Arial" (font_size 8)))
+		(text "jump" (rect 0 0 25 14)(font "Arial" (font_size 8)))
+		(text "jump" (rect 21 59 46 73)(font "Arial" (font_size 8)))
 		(line (pt 0 64)(pt 16 64)(line_width 1))
 	)
 	(port
@@ -57,13 +57,6 @@ applicable agreement for further details.
 		(text "output[11..0]" (rect 0 0 70 14)(font "Arial" (font_size 8)))
 		(text "output[11..0]" (rect 117 27 187 41)(font "Arial" (font_size 8)))
 		(line (pt 208 32)(pt 192 32)(line_width 3))
-	)
-	(port
-		(pt 208 48)
-		(output)
-		(text "aaa[11..0]" (rect 0 0 56 14)(font "Arial" (font_size 8)))
-		(text "aaa[11..0]" (rect 131 43 187 57)(font "Arial" (font_size 8)))
-		(line (pt 208 48)(pt 192 48)(line_width 3))
 	)
 	(drawing
 		(rectangle (rect 16 16 192 112)(line_width 1))
