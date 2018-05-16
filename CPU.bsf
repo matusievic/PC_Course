@@ -187,9 +187,9 @@ applicable agreement for further details.
 	(port
 		(pt 216 368)
 		(output)
-		(text "eq" (rect 0 0 14 14)(font "Arial" (font_size 8)))
-		(text "eq" (rect 181 363 195 377)(font "Arial" (font_size 8)))
-		(line (pt 216 368)(pt 200 368)(line_width 1))
+		(text "eq[11..0]" (rect 0 0 49 14)(font "Arial" (font_size 8)))
+		(text "eq[11..0]" (rect 146 363 195 377)(font "Arial" (font_size 8)))
+		(line (pt 216 368)(pt 200 368)(line_width 3))
 	)
 	(port
 		(pt 216 384)
