@@ -180,16 +180,23 @@ applicable agreement for further details.
 	(port
 		(pt 216 352)
 		(output)
-		(text "BBUS[15..0]" (rect 0 0 68 14)(font "Arial" (font_size 8)))
-		(text "BBUS[15..0]" (rect 127 347 195 361)(font "Arial" (font_size 8)))
-		(line (pt 216 352)(pt 200 352)(line_width 3))
+		(text "lo" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "lo" (rect 186 347 195 361)(font "Arial" (font_size 8)))
+		(line (pt 216 352)(pt 200 352)(line_width 1))
 	)
 	(port
 		(pt 216 368)
 		(output)
-		(text "bem" (rect 0 0 23 14)(font "Arial" (font_size 8)))
-		(text "bem" (rect 172 363 195 377)(font "Arial" (font_size 8)))
+		(text "eq" (rect 0 0 14 14)(font "Arial" (font_size 8)))
+		(text "eq" (rect 181 363 195 377)(font "Arial" (font_size 8)))
 		(line (pt 216 368)(pt 200 368)(line_width 1))
+	)
+	(port
+		(pt 216 384)
+		(output)
+		(text "gr" (rect 0 0 11 14)(font "Arial" (font_size 8)))
+		(text "gr" (rect 184 379 195 393)(font "Arial" (font_size 8)))
+		(line (pt 216 384)(pt 200 384)(line_width 1))
 	)
 	(drawing
 		(rectangle (rect 16 16 200 400)(line_width 1))

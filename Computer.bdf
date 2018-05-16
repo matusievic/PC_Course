@@ -376,7 +376,7 @@ applicable agreement for further details.
 	(output)
 	(rect 480 984 656 1000)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "bbus[15..0]" (rect 90 0 145 12)(font "Arial" ))
+	(text "alu_lower" (rect 90 0 134 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -390,9 +390,25 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 472 1016 648 1032)
+	(rect 480 1008 656 1024)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ben" (rect 90 0 107 12)(font "Arial" ))
+	(text "alu_equals" (rect 90 0 141 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
+	(output)
+	(rect 480 1032 656 1048)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "alu_greater" (rect 90 0 144 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -637,7 +653,7 @@ applicable agreement for further details.
 (symbol
 	(rect 160 240 376 656)
 	(text "CPU" (rect 5 0 28 14)(font "Arial" (font_size 8)))
-	(text "inst10" (rect 8 400 37 412)(font "Arial" ))
+	(text "inst11" (rect 8 400 37 412)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -795,16 +811,23 @@ applicable agreement for further details.
 	(port
 		(pt 216 352)
 		(output)
-		(text "BBUS[15..0]" (rect 0 0 68 14)(font "Arial" (font_size 8)))
-		(text "BBUS[15..0]" (rect 127 347 195 361)(font "Arial" (font_size 8)))
-		(line (pt 216 352)(pt 200 352)(line_width 3))
+		(text "lo" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "lo" (rect 186 347 195 361)(font "Arial" (font_size 8)))
+		(line (pt 216 352)(pt 200 352)(line_width 1))
 	)
 	(port
 		(pt 216 368)
 		(output)
-		(text "bem" (rect 0 0 23 14)(font "Arial" (font_size 8)))
-		(text "bem" (rect 172 363 195 377)(font "Arial" (font_size 8)))
+		(text "eq" (rect 0 0 14 14)(font "Arial" (font_size 8)))
+		(text "eq" (rect 181 363 195 377)(font "Arial" (font_size 8)))
 		(line (pt 216 368)(pt 200 368)(line_width 1))
+	)
+	(port
+		(pt 216 384)
+		(output)
+		(text "gr" (rect 0 0 11 14)(font "Arial" (font_size 8)))
+		(text "gr" (rect 184 379 195 393)(font "Arial" (font_size 8)))
+		(line (pt 216 384)(pt 200 384)(line_width 1))
 	)
 	(drawing
 		(rectangle (rect 16 16 200 400)(line_width 1))
@@ -1147,16 +1170,6 @@ applicable agreement for further details.
 	(pt 440 928)
 )
 (connector
-	(pt 432 992)
-	(pt 432 592)
-	(bus)
-)
-(connector
-	(pt 432 992)
-	(pt 480 992)
-	(bus)
-)
-(connector
 	(pt 144 128)
 	(pt 144 288)
 	(bus)
@@ -1292,21 +1305,40 @@ applicable agreement for further details.
 	(pt 440 576)
 )
 (connector
-	(pt 376 592)
-	(pt 432 592)
-	(bus)
-)
-(connector
 	(pt 376 608)
 	(pt 424 608)
 )
 (connector
-	(pt 424 1024)
 	(pt 424 608)
+	(pt 424 1016)
 )
 (connector
-	(pt 424 1024)
-	(pt 472 1024)
+	(pt 424 1016)
+	(pt 480 1016)
+)
+(connector
+	(pt 480 992)
+	(pt 432 992)
+)
+(connector
+	(pt 432 992)
+	(pt 432 592)
+)
+(connector
+	(pt 376 592)
+	(pt 432 592)
+)
+(connector
+	(pt 376 624)
+	(pt 416 624)
+)
+(connector
+	(pt 416 624)
+	(pt 416 1040)
+)
+(connector
+	(pt 416 1040)
+	(pt 480 1040)
 )
 (junction (pt 464 128))
 (junction (pt 584 128))
