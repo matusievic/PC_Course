@@ -1833,7 +1833,6 @@ clock => Registers:inst5.clock
 clock => cpu_op_reg:opB.clock
 clock => cpu_op_reg:opA.clock
 clock => IP:inst3.clock
-R/W <= r_w_out_mux:inst44.result
 in_data[0] => IR:inst1.data[0]
 in_data[0] => BUSMUX:inst30.dataa[0]
 in_data[0] => BUSMUX:inst29.dataa[0]
@@ -1882,6 +1881,7 @@ in_data[14] => BUSMUX:inst29.dataa[14]
 in_data[15] => IR:inst1.data[15]
 in_data[15] => BUSMUX:inst30.dataa[15]
 in_data[15] => BUSMUX:inst29.dataa[15]
+R/W <= r_w_out_mux:inst44.result
 memory_en <= <VCC>
 new_cycle <= en_ip.DB_MAX_OUTPUT_PORT_TYPE
 reg_wr <= inst24.DB_MAX_OUTPUT_PORT_TYPE
@@ -2139,6 +2139,7 @@ sel[3] => _~14.IN0
 
 |Computer|CPU:inst6|cpu_cu_counter:inst108
 clock => lpm_counter:lpm_counter_component.clock
+cnt_en => lpm_counter:lpm_counter_component.cnt_en
 q[0] <= lpm_counter:lpm_counter_component.q[0]
 q[1] <= lpm_counter:lpm_counter_component.q[1]
 q[2] <= lpm_counter:lpm_counter_component.q[2]
@@ -2146,9 +2147,9 @@ q[3] <= lpm_counter:lpm_counter_component.q[3]
 
 
 |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component
-clock => cntr_3ph:auto_generated.clock
+clock => cntr_qdi:auto_generated.clock
 clk_en => ~NO_FANOUT~
-cnt_en => ~NO_FANOUT~
+cnt_en => cntr_qdi:auto_generated.cnt_en
 updown => ~NO_FANOUT~
 aclr => ~NO_FANOUT~
 aset => ~NO_FANOUT~
@@ -2163,10 +2164,10 @@ data[1] => ~NO_FANOUT~
 data[2] => ~NO_FANOUT~
 data[3] => ~NO_FANOUT~
 cin => ~NO_FANOUT~
-q[0] <= cntr_3ph:auto_generated.q[0]
-q[1] <= cntr_3ph:auto_generated.q[1]
-q[2] <= cntr_3ph:auto_generated.q[2]
-q[3] <= cntr_3ph:auto_generated.q[3]
+q[0] <= cntr_qdi:auto_generated.q[0]
+q[1] <= cntr_qdi:auto_generated.q[1]
+q[2] <= cntr_qdi:auto_generated.q[2]
+q[3] <= cntr_qdi:auto_generated.q[3]
 cout <= <GND>
 eq[0] <= <GND>
 eq[1] <= <GND>
@@ -2186,116 +2187,16 @@ eq[14] <= <GND>
 eq[15] <= <GND>
 
 
-|Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated
+|Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated
 clock => counter_reg_bit[3].CLK
 clock => counter_reg_bit[2].CLK
 clock => counter_reg_bit[1].CLK
 clock => counter_reg_bit[0].CLK
+cnt_en => _~9.IN0
 q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
 q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
 q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
 q[3] <= counter_reg_bit[3].DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Computer|CPU:inst6|r_w_out_mux:inst44
-data0 => LPM_MUX:lpm_mux_component.DATA[0][0]
-data1 => LPM_MUX:lpm_mux_component.DATA[1][0]
-data10 => LPM_MUX:lpm_mux_component.DATA[10][0]
-data11 => LPM_MUX:lpm_mux_component.DATA[11][0]
-data12 => LPM_MUX:lpm_mux_component.DATA[12][0]
-data13 => LPM_MUX:lpm_mux_component.DATA[13][0]
-data14 => LPM_MUX:lpm_mux_component.DATA[14][0]
-data15 => LPM_MUX:lpm_mux_component.DATA[15][0]
-data2 => LPM_MUX:lpm_mux_component.DATA[2][0]
-data3 => LPM_MUX:lpm_mux_component.DATA[3][0]
-data4 => LPM_MUX:lpm_mux_component.DATA[4][0]
-data5 => LPM_MUX:lpm_mux_component.DATA[5][0]
-data6 => LPM_MUX:lpm_mux_component.DATA[6][0]
-data7 => LPM_MUX:lpm_mux_component.DATA[7][0]
-data8 => LPM_MUX:lpm_mux_component.DATA[8][0]
-data9 => LPM_MUX:lpm_mux_component.DATA[9][0]
-sel[0] => LPM_MUX:lpm_mux_component.SEL[0]
-sel[1] => LPM_MUX:lpm_mux_component.SEL[1]
-sel[2] => LPM_MUX:lpm_mux_component.SEL[2]
-sel[3] => LPM_MUX:lpm_mux_component.SEL[3]
-result <= LPM_MUX:lpm_mux_component.RESULT[0]
-
-
-|Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component
-data[0][0] => mux_39e:auto_generated.data[0]
-data[1][0] => mux_39e:auto_generated.data[1]
-data[2][0] => mux_39e:auto_generated.data[2]
-data[3][0] => mux_39e:auto_generated.data[3]
-data[4][0] => mux_39e:auto_generated.data[4]
-data[5][0] => mux_39e:auto_generated.data[5]
-data[6][0] => mux_39e:auto_generated.data[6]
-data[7][0] => mux_39e:auto_generated.data[7]
-data[8][0] => mux_39e:auto_generated.data[8]
-data[9][0] => mux_39e:auto_generated.data[9]
-data[10][0] => mux_39e:auto_generated.data[10]
-data[11][0] => mux_39e:auto_generated.data[11]
-data[12][0] => mux_39e:auto_generated.data[12]
-data[13][0] => mux_39e:auto_generated.data[13]
-data[14][0] => mux_39e:auto_generated.data[14]
-data[15][0] => mux_39e:auto_generated.data[15]
-sel[0] => mux_39e:auto_generated.sel[0]
-sel[1] => mux_39e:auto_generated.sel[1]
-sel[2] => mux_39e:auto_generated.sel[2]
-sel[3] => mux_39e:auto_generated.sel[3]
-clock => ~NO_FANOUT~
-aclr => ~NO_FANOUT~
-clken => ~NO_FANOUT~
-result[0] <= mux_39e:auto_generated.result[0]
-
-
-|Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated
-data[0] => l1_w0_n0_mux_dataout~1.IN1
-data[1] => l1_w0_n0_mux_dataout~0.IN1
-data[2] => l1_w0_n1_mux_dataout~1.IN1
-data[3] => l1_w0_n1_mux_dataout~0.IN1
-data[4] => l1_w0_n2_mux_dataout~1.IN1
-data[5] => l1_w0_n2_mux_dataout~0.IN1
-data[6] => l1_w0_n3_mux_dataout~1.IN1
-data[7] => l1_w0_n3_mux_dataout~0.IN1
-data[8] => l1_w0_n4_mux_dataout~1.IN1
-data[9] => l1_w0_n4_mux_dataout~0.IN1
-data[10] => l1_w0_n5_mux_dataout~1.IN1
-data[11] => l1_w0_n5_mux_dataout~0.IN1
-data[12] => l1_w0_n6_mux_dataout~1.IN1
-data[13] => l1_w0_n6_mux_dataout~0.IN1
-data[14] => l1_w0_n7_mux_dataout~1.IN1
-data[15] => l1_w0_n7_mux_dataout~0.IN1
-result[0] <= l4_w0_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
-sel[0] => l1_w0_n0_mux_dataout~0.IN0
-sel[0] => _~0.IN0
-sel[0] => l1_w0_n1_mux_dataout~0.IN0
-sel[0] => _~1.IN0
-sel[0] => l1_w0_n2_mux_dataout~0.IN0
-sel[0] => _~2.IN0
-sel[0] => l1_w0_n3_mux_dataout~0.IN0
-sel[0] => _~3.IN0
-sel[0] => l1_w0_n4_mux_dataout~0.IN0
-sel[0] => _~4.IN0
-sel[0] => l1_w0_n5_mux_dataout~0.IN0
-sel[0] => _~5.IN0
-sel[0] => l1_w0_n6_mux_dataout~0.IN0
-sel[0] => _~6.IN0
-sel[0] => l1_w0_n7_mux_dataout~0.IN0
-sel[0] => _~7.IN0
-sel[1] => l2_w0_n0_mux_dataout~0.IN0
-sel[1] => _~8.IN0
-sel[1] => l2_w0_n1_mux_dataout~0.IN0
-sel[1] => _~9.IN0
-sel[1] => l2_w0_n2_mux_dataout~0.IN0
-sel[1] => _~10.IN0
-sel[1] => l2_w0_n3_mux_dataout~0.IN0
-sel[1] => _~11.IN0
-sel[2] => l3_w0_n0_mux_dataout~0.IN0
-sel[2] => _~12.IN0
-sel[2] => l3_w0_n1_mux_dataout~0.IN0
-sel[2] => _~13.IN0
-sel[3] => l4_w0_n0_mux_dataout~0.IN0
-sel[3] => _~14.IN0
 
 
 |Computer|CPU:inst6|DCD:inst59
@@ -3495,6 +3396,107 @@ datab[0] => data_wire[0]~2.IN1
 datab[1] => data_wire[0]~3.IN1
 datab[2] => data_wire[1]~0.IN1
 datab[3] => data_wire[1]~1.IN1
+
+
+|Computer|CPU:inst6|r_w_out_mux:inst44
+data0 => LPM_MUX:lpm_mux_component.DATA[0][0]
+data1 => LPM_MUX:lpm_mux_component.DATA[1][0]
+data10 => LPM_MUX:lpm_mux_component.DATA[10][0]
+data11 => LPM_MUX:lpm_mux_component.DATA[11][0]
+data12 => LPM_MUX:lpm_mux_component.DATA[12][0]
+data13 => LPM_MUX:lpm_mux_component.DATA[13][0]
+data14 => LPM_MUX:lpm_mux_component.DATA[14][0]
+data15 => LPM_MUX:lpm_mux_component.DATA[15][0]
+data2 => LPM_MUX:lpm_mux_component.DATA[2][0]
+data3 => LPM_MUX:lpm_mux_component.DATA[3][0]
+data4 => LPM_MUX:lpm_mux_component.DATA[4][0]
+data5 => LPM_MUX:lpm_mux_component.DATA[5][0]
+data6 => LPM_MUX:lpm_mux_component.DATA[6][0]
+data7 => LPM_MUX:lpm_mux_component.DATA[7][0]
+data8 => LPM_MUX:lpm_mux_component.DATA[8][0]
+data9 => LPM_MUX:lpm_mux_component.DATA[9][0]
+sel[0] => LPM_MUX:lpm_mux_component.SEL[0]
+sel[1] => LPM_MUX:lpm_mux_component.SEL[1]
+sel[2] => LPM_MUX:lpm_mux_component.SEL[2]
+sel[3] => LPM_MUX:lpm_mux_component.SEL[3]
+result <= LPM_MUX:lpm_mux_component.RESULT[0]
+
+
+|Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component
+data[0][0] => mux_39e:auto_generated.data[0]
+data[1][0] => mux_39e:auto_generated.data[1]
+data[2][0] => mux_39e:auto_generated.data[2]
+data[3][0] => mux_39e:auto_generated.data[3]
+data[4][0] => mux_39e:auto_generated.data[4]
+data[5][0] => mux_39e:auto_generated.data[5]
+data[6][0] => mux_39e:auto_generated.data[6]
+data[7][0] => mux_39e:auto_generated.data[7]
+data[8][0] => mux_39e:auto_generated.data[8]
+data[9][0] => mux_39e:auto_generated.data[9]
+data[10][0] => mux_39e:auto_generated.data[10]
+data[11][0] => mux_39e:auto_generated.data[11]
+data[12][0] => mux_39e:auto_generated.data[12]
+data[13][0] => mux_39e:auto_generated.data[13]
+data[14][0] => mux_39e:auto_generated.data[14]
+data[15][0] => mux_39e:auto_generated.data[15]
+sel[0] => mux_39e:auto_generated.sel[0]
+sel[1] => mux_39e:auto_generated.sel[1]
+sel[2] => mux_39e:auto_generated.sel[2]
+sel[3] => mux_39e:auto_generated.sel[3]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_39e:auto_generated.result[0]
+
+
+|Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated
+data[0] => l1_w0_n0_mux_dataout~1.IN1
+data[1] => l1_w0_n0_mux_dataout~0.IN1
+data[2] => l1_w0_n1_mux_dataout~1.IN1
+data[3] => l1_w0_n1_mux_dataout~0.IN1
+data[4] => l1_w0_n2_mux_dataout~1.IN1
+data[5] => l1_w0_n2_mux_dataout~0.IN1
+data[6] => l1_w0_n3_mux_dataout~1.IN1
+data[7] => l1_w0_n3_mux_dataout~0.IN1
+data[8] => l1_w0_n4_mux_dataout~1.IN1
+data[9] => l1_w0_n4_mux_dataout~0.IN1
+data[10] => l1_w0_n5_mux_dataout~1.IN1
+data[11] => l1_w0_n5_mux_dataout~0.IN1
+data[12] => l1_w0_n6_mux_dataout~1.IN1
+data[13] => l1_w0_n6_mux_dataout~0.IN1
+data[14] => l1_w0_n7_mux_dataout~1.IN1
+data[15] => l1_w0_n7_mux_dataout~0.IN1
+result[0] <= l4_w0_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => l1_w0_n0_mux_dataout~0.IN0
+sel[0] => _~0.IN0
+sel[0] => l1_w0_n1_mux_dataout~0.IN0
+sel[0] => _~1.IN0
+sel[0] => l1_w0_n2_mux_dataout~0.IN0
+sel[0] => _~2.IN0
+sel[0] => l1_w0_n3_mux_dataout~0.IN0
+sel[0] => _~3.IN0
+sel[0] => l1_w0_n4_mux_dataout~0.IN0
+sel[0] => _~4.IN0
+sel[0] => l1_w0_n5_mux_dataout~0.IN0
+sel[0] => _~5.IN0
+sel[0] => l1_w0_n6_mux_dataout~0.IN0
+sel[0] => _~6.IN0
+sel[0] => l1_w0_n7_mux_dataout~0.IN0
+sel[0] => _~7.IN0
+sel[1] => l2_w0_n0_mux_dataout~0.IN0
+sel[1] => _~8.IN0
+sel[1] => l2_w0_n1_mux_dataout~0.IN0
+sel[1] => _~9.IN0
+sel[1] => l2_w0_n2_mux_dataout~0.IN0
+sel[1] => _~10.IN0
+sel[1] => l2_w0_n3_mux_dataout~0.IN0
+sel[1] => _~11.IN0
+sel[2] => l3_w0_n0_mux_dataout~0.IN0
+sel[2] => _~12.IN0
+sel[2] => l3_w0_n1_mux_dataout~0.IN0
+sel[2] => _~13.IN0
+sel[3] => l4_w0_n0_mux_dataout~0.IN0
+sel[3] => _~14.IN0
 
 
 |Computer|CPU:inst6|cu_comp_0:inst12

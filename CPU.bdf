@@ -3954,9 +3954,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 672 760 816 824)
+	(rect 672 744 816 840)
 	(text "cpu_cu_counter" (rect 26 1 134 17)(font "Arial" (font_size 10)))
-	(text "inst108" (rect 8 48 43 60)(font "Arial" ))
+	(text "inst108" (rect 8 80 43 92)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -3965,20 +3965,52 @@ applicable agreement for further details.
 		(line (pt 0 32)(pt 16 32)(line_width 1))
 	)
 	(port
-		(pt 144 40)
+		(pt 0 64)
+		(input)
+		(text "cnt_en" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "cnt_en" (rect 20 58 58 72)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 144 56)
 		(output)
 		(text "q[3..0]" (rect 0 0 35 14)(font "Arial" (font_size 8)))
-		(text "q[3..0]" (rect 95 34 130 48)(font "Arial" (font_size 8)))
-		(line (pt 144 40)(pt 128 40)(line_width 3))
+		(text "q[3..0]" (rect 95 50 130 64)(font "Arial" (font_size 8)))
+		(line (pt 144 56)(pt 128 56)(line_width 3))
 	)
 	(drawing
 		(text "up counter" (rect 84 17 135 29)(font "Arial" ))
 		(line (pt 16 16)(pt 128 16)(line_width 1))
-		(line (pt 128 16)(pt 128 48)(line_width 1))
-		(line (pt 128 48)(pt 16 48)(line_width 1))
-		(line (pt 16 48)(pt 16 16)(line_width 1))
+		(line (pt 128 16)(pt 128 80)(line_width 1))
+		(line (pt 128 80)(pt 16 80)(line_width 1))
+		(line (pt 16 80)(pt 16 16)(line_width 1))
 		(line (pt 16 26)(pt 22 32)(line_width 1))
 		(line (pt 22 32)(pt 16 38)(line_width 1))
+	)
+)
+(symbol
+	(rect 616 792 664 824)
+	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
+	(text "inst8" (rect 3 21 26 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16)(line_width 1))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16)(line_width 1))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7)(line_width 1))
+		(line (pt 13 7)(pt 31 16)(line_width 1))
+		(line (pt 13 25)(pt 31 16)(line_width 1))
+		(circle (rect 31 12 39 20)(line_width 1))
 	)
 )
 (connector
@@ -6211,11 +6243,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "clock" (rect 624 784 649 796)(font "Arial" ))
-	(pt 656 792)
-	(pt 672 792)
-)
-(connector
 	(text "en_ip" (rect 232 744 257 756)(font "Arial" ))
 	(pt 264 752)
 	(pt 304 752)
@@ -6275,6 +6302,20 @@ applicable agreement for further details.
 (connector
 	(pt 152 744)
 	(pt 152 736)
+)
+(connector
+	(pt 672 808)
+	(pt 664 808)
+)
+(connector
+	(text "hlt" (rect 584 800 595 812)(font "Arial" ))
+	(pt 616 808)
+	(pt 600 808)
+)
+(connector
+	(text "clock" (rect 568 768 593 780)(font "Arial" ))
+	(pt 672 776)
+	(pt 600 776)
 )
 (junction (pt 296 80))
 (junction (pt 904 800))

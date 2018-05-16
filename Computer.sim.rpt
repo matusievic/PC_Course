@@ -1,5 +1,5 @@
 Simulator report for Computer
-Wed May 16 12:19:09 2018
+Wed May 16 12:25:53 2018
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -47,10 +47,10 @@ applicable agreement for further details.
 ; Type                        ; Value        ;
 +-----------------------------+--------------+
 ; Simulation Start Time       ; 0 ps         ;
-; Simulation End Time         ; 15.0 us      ;
-; Simulation Netlist Size     ; 2894 nodes   ;
+; Simulation End Time         ; 20.0 us      ;
+; Simulation Netlist Size     ; 2897 nodes   ;
 ; Simulation Coverage         ;      59.08 % ;
-; Total Number of Transitions ; 90292        ;
+; Total Number of Transitions ; 89209        ;
 ; Simulation Breakpoints      ; 0            ;
 ; Family                      ; Stratix III  ;
 +-----------------------------+--------------+
@@ -118,11 +118,11 @@ Please refer to fitter text-based report (*.fit.rpt) to view logical memory repo
 ; Type                                                ; Value        ;
 +-----------------------------------------------------+--------------+
 ; Total coverage as a percentage                      ;      59.08 % ;
-; Total nodes checked                                 ; 2894         ;
-; Total output ports checked                          ; 2898         ;
-; Total output ports with complete 1/0-value coverage ; 1712         ;
+; Total nodes checked                                 ; 2897         ;
+; Total output ports checked                          ; 2901         ;
+; Total output ports with complete 1/0-value coverage ; 1714         ;
 ; Total output ports with no 1/0-value coverage       ; 1059         ;
-; Total output ports with no 1-value coverage         ; 1151         ;
+; Total output ports with no 1-value coverage         ; 1152         ;
 ; Total output ports with no 0-value coverage         ; 1094         ;
 +-----------------------------------------------------+--------------+
 
@@ -303,8 +303,8 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |Computer|pc_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[1]                                                                        ; |Computer|pc_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[1]                                                                             ; out              ;
 ; |Computer|pc_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[0]                                                                        ; |Computer|pc_bustri:inst4|lpm_bustri:lpm_bustri_component|dout[0]                                                                             ; out              ;
 ; |Computer|pc_bustri:inst5|lpm_bustri:lpm_bustri_component|dout[1]                                                                        ; |Computer|pc_bustri:inst5|lpm_bustri:lpm_bustri_component|dout[1]                                                                             ; out              ;
-; |Computer|CPU:inst6|inst47                                                                                                               ; |Computer|CPU:inst6|inst47                                                                                                                    ; out0             ;
 ; |Computer|CPU:inst6|inst16                                                                                                               ; |Computer|CPU:inst6|inst16                                                                                                                    ; out0             ;
+; |Computer|CPU:inst6|inst47                                                                                                               ; |Computer|CPU:inst6|inst47                                                                                                                    ; out0             ;
 ; |Computer|CPU:inst6|inst24                                                                                                               ; |Computer|CPU:inst6|inst24                                                                                                                    ; out0             ;
 ; |Computer|CPU:inst6|inst25                                                                                                               ; |Computer|CPU:inst6|inst25                                                                                                                    ; out0             ;
 ; |Computer|CPU:inst6|inst39                                                                                                               ; |Computer|CPU:inst6|inst39                                                                                                                    ; out0             ;
@@ -1480,6 +1480,16 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |Computer|CPU:inst6|cu_comp_0:inst12|lpm_compare:lpm_compare_component|cmpr_vqi:auto_generated|aneb_result_wire[0]                       ; |Computer|CPU:inst6|cu_comp_0:inst12|lpm_compare:lpm_compare_component|cmpr_vqi:auto_generated|aneb_result_wire[0]                            ; out0             ;
 ; |Computer|CPU:inst6|cu_comp_0:inst12|lpm_compare:lpm_compare_component|cmpr_vqi:auto_generated|data_wire[1]                              ; |Computer|CPU:inst6|cu_comp_0:inst12|lpm_compare:lpm_compare_component|cmpr_vqi:auto_generated|data_wire[1]                                   ; out0             ;
 ; |Computer|CPU:inst6|cu_comp_0:inst12|lpm_compare:lpm_compare_component|cmpr_vqi:auto_generated|data_wire[0]                              ; |Computer|CPU:inst6|cu_comp_0:inst12|lpm_compare:lpm_compare_component|cmpr_vqi:auto_generated|data_wire[0]                                   ; out0             ;
+; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l1_w0_n5_mux_dataout~0                           ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l1_w0_n5_mux_dataout~0                                ; out0             ;
+; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l1_w0_n5_mux_dataout~1                           ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l1_w0_n5_mux_dataout~1                                ; out0             ;
+; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l1_w0_n5_mux_dataout                             ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l1_w0_n5_mux_dataout                                  ; out0             ;
+; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l1_w0_n6_mux_dataout~1                           ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l1_w0_n6_mux_dataout~1                                ; out0             ;
+; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l2_w0_n2_mux_dataout~0                           ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l2_w0_n2_mux_dataout~0                                ; out0             ;
+; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l2_w0_n3_mux_dataout~1                           ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l2_w0_n3_mux_dataout~1                                ; out0             ;
+; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l3_w0_n1_mux_dataout~0                           ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l3_w0_n1_mux_dataout~0                                ; out0             ;
+; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l3_w0_n1_mux_dataout~1                           ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l3_w0_n1_mux_dataout~1                                ; out0             ;
+; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l3_w0_n1_mux_dataout                             ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l3_w0_n1_mux_dataout                                  ; out0             ;
+; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l4_w0_n0_mux_dataout~0                           ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l4_w0_n0_mux_dataout~0                                ; out0             ;
 ; |Computer|CPU:inst6|cu_comp_2:inst2|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|aneb_result_wire[0]                        ; |Computer|CPU:inst6|cu_comp_2:inst2|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|aneb_result_wire[0]                             ; out0             ;
 ; |Computer|CPU:inst6|cu_comp_2:inst2|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[1]                               ; |Computer|CPU:inst6|cu_comp_2:inst2|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[1]                                    ; out0             ;
 ; |Computer|CPU:inst6|cu_comp_2:inst2|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[0]                               ; |Computer|CPU:inst6|cu_comp_2:inst2|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[0]                                    ; out0             ;
@@ -1558,6 +1568,8 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |Computer|CPU:inst6|DCD:inst59|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|aneb_result_wire[0]          ; |Computer|CPU:inst6|DCD:inst59|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|aneb_result_wire[0]               ; out0             ;
 ; |Computer|CPU:inst6|DCD:inst59|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[1]                 ; |Computer|CPU:inst6|DCD:inst59|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[1]                      ; out0             ;
 ; |Computer|CPU:inst6|DCD:inst59|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[0]                 ; |Computer|CPU:inst6|DCD:inst59|comp_cmp_r_r:inst7|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[0]                      ; out0             ;
+; |Computer|CPU:inst6|DCD:inst59|comp_hlt:inst6|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[1]                     ; |Computer|CPU:inst6|DCD:inst59|comp_hlt:inst6|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[1]                          ; out0             ;
+; |Computer|CPU:inst6|DCD:inst59|comp_hlt:inst6|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[0]                     ; |Computer|CPU:inst6|DCD:inst59|comp_hlt:inst6|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[0]                          ; out0             ;
 ; |Computer|CPU:inst6|DCD:inst59|comp_jns_m:inst5|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|aneb_result_wire[0]            ; |Computer|CPU:inst6|DCD:inst59|comp_jns_m:inst5|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|aneb_result_wire[0]                 ; out0             ;
 ; |Computer|CPU:inst6|DCD:inst59|comp_jns_m:inst5|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[1]                   ; |Computer|CPU:inst6|DCD:inst59|comp_jns_m:inst5|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[1]                        ; out0             ;
 ; |Computer|CPU:inst6|DCD:inst59|comp_jns_m:inst5|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[0]                   ; |Computer|CPU:inst6|DCD:inst59|comp_jns_m:inst5|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[0]                        ; out0             ;
@@ -1570,27 +1582,17 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |Computer|CPU:inst6|DCD:inst59|comp_push_reg:inst2|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|aneb_result_wire[0]         ; |Computer|CPU:inst6|DCD:inst59|comp_push_reg:inst2|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|aneb_result_wire[0]              ; out0             ;
 ; |Computer|CPU:inst6|DCD:inst59|comp_push_reg:inst2|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[1]                ; |Computer|CPU:inst6|DCD:inst59|comp_push_reg:inst2|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[1]                     ; out0             ;
 ; |Computer|CPU:inst6|DCD:inst59|comp_push_reg:inst2|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[0]                ; |Computer|CPU:inst6|DCD:inst59|comp_push_reg:inst2|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|data_wire[0]                     ; out0             ;
-; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l1_w0_n5_mux_dataout~0                           ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l1_w0_n5_mux_dataout~0                                ; out0             ;
-; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l1_w0_n5_mux_dataout~1                           ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l1_w0_n5_mux_dataout~1                                ; out0             ;
-; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l1_w0_n5_mux_dataout                             ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l1_w0_n5_mux_dataout                                  ; out0             ;
-; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l1_w0_n6_mux_dataout~1                           ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l1_w0_n6_mux_dataout~1                                ; out0             ;
-; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l2_w0_n2_mux_dataout~0                           ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l2_w0_n2_mux_dataout~0                                ; out0             ;
-; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l2_w0_n3_mux_dataout~1                           ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l2_w0_n3_mux_dataout~1                                ; out0             ;
-; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l3_w0_n1_mux_dataout~0                           ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l3_w0_n1_mux_dataout~0                                ; out0             ;
-; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l3_w0_n1_mux_dataout~1                           ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l3_w0_n1_mux_dataout~1                                ; out0             ;
-; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l3_w0_n1_mux_dataout                             ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l3_w0_n1_mux_dataout                                  ; out0             ;
-; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l4_w0_n0_mux_dataout~0                           ; |Computer|CPU:inst6|r_w_out_mux:inst44|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l4_w0_n0_mux_dataout~0                                ; out0             ;
-; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_comb_bita0                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_comb_bita0                       ; sumout           ;
-; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_comb_bita0                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_comb_bita0~COUT                  ; cout             ;
-; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_comb_bita1                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_comb_bita1                       ; sumout           ;
-; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_comb_bita1                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_comb_bita1~COUT                  ; cout             ;
-; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_comb_bita2                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_comb_bita2                       ; sumout           ;
-; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_comb_bita2                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_comb_bita2~COUT                  ; cout             ;
-; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_comb_bita3                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_comb_bita3                       ; sumout           ;
-; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_reg_bit[3]                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_reg_bit[3]                       ; regout           ;
-; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_reg_bit[2]                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_reg_bit[2]                       ; regout           ;
-; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_reg_bit[1]                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_reg_bit[1]                       ; regout           ;
-; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_reg_bit[0]                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_3ph:auto_generated|counter_reg_bit[0]                       ; regout           ;
+; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_comb_bita0                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_comb_bita0                       ; sumout           ;
+; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_comb_bita0                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_comb_bita0~COUT                  ; cout             ;
+; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_comb_bita1                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_comb_bita1                       ; sumout           ;
+; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_comb_bita1                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_comb_bita1~COUT                  ; cout             ;
+; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_comb_bita2                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_comb_bita2                       ; sumout           ;
+; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_comb_bita2                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_comb_bita2~COUT                  ; cout             ;
+; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_comb_bita3                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_comb_bita3                       ; sumout           ;
+; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_reg_bit[3]                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_reg_bit[3]                       ; regout           ;
+; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_reg_bit[2]                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_reg_bit[2]                       ; regout           ;
+; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_reg_bit[1]                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_reg_bit[1]                       ; regout           ;
+; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_reg_bit[0]                  ; |Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated|counter_reg_bit[0]                       ; regout           ;
 ; |Computer|CPU:inst6|rom_ram_out_mux:inst33|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l4_w0_n0_mux_dataout~0                       ; |Computer|CPU:inst6|rom_ram_out_mux:inst33|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l4_w0_n0_mux_dataout~0                            ; out0             ;
 ; |Computer|CPU:inst6|rom_ram_out_mux:inst33|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l4_w0_n0_mux_dataout~1                       ; |Computer|CPU:inst6|rom_ram_out_mux:inst33|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l4_w0_n0_mux_dataout~1                            ; out0             ;
 ; |Computer|CPU:inst6|rom_ram_out_mux:inst33|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l4_w0_n0_mux_dataout                         ; |Computer|CPU:inst6|rom_ram_out_mux:inst33|lpm_mux:lpm_mux_component|mux_39e:auto_generated|l4_w0_n0_mux_dataout                              ; out0             ;
@@ -2938,6 +2940,7 @@ The following table displays output ports that do not toggle to 1 during simulat
 ; |Computer|CPU:inst6|IR:inst1|ir_dff:inst|lpm_ff:lpm_ff_component|dffs[6]                                                                               ; |Computer|CPU:inst6|IR:inst1|ir_dff:inst|lpm_ff:lpm_ff_component|dffs[6]                                                                               ; regout           ;
 ; |Computer|CPU:inst6|IR:inst1|ir_dff:inst|lpm_ff:lpm_ff_component|dffs[3]                                                                               ; |Computer|CPU:inst6|IR:inst1|ir_dff:inst|lpm_ff:lpm_ff_component|dffs[3]                                                                               ; regout           ;
 ; |Computer|CPU:inst6|DCD:inst59|inst40                                                                                                                  ; |Computer|CPU:inst6|DCD:inst59|inst40                                                                                                                  ; out0             ;
+; |Computer|CPU:inst6|DCD:inst59|comp_hlt:inst6|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|aneb_result_wire[0]                            ; |Computer|CPU:inst6|DCD:inst59|comp_hlt:inst6|lpm_compare:lpm_compare_component|cmpr_rbj:auto_generated|aneb_result_wire[0]                            ; out0             ;
 ; |Computer|Memory:inst|ram_lpm_ram:RAM|altsyncram:altsyncram_component|altsyncram_tho1:auto_generated|ram_block1a12                                     ; |Computer|Memory:inst|ram_lpm_ram:RAM|altsyncram:altsyncram_component|altsyncram_tho1:auto_generated|q_a[12]                                           ; portadataout0    ;
 ; |Computer|Memory:inst|ram_lpm_ram:RAM|altsyncram:altsyncram_component|altsyncram_tho1:auto_generated|ram_block1a13                                     ; |Computer|Memory:inst|ram_lpm_ram:RAM|altsyncram:altsyncram_component|altsyncram_tho1:auto_generated|q_a[13]                                           ; portadataout0    ;
 ; |Computer|Memory:inst|ram_lpm_ram:RAM|altsyncram:altsyncram_component|altsyncram_tho1:auto_generated|ram_block1a14                                     ; |Computer|Memory:inst|ram_lpm_ram:RAM|altsyncram:altsyncram_component|altsyncram_tho1:auto_generated|q_a[14]                                           ; portadataout0    ;
@@ -4124,7 +4127,7 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II Simulator
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Wed May 16 12:19:07 2018
+    Info: Processing started: Wed May 16 12:25:51 2018
 Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off Computer -c Computer
 Warning: Tcl Script File ../../×óæîå SIFO/ddd/stack_latch.qip not found
     Info: set_global_assignment -name QIP_FILE "../../×óæîå SIFO/ddd/stack_latch.qip"
@@ -4135,12 +4138,12 @@ Info: Option to preserve fewer signal transitions to reduce memory requirements 
     Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
 Info: Simulation partitioned into 1 sub-simulations
 Info: Simulation coverage is      59.08 %
-Info: Number of transitions in simulation is 90292
+Info: Number of transitions in simulation is 89209
 Info: Vector file Computer.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
 Info: Quartus II Simulator was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 143 megabytes
-    Info: Processing ended: Wed May 16 12:19:09 2018
+    Info: Processing ended: Wed May 16 12:25:53 2018
     Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Total CPU time (on all processors): 00:00:05
 
 

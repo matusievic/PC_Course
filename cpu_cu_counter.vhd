@@ -43,6 +43,7 @@ ENTITY cpu_cu_counter IS
 	PORT
 	(
 		clock		: IN STD_LOGIC ;
+		cnt_en		: IN STD_LOGIC ;
 		q		: OUT STD_LOGIC_VECTOR (3 DOWNTO 0)
 	);
 END cpu_cu_counter;
@@ -63,7 +64,8 @@ ARCHITECTURE SYN OF cpu_cu_counter IS
 	);
 	PORT (
 			clock	: IN STD_LOGIC ;
-			q	: OUT STD_LOGIC_VECTOR (3 DOWNTO 0)
+			q	: OUT STD_LOGIC_VECTOR (3 DOWNTO 0);
+			cnt_en	: IN STD_LOGIC 
 	);
 	END COMPONENT;
 
@@ -79,6 +81,7 @@ BEGIN
 	)
 	PORT MAP (
 		clock => clock,
+		cnt_en => cnt_en,
 		q => sub_wire0
 	);
 
@@ -94,7 +97,7 @@ END SYN;
 -- Retrieval info: PRIVATE: ASET NUMERIC "0"
 -- Retrieval info: PRIVATE: ASET_ALL1 NUMERIC "1"
 -- Retrieval info: PRIVATE: CLK_EN NUMERIC "0"
--- Retrieval info: PRIVATE: CNT_EN NUMERIC "0"
+-- Retrieval info: PRIVATE: CNT_EN NUMERIC "1"
 -- Retrieval info: PRIVATE: CarryIn NUMERIC "0"
 -- Retrieval info: PRIVATE: CarryOut NUMERIC "0"
 -- Retrieval info: PRIVATE: Direction NUMERIC "0"
@@ -112,9 +115,11 @@ END SYN;
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_COUNTER"
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "4"
 -- Retrieval info: USED_PORT: clock 0 0 0 0 INPUT NODEFVAL clock
+-- Retrieval info: USED_PORT: cnt_en 0 0 0 0 INPUT NODEFVAL cnt_en
 -- Retrieval info: USED_PORT: q 0 0 4 0 OUTPUT NODEFVAL q[3..0]
 -- Retrieval info: CONNECT: @clock 0 0 0 0 clock 0 0 0 0
 -- Retrieval info: CONNECT: q 0 0 4 0 @q 0 0 4 0
+-- Retrieval info: CONNECT: @cnt_en 0 0 0 0 cnt_en 0 0 0 0
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 -- Retrieval info: GEN_FILE: TYPE_NORMAL cpu_cu_counter.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL cpu_cu_counter.inc FALSE

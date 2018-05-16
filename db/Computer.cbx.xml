@@ -3,7 +3,7 @@
 	<PROJECT NAME="Computer">
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst6|ALU:inst62|BUSMUX:inst1|lpm_mux:$00000" CBX_FILE_NAME="mux_0rc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst6|DCD:inst59|comp_hlt:inst6|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_3ph.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst6|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_qdi.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst6|cu_comp_2:inst2|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst6|rom_ram_out_mux:inst33|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_39e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst6|DCD:inst59|comp_mov_r_m:inst|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_vqi.tdf"/>
