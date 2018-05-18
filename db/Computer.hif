@@ -17639,26 +17639,6 @@ a36c8ec425c8a2589af98b2d4daabc3
 
 # end
 # entity
-Registers
-# storage
-db|Computer.(58).cnf
-db|Computer.(58).cnf
-# case_insensitive
-# source_file
-registers.bdf
-9817d2fb1937ec4c1059b787914f048
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-CPU:inst9|Registers:inst5
-}
-# macro_sequence
-
-# end
-# entity
 cpu_op_add
 # storage
 db|Computer.(180).cnf
@@ -19727,26 +19707,6 @@ CPU:inst9|ALU:inst62|alu_cmp_sub:inst11|lpm_add_sub:lpm_add_sub_component|add_su
 
 # end
 # entity
-DCD
-# storage
-db|Computer.(124).cnf
-db|Computer.(124).cnf
-# case_insensitive
-# source_file
-dcd.bdf
-bde78c3c45ec70bb1b8ba91f993b2d33
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-CPU:inst9|DCD:inst59
-}
-# macro_sequence
-
-# end
-# entity
 altsyncram_tho1
 # storage
 db|Computer.(122).cnf
@@ -20293,39 +20253,6 @@ Memory:inst8|rom_lpm_rom:ROM|altsyncram:altsyncram_component|altsyncram_p9g1:aut
 
 # end
 # entity
-cpu_cu_counter
-# storage
-db|Computer.(178).cnf
-db|Computer.(178).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_insensitive
-# source_file
-cpu_cu_counter.vhd
-66616a9e3e5fc94aef2e2f485b9f29b
-5
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-}
-# hierarchies {
-CPU:inst9|CU:inst18|cpu_cu_counter:inst108
-}
-# lmf
-c:|altera|91|quartus|lmf|maxplus2.lmf
-a36c8ec425c8a2589af98b2d4daabc3
-# macro_sequence
-
-# end
-# entity
 lpm_counter
 # storage
 db|Computer.(205).cnf
@@ -20429,9 +20356,6 @@ clock
 -1
 3
 }
-# hierarchies {
-CPU:inst9|CU:inst18|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component
-}
 # macro_sequence
 
 # end
@@ -20465,9 +20389,6 @@ clock
 -1
 3
 }
-# hierarchies {
-CPU:inst9|CU:inst18|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated
-}
 # macro_sequence
 
 # end
@@ -20492,21 +20413,245 @@ CPU:inst9|IP:inst13
 
 # end
 # entity
-Memory
+CU
 # storage
-db|Computer.(126).cnf
-db|Computer.(126).cnf
+db|Computer.(178).cnf
+db|Computer.(178).cnf
 # case_insensitive
 # source_file
-memory.bdf
-564584acb99be6de640bf41cf1446e0
+cu.bdf
+d1feb3c5508fe1b3c9cb5f5ffbd236f
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
-Memory:inst8
+CPU:inst9|CU:inst18
+}
+# macro_sequence
+
+# end
+# entity
+cpu_cu_counter
+# storage
+db|Computer.(207).cnf
+db|Computer.(207).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+cpu_cu_counter.vhd
+3054f1663d795469e5d01759f08423
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+CPU:inst9|CU:inst18|cpu_cu_counter:inst108
+}
+# lmf
+c:|altera|91|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Computer.(208).cnf
+db|Computer.(208).cnf
+# case_insensitive
+# source_file
+c:|altera|91|quartus|libraries|megafunctions|lpm_counter.tdf
+ea80917e5f6a67b6043b433538e1f4b
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+UP
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+13
+PARAMETER_SIGNED_DEC
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Stratix III
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_cpj
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+}
+# hierarchies {
+CPU:inst9|CU:inst18|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component
+}
+# macro_sequence
+
+# end
+# entity
+cntr_cpj
+# storage
+db|Computer.(209).cnf
+db|Computer.(209).cnf
+# case_insensitive
+# source_file
+db|cntr_cpj.tdf
+c07223b1cc8102d9f50ddbee210dc50
+7
+# used_port {
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+}
+# hierarchies {
+CPU:inst9|CU:inst18|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_cpj:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+cmpr_jgc
+# storage
+db|Computer.(210).cnf
+db|Computer.(210).cnf
+# case_insensitive
+# source_file
+db|cmpr_jgc.tdf
+8385a176456669c6723b0705f1f3655
+7
+# used_port {
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+aeb
+-1
+3
+}
+# hierarchies {
+CPU:inst9|CU:inst18|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_cpj:auto_generated|cmpr_jgc:cmpr1
 }
 # macro_sequence
 
@@ -20519,7 +20664,7 @@ db|Computer.(0).cnf
 # case_insensitive
 # source_file
 computer.bdf
-bf5da2d0b0622a1d62b7a6a9cf1a03c
+db30519cbfcfa3da288c993bfef304d
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -20534,12 +20679,12 @@ AUTO
 # entity
 CPU
 # storage
-db|Computer.(72).cnf
-db|Computer.(72).cnf
+db|Computer.(58).cnf
+db|Computer.(58).cnf
 # case_insensitive
 # source_file
 cpu.bdf
-8117c863dc3ac4eca529670c430d78e
+66f5566e502f894d634bb47574bb32
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -20552,21 +20697,61 @@ CPU:inst9
 
 # end
 # entity
-CU
+DCD
 # storage
-db|Computer.(207).cnf
-db|Computer.(207).cnf
+db|Computer.(72).cnf
+db|Computer.(72).cnf
 # case_insensitive
 # source_file
-cu.bdf
-17cae242a2bc0e7c96d7fc516911741
+dcd.bdf
+bef6bbcd6e4477fa5362e8f9f2621ea
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
-CPU:inst9|CU:inst18
+CPU:inst9|DCD:inst59
+}
+# macro_sequence
+
+# end
+# entity
+Registers
+# storage
+db|Computer.(124).cnf
+db|Computer.(124).cnf
+# case_insensitive
+# source_file
+registers.bdf
+222ce745508952a25af7672a4857a48e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+CPU:inst9|Registers:inst5
+}
+# macro_sequence
+
+# end
+# entity
+Memory
+# storage
+db|Computer.(126).cnf
+db|Computer.(126).cnf
+# case_insensitive
+# source_file
+memory.bdf
+b8df5ab31ab98633c6fe7674b87ed2a5
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Memory:inst8
 }
 # macro_sequence
 

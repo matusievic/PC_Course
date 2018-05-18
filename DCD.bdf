@@ -3015,20 +3015,12 @@ applicable agreement for further details.
 	(pt 1224 1504)
 )
 (connector
-	(pt 1224 1504)
-	(pt 1224 1896)
-)
-(connector
 	(pt 1352 1520)
 	(pt 1240 1520)
 )
 (connector
 	(pt 1240 1416)
 	(pt 1240 1520)
-)
-(connector
-	(pt 1240 1520)
-	(pt 1240 1896)
 )
 (connector
 	(pt 1352 1536)
@@ -3039,20 +3031,12 @@ applicable agreement for further details.
 	(pt 1272 1536)
 )
 (connector
-	(pt 1272 1536)
-	(pt 1272 1896)
-)
-(connector
 	(pt 1352 1552)
 	(pt 1304 1552)
 )
 (connector
 	(pt 1304 1344)
 	(pt 1304 1552)
-)
-(connector
-	(pt 1304 1552)
-	(pt 1304 1896)
 )
 (connector
 	(pt 1352 1592)
@@ -3071,10 +3055,6 @@ applicable agreement for further details.
 	(pt 1256 1608)
 )
 (connector
-	(pt 1256 1608)
-	(pt 1256 1896)
-)
-(connector
 	(pt 1352 1648)
 	(pt 1208 1648)
 )
@@ -3091,10 +3071,6 @@ applicable agreement for further details.
 	(pt 1288 1664)
 )
 (connector
-	(pt 1288 1664)
-	(pt 1288 1896)
-)
-(connector
 	(pt 1352 1704)
 	(pt 1208 1704)
 )
@@ -3103,20 +3079,12 @@ applicable agreement for further details.
 	(pt 1208 1704)
 )
 (connector
-	(pt 1208 1704)
-	(pt 1208 1896)
-)
-(connector
 	(pt 1352 1720)
 	(pt 1320 1720)
 )
 (connector
 	(pt 1320 1448)
 	(pt 1320 1720)
-)
-(connector
-	(pt 1320 1720)
-	(pt 1320 1896)
 )
 (connector
 	(pt 1424 1600)
@@ -3268,13 +3236,5 @@ applicable agreement for further details.
 (junction (pt 1240 1416))
 (junction (pt 1224 1296))
 (junction (pt 1208 1400))
-(junction (pt 1224 1504))
-(junction (pt 1240 1520))
-(junction (pt 1272 1536))
-(junction (pt 1304 1552))
 (junction (pt 1208 1592))
-(junction (pt 1256 1608))
 (junction (pt 1208 1648))
-(junction (pt 1288 1664))
-(junction (pt 1208 1704))
-(junction (pt 1320 1720))

@@ -134,7 +134,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1112 280 1288 296)
+	(rect 1032 280 1208 296)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "out_data[15..0]" (rect 90 0 164 12)(font "Arial" ))
 	(pt 0 8)
@@ -149,7 +149,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 760 64 872 152)
+	(rect 680 104 792 192)
 	(text "BUSMUX" (rect 28 0 91 16)(font "Arial" (font_size 10)))
 	(text "inst" (rect 3 77 23 91)(font "Arial" (font_size 8)))
 	(port
@@ -194,7 +194,7 @@ applicable agreement for further details.
 		(line (pt 44 16)(pt 68 32)(line_width 1))
 		(line (pt 44 80)(pt 68 64)(line_width 1))
 	)
-	(annotation_block (parameter)(rect 872 32 976 64))
+	(annotation_block (parameter)(rect 792 72 896 104))
 )
 (symbol
 	(rect 256 96 304 128)
@@ -383,7 +383,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 904 240 1016 328)
+	(rect 824 240 936 328)
 	(text "BUSMUX" (rect 28 0 91 16)(font "Arial" (font_size 10)))
 	(text "inst5" (rect 3 77 26 89)(font "Arial" ))
 	(port
@@ -428,10 +428,10 @@ applicable agreement for further details.
 		(line (pt 44 16)(pt 68 32)(line_width 1))
 		(line (pt 44 80)(pt 68 64)(line_width 1))
 	)
-	(annotation_block (parameter)(rect 1016 208 1120 240))
+	(annotation_block (parameter)(rect 936 208 1040 240))
 )
 (symbol
-	(rect 1024 264 1104 304)
+	(rect 944 264 1024 304)
 	(text "mem_bustri" (rect 6 1 86 17)(font "Arial" (font_size 10)))
 	(text "inst6" (rect 8 24 31 36)(font "Arial" ))
 	(port
@@ -567,25 +567,8 @@ applicable agreement for further details.
 	(pt 200 200)
 )
 (connector
-	(text "rom_out[31..16]" (rect 664 88 741 100)(font "Arial" ))
-	(pt 744 96)
-	(pt 760 96)
-	(bus)
-)
-(connector
-	(text "rom_out[15..0]" (rect 664 120 735 132)(font "Arial" ))
-	(pt 760 128)
-	(pt 744 128)
-	(bus)
-)
-(connector
 	(pt 400 112)
 	(pt 400 120)
-)
-(connector
-	(pt 888 112)
-	(pt 872 112)
-	(bus)
 )
 (connector
 	(pt 232 352)
@@ -625,53 +608,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 888 112)
-	(pt 888 272)
-	(bus)
-)
-(connector
-	(pt 888 272)
-	(pt 904 272)
-	(bus)
-)
-(connector
-	(text "<<__$DEF_ALIAS539>>" (rect 943 341 955 459)(font "Arial" )(vertical)(invisible))
-	(pt 960 336)
-	(pt 960 328)
-)
-(connector
-	(text "ROM/RAM" (rect 898 360 949 372)(font "Arial" ))
-	(pt 936 336)
-	(pt 960 336)
-)
-(connector
-	(pt 1064 336)
-	(pt 1064 304)
-)
-(connector
-	(text "enable" (rect 1032 320 1063 332)(font "Arial" ))
-	(pt 1048 336)
-	(pt 1064 336)
-)
-(connector
-	(pt 1016 288)
-	(pt 1024 288)
-	(bus)
-)
-(connector
-	(pt 1104 288)
-	(pt 1112 288)
-	(bus)
-)
-(connector
-	(pt 816 152)
-	(pt 816 208)
-)
-(connector
-	(pt 816 208)
-	(pt 560 208)
-)
-(connector
 	(pt 416 224)
 	(pt 400 224)
 )
@@ -701,8 +637,72 @@ applicable agreement for further details.
 	(pt 208 368)
 )
 (connector
+	(text "rom_out[31..16]" (rect 584 128 661 140)(font "Arial" ))
+	(pt 664 136)
+	(pt 680 136)
+	(bus)
+)
+(connector
+	(text "rom_out[15..0]" (rect 584 160 655 172)(font "Arial" ))
+	(pt 680 168)
+	(pt 664 168)
+	(bus)
+)
+(connector
+	(pt 736 208)
+	(pt 736 192)
+)
+(connector
+	(pt 560 208)
+	(pt 736 208)
+)
+(connector
+	(pt 808 272)
+	(pt 824 272)
+	(bus)
+)
+(connector
+	(text "<<__$DEF_ALIAS539>>" (rect 863 341 875 459)(font "Arial" )(vertical)(invisible))
+	(pt 880 336)
+	(pt 880 328)
+)
+(connector
+	(text "ROM/RAM" (rect 818 360 869 372)(font "Arial" ))
+	(pt 856 336)
+	(pt 880 336)
+)
+(connector
+	(pt 984 336)
+	(pt 984 304)
+)
+(connector
+	(text "enable" (rect 952 320 983 332)(font "Arial" ))
+	(pt 968 336)
+	(pt 984 336)
+)
+(connector
+	(pt 936 288)
+	(pt 944 288)
+	(bus)
+)
+(connector
+	(pt 1024 288)
+	(pt 1032 288)
+	(bus)
+)
+(connector
+	(pt 792 152)
+	(pt 808 152)
+	(bus)
+)
+(connector
 	(pt 448 304)
-	(pt 904 304)
+	(pt 824 304)
+	(bus)
+)
+(connector
+	(pt 808 272)
+	(pt 808 152)
 	(bus)
 )
 (junction (pt 216 112))

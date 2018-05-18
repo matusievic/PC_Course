@@ -31,7 +31,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst9|Stack:inst4|BUSMUX:inst14|LPM_MUX:$00000" CBX_FILE_NAME="mux_msc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst9|Stack:inst4|stack_counter:STACK_POINTER|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_5jh.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst9|Stack:inst4|stack_default_constant:inst15|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_9k6.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst9|CU:inst18|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_qdi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst9|CU:inst18|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_cpj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst9|CU:inst18|cu_comp_2:inst2|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rbj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst9|Registers:inst5|lpm_reg_out_mux:inst1|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_nae.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|CPU:inst9|BUSMUX:inst23|LPM_MUX:$00000" CBX_FILE_NAME="mux_isc.tdf"/>

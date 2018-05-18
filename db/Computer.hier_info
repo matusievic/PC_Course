@@ -495,9 +495,9 @@ q[3] <= lpm_counter:lpm_counter_component.q[3]
 
 
 |Computer|CPU:inst9|CU:inst18|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component
-clock => cntr_qdi:auto_generated.clock
+clock => cntr_cpj:auto_generated.clock
 clk_en => ~NO_FANOUT~
-cnt_en => cntr_qdi:auto_generated.cnt_en
+cnt_en => cntr_cpj:auto_generated.cnt_en
 updown => ~NO_FANOUT~
 aclr => ~NO_FANOUT~
 aset => ~NO_FANOUT~
@@ -512,10 +512,10 @@ data[1] => ~NO_FANOUT~
 data[2] => ~NO_FANOUT~
 data[3] => ~NO_FANOUT~
 cin => ~NO_FANOUT~
-q[0] <= cntr_qdi:auto_generated.q[0]
-q[1] <= cntr_qdi:auto_generated.q[1]
-q[2] <= cntr_qdi:auto_generated.q[2]
-q[3] <= cntr_qdi:auto_generated.q[3]
+q[0] <= cntr_cpj:auto_generated.q[0]
+q[1] <= cntr_cpj:auto_generated.q[1]
+q[2] <= cntr_cpj:auto_generated.q[2]
+q[3] <= cntr_cpj:auto_generated.q[3]
 cout <= <GND>
 eq[0] <= <GND>
 eq[1] <= <GND>
@@ -535,16 +535,28 @@ eq[14] <= <GND>
 eq[15] <= <GND>
 
 
-|Computer|CPU:inst9|CU:inst18|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_qdi:auto_generated
+|Computer|CPU:inst9|CU:inst18|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_cpj:auto_generated
 clock => counter_reg_bit[3].CLK
 clock => counter_reg_bit[2].CLK
 clock => counter_reg_bit[1].CLK
 clock => counter_reg_bit[0].CLK
-cnt_en => _~9.IN0
+cnt_en => _~27.IN0
 q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
 q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
 q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
 q[3] <= counter_reg_bit[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Computer|CPU:inst9|CU:inst18|cpu_cu_counter:inst108|lpm_counter:lpm_counter_component|cntr_cpj:auto_generated|cmpr_jgc:cmpr1
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0]~2.IN0
+dataa[1] => data_wire[0]~3.IN0
+dataa[2] => data_wire[1]~0.IN0
+dataa[3] => data_wire[1]~1.IN0
+datab[0] => data_wire[0]~2.IN1
+datab[1] => data_wire[0]~3.IN1
+datab[2] => data_wire[1]~0.IN1
+datab[3] => data_wire[1]~1.IN1
 
 
 |Computer|CPU:inst9|CU:inst18|cu_comp_3:inst15

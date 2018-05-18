@@ -22,7 +22,7 @@ applicable agreement for further details.
 (header "graphic" (version "1.3"))
 (pin
 	(input)
-	(rect 184 152 352 168)
+	(rect 192 144 360 160)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "clock" (rect 5 0 30 12)(font "Arial" ))
 	(pt 168 8)
@@ -38,7 +38,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 184 184 352 200)
+	(rect 192 176 360 192)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "hlt" (rect 5 0 16 12)(font "Arial" ))
 	(pt 168 8)
@@ -564,42 +564,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 424 128 568 224)
-	(text "cpu_cu_counter" (rect 26 1 134 17)(font "Arial" (font_size 10)))
-	(text "inst108" (rect 8 80 43 92)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "clock" (rect 0 0 29 14)(font "Arial" (font_size 8)))
-		(text "clock" (rect 26 26 55 40)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32)(line_width 1))
-	)
-	(port
-		(pt 0 64)
-		(input)
-		(text "cnt_en" (rect 0 0 38 14)(font "Arial" (font_size 8)))
-		(text "cnt_en" (rect 20 58 58 72)(font "Arial" (font_size 8)))
-		(line (pt 0 64)(pt 16 64)(line_width 1))
-	)
-	(port
-		(pt 144 56)
-		(output)
-		(text "q[3..0]" (rect 0 0 35 14)(font "Arial" (font_size 8)))
-		(text "q[3..0]" (rect 95 50 130 64)(font "Arial" (font_size 8)))
-		(line (pt 144 56)(pt 128 56)(line_width 3))
-	)
-	(drawing
-		(text "up counter" (rect 84 17 135 29)(font "Arial" ))
-		(line (pt 16 16)(pt 128 16)(line_width 1))
-		(line (pt 128 16)(pt 128 80)(line_width 1))
-		(line (pt 128 80)(pt 16 80)(line_width 1))
-		(line (pt 16 80)(pt 16 16)(line_width 1))
-		(line (pt 16 26)(pt 22 32)(line_width 1))
-		(line (pt 22 32)(pt 16 38)(line_width 1))
-	)
-)
-(symbol
-	(rect 368 176 416 208)
+	(rect 368 168 416 200)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst8" (rect 3 21 26 33)(font "Arial" ))
 	(port
@@ -621,6 +586,42 @@ applicable agreement for further details.
 		(line (pt 13 7)(pt 31 16)(line_width 1))
 		(line (pt 13 25)(pt 31 16)(line_width 1))
 		(circle (rect 31 12 39 20)(line_width 1))
+	)
+)
+(symbol
+	(rect 424 120 568 216)
+	(text "cpu_cu_counter" (rect 26 1 134 17)(font "Arial" (font_size 10)))
+	(text "inst108" (rect 8 80 43 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clock" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "clock" (rect 26 26 55 40)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "cnt_en" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "cnt_en" (rect 20 58 58 72)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 144 64)
+		(output)
+		(text "q[3..0]" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "q[3..0]" (rect 95 58 130 72)(font "Arial" (font_size 8)))
+		(line (pt 144 64)(pt 128 64)(line_width 3))
+	)
+	(drawing
+		(text "up counter" (rect 84 17 135 29)(font "Arial" ))
+		(text "modulus 13" (rect 80 27 136 39)(font "Arial" ))
+		(line (pt 16 16)(pt 128 16)(line_width 1))
+		(line (pt 128 16)(pt 128 80)(line_width 1))
+		(line (pt 128 80)(pt 16 80)(line_width 1))
+		(line (pt 16 80)(pt 16 16)(line_width 1))
+		(line (pt 16 26)(pt 22 32)(line_width 1))
+		(line (pt 22 32)(pt 16 38)(line_width 1))
 	)
 )
 (connector
@@ -765,10 +766,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 424 192)
-	(pt 416 192)
-)
-(connector
 	(pt 656 288)
 	(pt 656 392)
 	(bus)
@@ -825,16 +822,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "<<__$DEF_ALIAS1164>>" (rect 320 152 443 164)(font "Arial" )(invisible))
-	(pt 424 160)
-	(pt 352 160)
-)
-(connector
-	(text "<<__$DEF_ALIAS1166>>" (rect 336 184 459 196)(font "Arial" )(invisible))
-	(pt 368 192)
-	(pt 352 192)
-)
-(connector
 	(text "<<__$DEF_ALIAS1168>>" (rect 912 184 1035 196)(font "Arial" )(invisible))
 	(pt 904 192)
 	(pt 816 192)
@@ -878,6 +865,20 @@ applicable agreement for further details.
 	(pt 656 112)
 	(pt 904 112)
 	(bus)
+)
+(connector
+	(text "<<__$DEF_ALIAS1164>>" (rect 320 144 443 156)(font "Arial" )(invisible))
+	(pt 360 152)
+	(pt 424 152)
+)
+(connector
+	(text "<<__$DEF_ALIAS1166>>" (rect 344 176 467 188)(font "Arial" )(invisible))
+	(pt 368 184)
+	(pt 360 184)
+)
+(connector
+	(pt 424 184)
+	(pt 416 184)
 )
 (junction (pt 656 184))
 (junction (pt 656 288))
